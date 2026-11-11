@@ -1,0 +1,101 @@
+# ==============================================================================
+# Byte-compiled / optimized files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ==============================================================================
+# Virtual Environments (Local to Machine)
+# ==============================================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Large Datasets & Archives (> 2 GB)
+# ==============================================================================
+plantvillage/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+plantdoc/
+# ==============================================================================
+# Model Weights & Checkpoints (Heavy Artifacts)
+# ==============================================================================
+stage1_lora_adapter/
+*.pt
+*.pth
+*.bin
+*.onnx
+!biodino_companion_int8.onnx
+!biodino_mobile_int8.onnx
+*.safetensors
+*.ckpt
+edge_fp32.pt
+edge_int8.pt
+stage2_dual_peft.pt
+
+# ==============================================================================
+# LaTeX Temporary / Build Artifacts (Keep main.tex, main.pdf, IEEEtran.cls, references.bib)
+# ==============================================================================
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.toc
+paper/*.nav
+paper/*.snm
+paper/*.vrb
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# ==============================================================================
+# Secrets, Keys & Credentials
+# ==============================================================================
+kaggle.json
+access_token
+.env
+.env.*
+.wheels/
+*.whl
+
+# ==============================================================================
+# IDE, Editor & OS Specific Files
+# ==============================================================================
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================================================================
+# Jupyter Notebook Checkpoints & Temporary Files
+# ==============================================================================
+.ipynb_checkpoints/
+scratch/
+*.bak
+*.jks
+keystore.properties
+web/*
+android_app/*

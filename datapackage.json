@@ -1,0 +1,130 @@
+{
+  "$schema": "https://frictionlessdata.io/schemas/data-package.json",
+  "name": "biodino-edge",
+  "title": "BioDINO-Edge: Biologically-Grounded Multi-Scale Vision Foundation Models for Trustworthy Few-Shot Plant Pathology on Resource-Constrained Hardware",
+  "description": "Open Knowledge Foundation (OKF) specification package for trustworthy few-shot plant disease diagnosis using multi-scale self-supervised Vision Transformers (DINOv2), biological foundation models (BioCLIP), Regularized Fisher-LDA with Ledoit-Wolf Shrinkage, and dynamic INT8 edge CPU quantization.",
+  "version": "2.1.0",
+  "homepage": "https://github.com",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Research Team",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "few-shot-learning",
+    "plant-pathology",
+    "vision-foundation-models",
+    "dinov2",
+    "bioclip",
+    "fisher-discriminant-analysis",
+    "uncertainty-estimation",
+    "edge-ai",
+    "plantvillage"
+  ],
+  "resources": [
+    {
+      "name": "plantvillage-dataset",
+      "path": "plantvillage/plantvillage dataset/color",
+      "format": "image/jpeg",
+      "description": "54,305 leaf images spanning 38 agricultural disease classes (27 Base classes, 11 Novel classes across Apple, Grape, and Potato)."
+    },
+    {
+      "name": "biodino-edge-pipeline",
+      "path": "pipeline/biodino_edge_pipeline.py",
+      "format": "text/x-python",
+      "description": "End-to-end Python pipeline for few-shot evaluation across 11 novel classes, Fisher-LDA fitting, multi-episode audit, and INT8 edge CPU benchmarking."
+    },
+    {
+      "name": "biodino-edge-notebook",
+      "path": "pipeline/biodino_unified_pipeline.ipynb",
+      "format": "application/x-ipynb+json",
+      "description": "Interactive unified 5-section Jupyter Notebook with step-by-step theory, execution, and 11-class confusion matrix visualizations."
+    },
+    {
+      "name": "ieee-paper-manuscript",
+      "path": "paper/main.tex",
+      "format": "text/x-tex",
+      "description": "Official IEEE conference format LaTeX manuscript with theoretical formulations and empirical evaluation tables."
+    },
+    {
+      "name": "benchmark-results",
+      "path": "biodino_edge_results.json",
+      "format": "application/json",
+      "description": "Comprehensive numerical benchmark metrics (98.39% peak accuracy, 97.12% 30-episode mean, INT8 latency profiling)."
+    },
+    {
+      "name": "master-docs-index",
+      "path": "docs/index.md",
+      "format": "text/markdown",
+      "description": "Master documentation index and 4-track curriculum for BioDINO-Edge."
+    },
+    {
+      "name": "execution-dataset-guide",
+      "path": "docs/execution_and_dataset_guide.md",
+      "format": "text/markdown",
+      "description": "Step-by-step setup, dataset downloading, 27MB cache management, execution, and troubleshooting guide."
+    },
+    {
+      "name": "reviewer-rebuttal-playbook",
+      "path": "docs/reviewer_rebuttal_playbook.md",
+      "format": "text/markdown",
+      "description": "Playbook with 20 challenging reviewer scenarios and 10-slide oral defense framework."
+    },
+    {
+      "name": "failure-modes-robustness",
+      "path": "docs/failure_modes_and_robustness.md",
+      "format": "text/markdown",
+      "description": "Dissection of 91 remaining errors, stress testing under motion blur and lighting, and Shannon gate OOD detection."
+    },
+    {
+      "name": "edge-hardware-deployment",
+      "path": "docs/edge_hardware_deployment_guide.md",
+      "format": "text/markdown",
+      "description": "Field deployment guide for Raspberry Pi, NVIDIA Jetson, ONNX INT8 export, thermals, and drone battery profiling."
+    },
+    {
+      "name": "few-shot-taxonomy-guide",
+      "path": "docs/few_shot_taxonomy_guide.md",
+      "format": "text/markdown",
+      "description": "Genealogy and historical evolution across 4 generations of Few-Shot Learning from MAML to BioDINO-Edge."
+    },
+    {
+      "name": "algorithm-documentation",
+      "path": "docs/algorithm_guide.md",
+      "format": "text/markdown",
+      "description": "Comprehensive execution and mathematical guide for BioDINO-Edge architecture."
+    },
+    {
+      "name": "plant-pathology-domain-guide",
+      "path": "docs/plant_pathology_domain_guide.md",
+      "format": "text/markdown",
+      "description": "Essential agricultural plant pathology domain guide for AI researchers covering pathogens, visual clinical symptoms, and defense strategies against pathology reviewers."
+    },
+    {
+      "name": "mathematics-foundation-guide",
+      "path": "docs/mathematics_foundation_guide.md",
+      "format": "text/markdown",
+      "description": "Comprehensive 1,150+ lines pedagogical mathematical foundation guide explaining every concept from middle school geometry and calculus up to Ledoit-Wolf regularized Fisher-LDA."
+    },
+    {
+      "name": "paper-setup-documentation",
+      "path": "docs/paper_guide.md",
+      "format": "text/markdown",
+      "description": "Step-by-step LaTeX Workshop and MiKTeX configuration guide."
+    },
+    {
+      "name": "project-changelog",
+      "path": "CHANGELOG.md",
+      "format": "text/markdown",
+      "description": "Detailed chronicle of all technical changes and performance results across versions."
+    }
+  ]
+}
