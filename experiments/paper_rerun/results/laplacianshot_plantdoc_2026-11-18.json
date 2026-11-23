@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-18",
+  "dataset": "PlantDoc (int8 deployed binaries)",
+  "lambda": 2.0,
+  "regime_27way": {
+    "laplacianshot": {
+      "acc": 32.14,
+      "f1": 23.98
+    },
+    "ours": {
+      "acc": 50.79,
+      "f1": 51.04
+    },
+    "n_queries": 252,
+    "n_classes": 27
+  },
+  "regime_5way": {
+    "episodes": 50,
+    "laplacianshot": {
+      "acc": 62.72,
+      "std": 17.06
+    },
+    "ours": {
+      "acc": 85.01,
+      "std": 10.88
+    },
+    "delta_pp": 22.29,
+    "p_value": 7.544516443064238e-16,
+    "wins": 50,
+    "losses": 0
+  },
+  "runtime_seconds": 136.7
+}

@@ -1,0 +1,144 @@
+{
+  "model_version": "BioDINO-Edge v3 (vit_small_patch16_dinov3)",
+  "plantvillage": {
+    "dataset": "PlantVillage (11 Novel Classes)",
+    "k_shot": 5,
+    "metrics": {
+      "accuracy_fast_dino": 87.19185423365488,
+      "f1_fast_dino": 85.13057390475349,
+      "accuracy_deep_bio": 92.57234726688102,
+      "f1_deep_bio": 90.02357076428393,
+      "accuracy_base_consensus": 93.62272240085746,
+      "f1_base_consensus": 91.15881411200502,
+      "accuracy_fisher_inductive": 95.7770632368703,
+      "f1_fisher_inductive": 94.81208497929046,
+      "accuracy_cascaded_edge": 95.7770632368703,
+      "f1_cascaded_edge": 94.81208497929046,
+      "fast_ratio_pct": 15.509110396570202,
+      "accuracy_refined_transductive": 98.42443729903538,
+      "f1_refined_transductive": 97.7756246280602,
+      "false_negative_rate_pct": 0.6877192982456141,
+      "false_negative_count": 49,
+      "total_diseased_queries": 7125
+    },
+    "edge_latency_profile": {
+      "dinov2_lat_ms": 43.99784999986878,
+      "dinov2_fps": 22.728383318798134,
+      "dinov3_lat_ms": 49.06734999985929,
+      "dinov3_fps": 20.380150955836573,
+      "speedup_pct": -11.52215392344315
+    },
+    "per_class_metrics": {
+      "Apple___Apple_scab": {
+        "precision": 0.9712,
+        "recall": 0.9712,
+        "f1-score": 0.9712,
+        "support": 625.0
+      },
+      "Apple___Black_rot": {
+        "precision": 0.9773095623987034,
+        "recall": 0.9788961038961039,
+        "f1-score": 0.9781021897810219,
+        "support": 616.0
+      },
+      "Apple___Cedar_apple_rust": {
+        "precision": 0.9676258992805755,
+        "recall": 0.9962962962962963,
+        "f1-score": 0.9817518248175182,
+        "support": 270.0
+      },
+      "Apple___healthy": {
+        "precision": 0.9907862407862408,
+        "recall": 0.9835365853658536,
+        "f1-score": 0.9871481028151775,
+        "support": 1640.0
+      },
+      "Grape___Black_rot": {
+        "precision": 0.9723154362416108,
+        "recall": 0.9863829787234043,
+        "f1-score": 0.9792986903253063,
+        "support": 1175.0
+      },
+      "Grape___Esca_(Black_Measles)": {
+        "precision": 0.988243938280676,
+        "recall": 0.9760522496371553,
+        "f1-score": 0.982110259218693,
+        "support": 1378.0
+      },
+      "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+        "precision": 1.0,
+        "recall": 0.9981325863678805,
+        "f1-score": 0.9990654205607477,
+        "support": 1071.0
+      },
+      "Grape___healthy": {
+        "precision": 0.9952380952380953,
+        "recall": 1.0,
+        "f1-score": 0.9976133651551312,
+        "support": 418.0
+      },
+      "Potato___Early_blight": {
+        "precision": 0.9989858012170385,
+        "recall": 0.9899497487437185,
+        "f1-score": 0.99444724886421,
+        "support": 995.0
+      },
+      "Potato___Late_blight": {
+        "precision": 0.9928205128205129,
+        "recall": 0.9728643216080402,
+        "f1-score": 0.9827411167512691,
+        "support": 995.0
+      },
+      "Potato___healthy": {
+        "precision": 0.8212290502793296,
+        "recall": 1.0,
+        "f1-score": 0.901840490797546,
+        "support": 147.0
+      },
+      "accuracy": 0.9842443729903537,
+      "macro avg": {
+        "precision": 0.9705231396857076,
+        "recall": 0.9866646246034957,
+        "f1-score": 0.977756246280602,
+        "support": 9330.0
+      },
+      "weighted avg": {
+        "precision": 0.9848895369062597,
+        "recall": 0.9842443729903537,
+        "f1-score": 0.9843949792656347,
+        "support": 9330.0
+      }
+    }
+  },
+  "plantdoc": {
+    "dataset": "PlantDoc (27 Classes In-The-Wild)",
+    "k_shot": 5,
+    "metrics": {
+      "accuracy_fast_dino": 38.095238095238095,
+      "f1_fast_dino": 35.38845921399528,
+      "accuracy_deep_bio": 53.57142857142857,
+      "f1_deep_bio": 54.94137895892281,
+      "accuracy_base_fused": 51.587301587301596,
+      "f1_base_fused": 52.46887858467105,
+      "accuracy_peak_fisher": 45.63492063492063,
+      "f1_peak_fisher": 45.66380053260297,
+      "accuracy_cascaded_edge": 45.63492063492063,
+      "f1_cascaded_edge": 45.28829682421463,
+      "accuracy_refined_transductive": 50.39682539682539,
+      "f1_refined_transductive": 51.010313917152985,
+      "multi_episode_30": {
+        "five_way_episodic": {
+          "inductive_mean_accuracy": 80.40927680519675,
+          "mean_accuracy": 84.11694472993857,
+          "std_accuracy": 11.72187791511542,
+          "mean_macro_f1": 83.9211379129213,
+          "peak_accuracy": 100.0,
+          "ci95": [
+            80.86780594002714,
+            87.36608351985
+          ]
+        }
+      }
+    }
+  }
+}

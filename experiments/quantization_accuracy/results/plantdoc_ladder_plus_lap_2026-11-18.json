@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-18",
+  "dataset": "PlantDoc 27-way 5-shot, INT8, single harness",
+  "protocol": {
+    "n_views": 8,
+    "seed": 42,
+    "scale": 20.0,
+    "w_lda": 0.75,
+    "w_text": 0.2,
+    "w_base": 0.65,
+    "n_queries": 252,
+    "lambda": 2.0,
+    "transductive": {
+      "support_weight": 1,
+      "max_anchors": 2,
+      "conf_threshold": null
+    }
+  },
+  "rows": {
+    "text_only": {
+      "acc": 33.73,
+      "f1": 29.37
+    },
+    "dino_only": {
+      "acc": 40.08,
+      "f1": 36.9
+    },
+    "bio_only": {
+      "acc": 50.0,
+      "f1": 50.68
+    },
+    "static_blend": {
+      "acc": 51.59,
+      "f1": 51.62
+    },
+    "fisher_inductive": {
+      "acc": 47.22,
+      "f1": 45.87
+    },
+    "transductive_ours": {
+      "acc": 50.79,
+      "f1": 51.04
+    },
+    "laplacianshot": {
+      "acc": 32.14,
+      "f1": 23.98
+    }
+  }
+}

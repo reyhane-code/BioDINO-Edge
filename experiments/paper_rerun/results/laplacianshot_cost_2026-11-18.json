@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-18",
+  "note": "desktop CPU timings, indicative only; NOT device numbers",
+  "processor": "see platform.uname",
+  "regimes": [
+    {
+      "n_support": 55,
+      "n_query": 9330,
+      "n_classes": 11,
+      "fisher_anchor_seconds": 0.6574,
+      "laplacianshot_seconds": 1.4959,
+      "laplacianshot_graph_nnz": 110352,
+      "ratio_lap_over_fisher": 2.28
+    },
+    {
+      "n_support": 135,
+      "n_query": 252,
+      "n_classes": 27,
+      "fisher_anchor_seconds": 0.8886,
+      "laplacianshot_seconds": 0.07,
+      "laplacianshot_graph_nnz": 4544,
+      "ratio_lap_over_fisher": 0.08
+    },
+    {
+      "n_support": 135,
+      "n_query": 500,
+      "n_classes": 27,
+      "fisher_anchor_seconds": 0.9525,
+      "laplacianshot_seconds": 0.1199,
+      "laplacianshot_graph_nnz": 7480,
+      "ratio_lap_over_fisher": 0.13
+    },
+    {
+      "n_support": 135,
+      "n_query": 2000,
+      "n_classes": 27,
+      "fisher_anchor_seconds": 0.9491,
+      "laplacianshot_seconds": 0.3007,
+      "laplacianshot_graph_nnz": 25198,
+      "ratio_lap_over_fisher": 0.32
+    }
+  ],
+  "scaling": [
+    {
+      "n_query": 100,
+      "seconds": 0.0222,
+      "nnz": 1798
+    },
+    {
+      "n_query": 250,
+      "seconds": 0.0298,
+      "nnz": 3588
+    },
+    {
+      "n_query": 500,
+      "seconds": 0.051,
+      "nnz": 6500
+    },
+    {
+      "n_query": 1000,
+      "seconds": 0.1029,
+      "nnz": 12456
+    },
+    {
+      "n_query": 2000,
+      "seconds": 0.1723,
+      "nnz": 24290
+    },
+    {
+      "n_query": 4000,
+      "seconds": 0.3872,
+      "nnz": 47858
+    },
+    {
+      "n_query": 9330,
+      "seconds": 1.4978,
+      "nnz": 110352
+    }
+  ],
+  "parameters": {
+    "backbone_params": "identical (frozen DINOv2-S + BioCLIP-B, shared by both)",
+    "fisher_W_plus_b": 9867,
+    "laplacianshot_stored_params": 0,
+    "laplacianshot_runtime_state": "query-set kNN graph, O(n*k) edges",
+    "fisher_runtime_state": "C x d projection, O(C*d) floats"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-18",
+  "lambda": 2.0,
+  "implementation": "binary-assignment majorise-minimise (Ziko et al. ICML 2020)",
+  "regime_5way_5shot": {
+    "episodes": 20,
+    "laplacianshot": {
+      "acc": 99.41,
+      "std": 0.91,
+      "f1": 99.33
+    },
+    "ours": {
+      "acc": 98.36,
+      "std": 2.33,
+      "f1": 98.12
+    },
+    "delta_pp": -1.05,
+    "p_value": 0.048985855286707264,
+    "wins": 6,
+    "losses": 14
+  },
+  "regime_11class_5shot": {
+    "episodes": 10,
+    "laplacianshot": {
+      "acc": 98.57,
+      "std": 0.64,
+      "f1": 98.75
+    },
+    "ours": {
+      "acc": 97.59,
+      "std": 0.36,
+      "f1": 97.23
+    },
+    "delta_pp": -0.98,
+    "p_value": 0.004047689156004022,
+    "wins": 1,
+    "losses": 9
+  },
+  "runtime_seconds": 32.9
+}

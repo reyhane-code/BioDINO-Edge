@@ -1,0 +1,2459 @@
+﻿Battery History [Format: 2] (0% used, 16KB used of 4096KB, 24 strings using 406):
+  11-14 00:30:07.904 RESET:TIME: 2026-11-14-00-30-07-904
+  11-14 00:30:07.904 089 status=charging health=good plug=usb temp=430 volt=4163 current=-243 isysavg=1261 ap_temp=50.2 pa_temp=48.8 skin_temp=42.3 +wifi_ap -otg -high_speaker_volume -sub_screen -sub_screen_doze txshare_event=0x0 online=19 current_event=0x20 misc_event=0x10000 pbm=max charge=2128 modemRailChargemAh=0 wifiRailChargemAh=0 +running +wake_lock +wifi_radio +mobile_radio +screen +plugged phone_signal_strength=great brightness=dim +wifi +charging +usb_data +ble_scan +cellular_high_tx_power
+  11-14 00:30:07.904 089 -cellular_high_tx_power fg=u0a345:"com.sec.android.app.shealth"
+  11-14 00:30:07.904 089 top=u0a157:"com.sec.android.app.launcher"
+  11-14 00:30:07.904 089 user=0:"0"
+  11-14 00:30:07.904 089 userfg=0:"0"
+  11-14 00:30:07.904 089 tmpwhitelist=u0a494:"ADI verification"
+  11-14 00:30:07.904 089 tmpwhitelist=u0a142:"package verifier"
+  11-14 00:30:07.904 089 tmpwhitelist=u0a269:"package verifier"
+  11-14 00:30:07.904 089 tmpwhitelist=u0a438:"f7db2d2 com.google.android.c2dm.intent.RECEIVE/u0/0x2152"
+  11-14 00:30:07.918 089 +cellular_high_tx_power
+  11-14 00:30:07.918 089
+  11-14 00:30:07.918 089
+  11-14 00:30:07.918 089
+  11-14 00:30:07.918 089
+  11-14 00:30:07.918 089 stats=0:"reset"
+  11-14 00:30:08.027 089
+  11-14 00:30:08.027 089
+  11-14 00:30:08.027 089
+  11-14 00:30:08.027 089
+  11-14 00:30:08.027 089
+  11-14 00:30:08.188 089
+  11-14 00:30:08.225 089
+  11-14 00:30:08.225 089 pkgactive=u0a404:"com.biodino.edge"
+  11-14 00:30:08.237 089 -cellular_high_tx_power -top=u0a157:"com.sec.android.app.launcher"
+  11-14 00:30:08.237 089 +cellular_high_tx_power +top=u0a404:"com.biodino.edge"
+  11-14 00:30:08.600 089
+  11-14 00:30:08.600 089
+  11-14 00:30:08.600 089
+  11-14 00:30:08.600 089
+  11-14 00:30:08.763 089
+  11-14 00:30:08.763 089
+  11-14 00:30:09.395 089 current=-98 isysavg=1107 ap_temp=50.0 pa_temp=48.3 skin_temp=42.2
+  11-14 00:30:11.147 089
+  11-14 00:30:14.379 089
+  11-14 00:30:14.687 089
+  11-14 00:30:14.695 089
+  11-14 00:30:14.720 089
+  11-14 00:30:14.775 089
+  11-14 00:30:14.775 089
+  11-14 00:30:16.469 089 -tmpwhitelist=u0a438:"f7db2d2 com.google.android.c2dm.intent.RECEIVE/u0/0x2152"
+  11-14 00:30:19.022 089 -cellular_high_tx_power pkginactive=u0a358:"com.v2ray.ang"
+  11-14 00:30:19.405 089 current=-279 isysavg=1267 ap_temp=54.6 pa_temp=50.0 skin_temp=42.8
+  11-14 00:30:22.855 089 +cellular_high_tx_power
+  11-14 00:30:22.855 089
+  11-14 00:30:23.142 089 -tmpwhitelist=u0a269:"package verifier"
+  11-14 00:30:23.157 089 -cellular_high_tx_power -tmpwhitelist=u0a142:"package verifier"
+  11-14 00:30:23.201 089 -tmpwhitelist=u0a494:"ADI verification"
+  11-14 00:30:29.415 089 current=-314 isysavg=1415 ap_temp=53.2 pa_temp=50.3 skin_temp=42.9
+  11-14 00:30:34.431 089 +cellular_high_tx_power
+  11-14 00:30:39.422 089 current=-154 isysavg=1339 ap_temp=53.0 pa_temp=50.2 skin_temp=43.0
+  11-14 00:30:49.432 089 current=-89 isysavg=1311 ap_temp=52.9 pa_temp=50.1 skin_temp=43.0 -cellular_high_tx_power
+  11-14 00:30:58.238 089 +cellular_high_tx_power
+  11-14 00:30:59.438 089 current=-60 isysavg=1299 ap_temp=52.9 pa_temp=50.2 skin_temp=43.1
+  11-14 00:31:08.189 089 -cellular_high_tx_power stats=0:"procstate-change"
+  11-14 00:31:08.190 089 +cellular_high_tx_power
+  11-14 00:31:09.449 089 current=-46 isysavg=1292 ap_temp=53.0 pa_temp=50.2 skin_temp=43.2
+  11-14 00:31:16.504 089
+  11-14 00:31:16.504 089
+  11-14 00:31:16.534 089
+  11-14 00:31:19.459 089 current=-37 isysavg=1288 ap_temp=53.0 pa_temp=50.2 skin_temp=43.3
+  11-14 00:31:29.468 089 current=-42 isysavg=1293 ap_temp=53.2 pa_temp=50.6 skin_temp=43.3 -cellular_high_tx_power
+  11-14 00:31:39.478 089 current=-40 isysavg=1291 ap_temp=53.3 pa_temp=50.3 skin_temp=43.4
+  11-14 00:31:41.881 089 +audio +state=10272:"audio"
+  11-14 00:31:42.761 089 -audio -state=10272:"audio"
+  11-14 00:31:49.487 089 current=-41 isysavg=1289 ap_temp=53.4 pa_temp=50.5 skin_temp=43.5
+  11-14 00:31:59.497 089 current=-37 isysavg=1287 ap_temp=51.7 pa_temp=50.3 skin_temp=43.5
+  11-14 00:32:09.507 089 current=-18 isysavg=1135 ap_temp=49.3 pa_temp=49.1 skin_temp=43.1
+  11-14 00:32:10.750 089 stats=0:"update-network-download"
+  11-14 00:32:11.115 089 phone_signal_strength=good
+  11-14 00:32:14.952 089 phone_signal_strength=great
+  11-14 00:32:16.507 089 stats=0:"procstate-change"
+  11-14 00:32:19.520 089 current=-6 isysavg=953 ap_temp=48.3 pa_temp=48.0 skin_temp=42.8
+  11-14 00:32:29.527 089 current=0 isysavg=835 ap_temp=47.7 pa_temp=47.1 skin_temp=42.5
+  11-14 00:32:39.538 089 current=1 isysavg=757 ap_temp=47.4 pa_temp=47.0 skin_temp=42.4
+  11-14 00:32:49.546 089 current=1 isysavg=712 ap_temp=47.2 pa_temp=46.9 skin_temp=42.3
+  11-14 00:32:59.552 089 current=3 isysavg=678 ap_temp=48.4 pa_temp=46.7 skin_temp=42.3
+  11-14 00:33:09.563 089 current=-39 isysavg=819 ap_temp=51.6 pa_temp=48.4 skin_temp=42.7 charge=2125
+  11-14 00:33:19.571 089 current=-74 isysavg=1035 ap_temp=52.1 pa_temp=49.3 skin_temp=43.0
+  11-14 00:33:29.582 089 current=-57 isysavg=1129 ap_temp=52.5 pa_temp=49.7 skin_temp=43.1
+  11-14 00:33:30.595 089 -mobile_radio
+  11-14 00:33:34.331 089 wakeupap=u0a81:""
+  11-14 00:33:34.331 089 +mobile_radio
+  11-14 00:33:35.461 089 -wifi_radio
+  11-14 00:33:36.205 089 +wifi_radio
+  11-14 00:33:39.591 089 current=-38 isysavg=1172 ap_temp=52.8 pa_temp=50.0 skin_temp=43.3
+  11-14 00:33:49.600 089 current=-39 isysavg=1216 ap_temp=52.9 pa_temp=50.1 skin_temp=43.4
+  11-14 00:33:59.603 089 current=-36 isysavg=1240 ap_temp=53.1 pa_temp=50.3 skin_temp=43.5
+  11-14 00:34:09.614 089 current=-36 isysavg=1258 ap_temp=53.3 pa_temp=50.6 skin_temp=43.6
+  11-14 00:34:19.624 089 current=-46 isysavg=1287 ap_temp=53.4 pa_temp=50.5 skin_temp=43.7
+  11-14 00:34:22.819 089 -mobile_radio
+  11-14 00:34:25.294 089 wakeupap=1052:""
+  11-14 00:34:25.294 089 +mobile_radio +cellular_high_tx_power
+  11-14 00:34:25.420 089
+  11-14 00:34:25.423 089 +tmpwhitelist=u0a438:"b204cd5 com.google.android.c2dm.intent.RECEIVE/u0/0x2152"
+  11-14 00:34:25.459 089
+  11-14 00:34:25.459 089
+  11-14 00:34:25.597 089
+  11-14 00:34:25.604 089
+  11-14 00:34:25.821 089
+  11-14 00:34:25.838 089 +sensor +state=1000:"sensor:0x5f6d7273"
+  11-14 00:34:26.539 089 +audio -cellular_high_tx_power +state=10055:"audio"
+  11-14 00:34:27.641 089 -sensor -state=1000:"sensor:0x5f6d7273"
+  11-14 00:34:27.694 089 -audio -state=10055:"audio"
+  11-14 00:34:29.631 089 current=-29 isysavg=1271 ap_temp=54.0 pa_temp=51.0 skin_temp=43.8
+  11-14 00:34:31.266 089 temp=440 +cellular_high_tx_power
+  11-14 00:34:32.560 089
+  11-14 00:34:36.703 089
+  11-14 00:34:39.641 089 current=-67 isysavg=1317 ap_temp=53.9 pa_temp=51.1 skin_temp=43.9
+  11-14 00:34:45.439 089 -cellular_high_tx_power -tmpwhitelist=u0a438:"b204cd5 com.google.android.c2dm.intent.RECEIVE/u0/0x2152"
+  11-14 00:34:49.659 089 +sensor +state=1000:"sensor:0x5"
+  11-14 00:34:49.660 089 current=-58 isysavg=1310 ap_temp=53.6 pa_temp=51.2 skin_temp=44.0 +state=1000:"sensor:0x3000001"
+  11-14 00:34:49.720 089 -sensor -state=1000:"sensor:0x5"
+  11-14 00:34:49.788 089 +cellular_high_tx_power -state=1000:"sensor:0x3000001"
+  11-14 00:34:49.955 089
+  11-14 00:34:51.056 089
+  11-14 00:34:51.063 089
+  11-14 00:34:51.771 089
+  11-14 00:34:52.005 089 -mobile_radio
+  11-14 00:34:52.680 089 +mobile_radio -cellular_high_tx_power wakeupap=1052:""
+  11-14 00:34:52.779 089 stats=0:"remove-uid"
+  11-14 00:34:52.838 089 +cellular_high_tx_power
+  11-14 00:34:54.561 089
+  11-14 00:34:54.567 089
+  11-14 00:34:54.576 089
+  11-14 00:34:54.579 089
+  11-14 00:34:59.661 089 current=-46 isysavg=1291 ap_temp=53.9 pa_temp=51.0 skin_temp=44.1
+  11-14 00:35:09.670 089 current=-45 isysavg=1296 ap_temp=54.0 pa_temp=51.2 skin_temp=44.2 -cellular_high_tx_power
+  11-14 00:35:19.679 089 current=-43 isysavg=1294 ap_temp=54.1 pa_temp=51.4 skin_temp=44.2
+  11-14 00:35:25.422 089 +cellular_high_tx_power stats=0:"procstate-change"
+  11-14 00:35:26.749 089 stats=0:"write"
+  11-14 00:35:29.684 089 current=-41 isysavg=1291 ap_temp=54.2 pa_temp=51.5 skin_temp=44.3 -cellular_high_tx_power
+  11-14 00:35:39.694 089 current=-42 isysavg=1296 ap_temp=54.3 pa_temp=51.5 skin_temp=44.4
+  11-14 00:35:49.703 089 current=-42 isysavg=1301 ap_temp=54.4 pa_temp=51.7 skin_temp=44.4
+  11-14 00:35:52.420 089 -mobile_radio
+  11-14 00:35:54.987 089 +mobile_radio wakeupap=u0a81:""
+  11-14 00:35:57.285 089 -wifi_radio phone_signal_strength=good
+  11-14 00:35:58.264 089 phone_signal_strength=great
+  11-14 00:35:59.706 089 current=-46 isysavg=1304 ap_temp=54.4 pa_temp=51.7 skin_temp=44.5
+  11-14 00:36:01.513 089 phone_signal_strength=good
+  11-14 00:36:03.418 089 +wifi_radio phone_signal_strength=great
+  11-14 00:36:06.632 089 phone_signal_strength=good
+  11-14 00:36:07.546 089 phone_signal_strength=great
+  11-14 00:36:09.716 089 current=-33 isysavg=1288 ap_temp=54.2 pa_temp=51.6 skin_temp=44.6
+  11-14 00:36:11.635 089 stats=0:"update-network-netlog"
+  11-14 00:36:11.635 089 +cellular_high_tx_power
+  11-14 00:36:14.316 089 phone_signal_strength=good
+  11-14 00:36:14.694 089 -mobile_radio -cellular_high_tx_power
+  11-14 00:36:16.877 089 phone_signal_strength=great
+  11-14 00:36:18.787 089 -wifi_radio
+  11-14 00:36:19.726 089 current=-19 isysavg=1266 ap_temp=54.1 pa_temp=51.7 skin_temp=44.5
+  11-14 00:36:23.222 089 temp=450 +wifi_radio +mobile_radio wakeupap=u0a81:""
+  11-14 00:36:29.673 089 phone_signal_strength=good
+  11-14 00:36:29.735 089 current=-16 isysavg=1256 ap_temp=54.1 pa_temp=51.6 skin_temp=44.6 phone_signal_strength=great
+  11-14 00:36:33.504 089 phone_signal_strength=good
+  11-14 00:36:38.639 089 phone_signal_strength=great
+  11-14 00:36:39.744 089 current=-20 isysavg=1261 ap_temp=54.2 pa_temp=51.7 skin_temp=44.6
+  11-14 00:36:41.662 089 stats=0:"update-network-download"
+  11-14 00:36:46.312 089 phone_signal_strength=good
+  11-14 00:36:48.985 089 phone_signal_strength=great
+  11-14 00:36:49.753 089 current=-16 isysavg=1252 ap_temp=54.1 pa_temp=51.7 skin_temp=44.7 phone_signal_strength=good
+  11-14 00:36:51.058 089 phone_signal_strength=great
+  11-14 00:36:52.707 089 phone_signal_strength=good
+  11-14 00:36:53.063 089 phone_signal_strength=great
+  11-14 00:36:53.992 089 phone_signal_strength=good
+  11-14 00:36:55.652 089 -mobile_radio phone_signal_strength=great
+  11-14 00:36:59.756 089 current=-16 isysavg=1227 ap_temp=53.6 pa_temp=51.5 skin_temp=44.7
+  11-14 00:37:00.770 089 -wifi_radio
+  11-14 00:37:04.540 089 +mobile_radio wakeupap=u0a81:""
+  11-14 00:37:09.768 089 current=-13 isysavg=1190 ap_temp=53.8 pa_temp=51.4 skin_temp=44.7 +wifi_radio
+  11-14 00:37:19.582 089 phone_signal_strength=good
+  11-14 00:37:19.777 089 current=-21 isysavg=1185 ap_temp=53.6 pa_temp=51.4 skin_temp=44.7
+  11-14 00:37:29.784 089 current=-10 isysavg=1148 ap_temp=53.3 pa_temp=51.3 skin_temp=44.7
+  11-14 00:37:34.550 089 +audio +state=10272:"audio"
+  11-14 00:37:35.548 089 -audio -state=10272:"audio"
+  11-14 00:37:39.658 089 phone_signal_strength=great
+  11-14 00:37:39.795 089 current=-4 isysavg=1122 ap_temp=53.2 pa_temp=51.1 skin_temp=44.7
+  11-14 00:37:42.629 089 phone_signal_strength=good
+  11-14 00:37:43.785 089 phone_signal_strength=great
+  11-14 00:37:49.027 089 phone_signal_strength=good
+  11-14 00:37:49.804 089 current=0 isysavg=1105 ap_temp=53.1 pa_temp=51.0 skin_temp=44.7 phone_signal_strength=great
+  11-14 00:37:51.583 089 -mobile_radio phone_signal_strength=good
+  11-14 00:37:55.069 089 +mobile_radio wakeupap=u0a81:""
+  11-14 00:37:57.216 089 -wifi_radio phone_signal_strength=great
+  11-14 00:37:59.814 089 current=-2 isysavg=1098 ap_temp=53.0 pa_temp=50.9 skin_temp=44.7 +wifi_radio
+  11-14 00:38:01.832 089 phone_signal_strength=good
+  11-14 00:38:05.462 089 phone_signal_strength=great
+  11-14 00:38:08.228 089 phone_signal_strength=good
+  11-14 00:38:09.823 089 current=-6 isysavg=1097 ap_temp=53.2 pa_temp=51.2 skin_temp=44.7
+  11-14 00:38:19.829 089 current=-5 isysavg=1103 ap_temp=53.2 pa_temp=51.3 skin_temp=44.7
+  11-14 00:38:25.145 089 phone_signal_strength=great
+  11-14 00:38:29.834 089 current=-5 isysavg=1101 ap_temp=53.1 pa_temp=51.2 skin_temp=44.8
+  11-14 00:38:35.109 089 phone_signal_strength=good
+  11-14 00:38:39.845 089 current=-3 isysavg=1090 ap_temp=53.1 pa_temp=51.4 skin_temp=44.8
+  11-14 00:38:44.746 089 phone_signal_strength=great
+  11-14 00:38:47.910 089 phone_signal_strength=good
+  11-14 00:38:49.853 089 current=-1 isysavg=1089 ap_temp=53.1 pa_temp=51.1 skin_temp=44.7 phone_signal_strength=great
+  11-14 00:38:50.464 089 phone_signal_strength=good
+  11-14 00:38:52.132 089 -mobile_radio wakeupap=u0a81:""
+  11-14 00:38:52.995 089 +mobile_radio
+  11-14 00:38:58.156 089 phone_signal_strength=great
+  11-14 00:38:59.863 089 current=-3 isysavg=1080
+  11-14 00:39:09.871 089 current=-4 isysavg=1084 ap_temp=53.1 pa_temp=51.0 skin_temp=44.8
+  11-14 00:39:19.880 089 current=-3 isysavg=1083 ap_temp=53.1 pa_temp=51.1 skin_temp=44.8
+  11-14 00:39:29.887 089 current=-5 isysavg=1079
+  11-14 00:39:39.896 089 current=-4 isysavg=1085 ap_temp=53.2 pa_temp=51.2 skin_temp=44.8
+  11-14 00:39:49.906 089 current=0 isysavg=1082 ap_temp=53.1 pa_temp=51.1 skin_temp=44.8
+  11-14 00:39:59.916 089 current=-3 isysavg=1090 ap_temp=53.1 pa_temp=51.3 skin_temp=44.8
+  11-14 00:40:03.811 089 -mobile_radio wakeupap=u0a81:""
+  11-14 00:40:04.755 089 +mobile_radio
+  11-14 00:40:08.932 089 -wifi_radio
+  11-14 00:40:09.925 089 current=-2 isysavg=1082 ap_temp=53.2 pa_temp=51.1 skin_temp=44.8
+  11-14 00:40:14.820 089 -mobile_radio
+  11-14 00:40:19.934 089 current=-3 isysavg=1082 ap_temp=53.1 pa_temp=51.1 skin_temp=44.9
+  11-14 00:40:26.110 089 +wifi_radio +mobile_radio wakeupap=u0a81:""
+  11-14 00:40:29.938 089 current=-1 isysavg=1078 ap_temp=53.2 pa_temp=51.2 skin_temp=44.9
+  11-14 00:40:39.949 089 current=-3 isysavg=1089 ap_temp=53.2 pa_temp=51.3 skin_temp=44.9
+  11-14 00:40:47.075 089 -mobile_radio
+  11-14 00:40:49.954 089 current=-3 isysavg=1090 ap_temp=53.1 pa_temp=51.3 skin_temp=44.8
+  11-14 00:40:51.939 089 -wifi_radio
+  11-14 00:40:59.742 089 +wifi_radio +mobile_radio wakeupap=1052:""
+  11-14 00:40:59.964 089 current=0 isysavg=1083 ap_temp=53.2 pa_temp=51.2 skin_temp=44.8
+  11-14 00:41:02.254 089 stats=0:"update-network-download"
+  11-14 00:41:09.969 089 current=0 isysavg=1078 ap_temp=53.2 pa_temp=51.2 skin_temp=44.9
+  11-14 00:41:12.263 089 +cellular_high_tx_power stats=0:"update-network-netlog"
+  11-14 00:41:15.491 089 -mobile_radio
+  11-14 00:41:19.981 089 current=0 isysavg=1081 +mobile_radio -cellular_high_tx_power wakeupap=1052:""
+  11-14 00:41:29.990 089 current=-5 isysavg=1087 ap_temp=53.3 pa_temp=51.3 skin_temp=44.9
+  11-14 00:41:39.996 089 current=-2 isysavg=1081 ap_temp=53.3 pa_temp=51.3 skin_temp=45.0
+  11-14 00:41:44.541 089 +cellular_high_tx_power
+  11-14 00:41:44.551 089
+  11-14 00:41:44.558 089
+  11-14 00:41:44.562 089
+  11-14 00:41:50.007 089 current=-3 isysavg=1082 ap_temp=53.2 pa_temp=51.2 skin_temp=44.9
+  11-14 00:42:00.016 089 current=0 isysavg=1052 ap_temp=52.8 pa_temp=50.7 skin_temp=44.8 -cellular_high_tx_power
+  11-14 00:42:10.025 089 current=1 isysavg=1025 ap_temp=52.8 pa_temp=50.6 skin_temp=44.8
+  11-14 00:42:20.034 089 current=0 isysavg=1013 ap_temp=52.7 pa_temp=50.5 skin_temp=44.7
+  11-14 00:42:21.540 089 -mobile_radio
+  11-14 00:42:26.215 089 -wifi_radio +mobile_radio wakeupap=1052:""
+  11-14 00:42:30.043 089 current=2 isysavg=1000 ap_temp=52.6 pa_temp=50.4 skin_temp=44.7
+  11-14 00:42:33.920 089 +wifi_radio
+  11-14 00:42:40.052 089 current=3 isysavg=995 ap_temp=52.7 pa_temp=50.4 skin_temp=44.7
+  11-14 00:42:44.542 089 +cellular_high_tx_power stats=0:"procstate-change"
+  11-14 00:42:54.564 089 -mobile_radio
+  11-14 00:42:59.684 089 -wifi_radio -cellular_high_tx_power
+  11-14 00:43:00.068 089 current=1 isysavg=995 +wifi_radio +mobile_radio wakeupap=1052:""
+  11-14 00:43:04.359 089 +cellular_high_tx_power
+  11-14 00:43:04.359 089
+  11-14 00:43:04.359 089
+  11-14 00:43:04.359 089
+  11-14 00:43:04.359 089
+  11-14 00:43:04.387 089 stats=0:"dump"
+  11-14 00:43:04.495 089
+
+Per-PID Stats:
+  PID 1412 wake time: +855ms
+  PID 2049 wake time: +50ms
+  PID 2049 wake time: +1s892ms
+  PID 0 wake time: +3s178ms
+  PID 0 wake time: +1s151ms
+  PID 2291 wake time: +1s804ms
+  PID 21931 wake time: +4s513ms
+  PID 11106 wake time: +56ms
+  PID 0 wake time: +1s863ms
+  PID 1412 wake time: +145ms
+  PID 1412 wake time: +262ms
+  PID 11106 wake time: +63ms
+  PID 19630 wake time: +4ms
+  PID 1412 wake time: +85ms
+
+Daily stats:
+  Current start time: 2026-11-13-04-45-14
+  Next min deadline: 2026-11-14-01-00-00
+  Next max deadline: 2026-11-14-03-00-00
+  Current daily discharge step durations:
+    #0: +32m58s444ms to 85 (power-save-off, device-idle-off)
+    #1: +20m16s48ms to 86 (power-save-off, device-idle-off)
+    #2: +1h20m46s137ms to 87 (power-save-off)
+    #3: +2h52m36s855ms to 88 (power-save-off, device-idle-on)
+      Discharge total time: 5d 7h 45m 37s 100ms  (from 4 steps)
+  Current daily charge step durations:
+    #0: +7h57m28s607ms to 95 (screen-on, power-save-off, device-idle-off)
+    #1: +5h18m47s99ms to 95 (screen-on, power-save-off, device-idle-off)
+    #2: +2m32s674ms to 95 (power-save-off, device-idle-off)
+    #3: +2m12s822ms to 94 (power-save-off, device-idle-off)
+    #4: +1m52s350ms to 93 (power-save-off, device-idle-off)
+    #5: +2m2s594ms to 92 (power-save-off, device-idle-off)
+    #6: +2m2s724ms to 91 (power-save-off, device-idle-off)
+    #7: +2m2s551ms to 90 (power-save-off, device-idle-off)
+    #8: +2m22s782ms to 89 (power-save-off, device-idle-off)
+    #9: +2m22s938ms to 88 (power-save-off, device-idle-off)
+    #10: +2m22s841ms to 87 (power-save-off, device-idle-off)
+      Charge total time: 5d 3h 39m 41s 600ms  (from 11 steps)
+      Charge screen on time: 27d 15h 33m 5s 300ms  (from 2 steps)
+    Package changes:
+      Update com.android.vending vers=85411140
+      Update com.android.vending vers=85411140
+      Update com.android.vending vers=85411140
+      Update com.android.vending vers=85411140
+      Update com.android.vending vers=85411140
+      Update com.google.android.as vers=17000039
+      Update com.google.android.as vers=17000039
+      Update com.google.android.as vers=17000039
+      Update com.google.android.as vers=17000039
+      Update com.google.android.as vers=17000039
+      Update com.google.android.mosey vers=60715
+      Update com.google.android.mosey vers=60715
+      Update com.google.android.mosey vers=60715
+      Update com.google.android.mosey vers=60715
+      Update com.google.android.mosey vers=60715
+      Update com.google.ambient.streaming vers=100137540
+      Update com.google.ambient.streaming vers=100137540
+      Update com.google.ambient.streaming vers=100137540
+      Update com.google.ambient.streaming vers=100137540
+      Update com.google.ambient.streaming vers=100137540
+      Update com.google.android.apps.restore vers=1167143
+      Update com.google.android.apps.restore vers=1167143
+      Update com.google.android.apps.restore vers=1167143
+      Update com.google.android.apps.restore vers=1167143
+      Update com.google.android.apps.restore vers=1167143
+      Update com.google.android.apps.authenticator2 vers=7002015
+      Update com.google.android.apps.authenticator2 vers=7002015
+      Update com.google.android.apps.authenticator2 vers=7002015
+      Update com.google.android.apps.authenticator2 vers=7002015
+      Update com.google.android.apps.authenticator2 vers=7002015
+      Update com.biodino.edge vers=0
+      Update com.biodino.edge vers=0
+      Update com.biodino.edge vers=0
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=0
+      Update com.biodino.edge vers=0
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+  Daily from 2026-11-12-01-08-19 to 2026-11-13-04-45-14:
+    Discharge step durations:
+      #0: +1h29m24s938ms to 90 (power-save-off)
+      #1: +6m2s613ms to 91 (screen-on, power-save-off, device-idle-off)
+      #2: +6m32s786ms to 92 (screen-on, power-save-off, device-idle-off)
+      #3: +43m25s589ms to 92 (power-save-off, device-idle-off)
+      #4: +10m27s585ms to 81 (power-save-off, device-idle-off)
+      #5: +35m31s613ms to 82 (power-save-off, device-idle-off)
+      #6: +12m52s990ms to 83 (power-save-off, device-idle-off)
+      #7: +5m32s113ms to 84 (screen-on, power-save-off, device-idle-off)
+      #8: +4m31s746ms to 85 (screen-on, power-save-off, device-idle-off)
+      #9: +6m36s560ms to 86 (power-save-off, device-idle-off)
+      #10: +9m45s632ms to 80 (power-save-off, device-idle-off)
+      #11: +8m33s679ms to 81 (power-save-off, device-idle-off)
+      #12: +6m32s460ms to 82 (power-save-off, device-idle-off)
+      #13: +6m32s511ms to 83 (power-save-off, device-idle-off)
+      #14: +10m4s99ms to 84 (power-save-off, device-idle-off)
+      #15: +9m3s535ms to 85 (power-save-off, device-idle-off)
+      #16: +5m2s111ms to 86 (power-save-off, device-idle-off)
+      #17: +5m2s18ms to 87 (power-save-off, device-idle-off)
+      #18: +7m3s103ms to 88 (power-save-off, device-idle-off)
+      #19: +5m32s317ms to 89 (power-save-off, device-idle-off)
+      #20: +9m4s275ms to 90 (power-save-off, device-idle-off)
+      #21: +5m1s980ms to 91 (screen-on, power-save-off, device-idle-off)
+      #22: +5m32s172ms to 92 (screen-on, power-save-off, device-idle-off)
+      #23: +5m2s787ms to 57 (power-save-off, device-idle-off)
+      #24: +4m24s91ms to 58 (power-save-off, device-idle-off)
+      #25: +4m31s854ms to 59 (screen-on, power-save-off, device-idle-off)
+      #26: +4m31s769ms to 60 (screen-on, power-save-off, device-idle-off)
+      #27: +5m1s969ms to 49 (screen-on, power-save-off, device-idle-off)
+      #28: +7m33s28ms to 50 (screen-on, power-save-off, device-idle-off)
+      #29: +10m34s723ms to 51 (power-save-off, device-idle-off)
+      #30: +21m15s3ms to 52 (power-save-off, device-idle-off)
+      #31: +9m57s82ms to 53 (power-save-off, device-idle-off)
+      #32: +4m45s550ms to 54 (power-save-off, device-idle-off)
+      #33: +2m30s919ms to 55 (power-save-off, device-idle-off)
+      #34: +3m1s171ms to 56 (screen-on, power-save-off, device-idle-off)
+      #35: +3m31s354ms to 57 (screen-on, power-save-off, device-idle-off)
+      #36: +3m1s10ms to 58 (screen-on, power-save-off, device-idle-off)
+      #37: +13m32s809ms to 59 (power-save-off, device-idle-off)
+      #38: +6m32s540ms to 60 (screen-on, power-save-off, device-idle-off)
+      #39: +6m39s172ms to 61 (power-save-off, device-idle-off)
+      #40: +7m42s228ms to 62 (power-save-off, device-idle-off)
+      #41: +4m1s553ms to 30 (screen-on, power-save-off, device-idle-off)
+      #42: +2m0s775ms to 31 (power-save-off, device-idle-off)
+      #43: +1h5m25s952ms to 32 (screen-off, power-save-off)
+      #44: +1h17m55s483ms to 33 (screen-off, power-save-off, device-idle-on)
+      #45: +1h4m58s993ms to 34 (screen-off, power-save-off, device-idle-on)
+      #46: +1h10m41s954ms to 35 (screen-off, power-save-off, device-idle-on)
+      #47: +1h4m4s133ms to 36 (screen-off, power-save-off, device-idle-on)
+      #48: +1h6m41s22ms to 37 (screen-off, power-save-off)
+        Discharge total time: 1d 5h 2m 25s 600ms  (from 49 steps)
+        Discharge screen off time: 4d 17h 49m 52s 200ms  (from 6 steps)
+        Discharge screen off device idle time: 4d 19h 41m 54s 0ms  (from 4 steps)
+        Discharge screen on time: 8h 19m 57s 700ms  (from 15 steps)
+    Charge step durations:
+      #0: +3m3s628ms to 95 (screen-on, power-save-off, device-idle-off)
+      #1: +2m32s808ms to 94 (screen-on, power-save-off, device-idle-off)
+      #2: +2h6m41s80ms to 93 (screen-on, power-save-off, device-idle-off)
+      #3: +2m23s39ms to 95 (power-save-off, device-idle-off)
+      #4: +2m33s45ms to 94 (power-save-off, device-idle-off)
+      #5: +2m42s824ms to 93 (power-save-off, device-idle-off)
+      #6: +2m22s938ms to 92 (power-save-off, device-idle-off)
+      #7: +2m33s18ms to 91 (power-save-off, device-idle-off)
+      #8: +2m43s466ms to 90 (power-save-off, device-idle-off)
+      #9: +2m33s313ms to 89 (power-save-off, device-idle-off)
+      #10: +2m33s362ms to 88 (power-save-off, device-idle-off)
+      #11: +2m23s84ms to 87 (power-save-off, device-idle-off)
+      #12: +2m43s391ms to 86 (power-save-off, device-idle-off)
+      #13: +2m33s162ms to 85 (power-save-off, device-idle-off)
+      #14: +3m13s571ms to 84 (screen-on, power-save-off, device-idle-off)
+      #15: +3m13s655ms to 83 (screen-on, power-save-off, device-idle-off)
+      #16: +1h18m26s458ms to 82 (screen-on, power-save-off, device-idle-off)
+      #17: +2m22s796ms to 88 (screen-on, power-save-off, device-idle-off)
+      #18: +2m22s861ms to 87 (screen-on, power-save-off, device-idle-off)
+      #19: +6m50s586ms to 86 (screen-on, power-save-off, device-idle-off)
+      #20: +2m43s327ms to 86 (screen-on, power-save-off, device-idle-off)
+      #21: +2m22s927ms to 85 (screen-on, power-save-off, device-idle-off)
+      #22: +2m22s914ms to 84 (screen-on, power-save-off, device-idle-off)
+      #23: +2m22s840ms to 83 (screen-on, power-save-off, device-idle-off)
+      #24: +2m33s186ms to 82 (screen-on, power-save-off, device-idle-off)
+      #25: +2m22s779ms to 81 (screen-on, power-save-off, device-idle-off)
+      #26: +1h57m51s905ms to 80 (power-save-off, device-idle-off)
+      #27: +2m12s776ms to 95 (screen-on, power-save-off, device-idle-off)
+      #28: +2m12s662ms to 94 (screen-on, power-save-off, device-idle-off)
+      #29: +2m22s926ms to 93 (screen-on, power-save-off, device-idle-off)
+      #30: +2m23s17ms to 92 (screen-on, power-save-off, device-idle-off)
+      #31: +2m33s175ms to 91 (screen-on, power-save-off, device-idle-off)
+      #32: +2m23s46ms to 90 (power-save-off, device-idle-off)
+      #33: +2m23s44ms to 89 (power-save-off, device-idle-off)
+      #34: +2m2s588ms to 88 (power-save-off, device-idle-off)
+      #35: +2m12s847ms to 87 (power-save-off, device-idle-off)
+      #36: +2m12s814ms to 86 (power-save-off, device-idle-off)
+      #37: +2m12s898ms to 85 (power-save-off, device-idle-off)
+      #38: +2m12s884ms to 84 (power-save-off, device-idle-off)
+      #39: +2m2s608ms to 83 (power-save-off, device-idle-off)
+      #40: +2m12s839ms to 82 (power-save-off, device-idle-off)
+      #41: +2m23s0ms to 81 (power-save-off, device-idle-off)
+      #42: +2m33s49ms to 80 (power-save-off, device-idle-off)
+      #43: +2m2s676ms to 79 (power-save-off, device-idle-off)
+      #44: +2m12s796ms to 78 (power-save-off, device-idle-off)
+      #45: +2m2s621ms to 77 (power-save-off, device-idle-off)
+      #46: +2m12s816ms to 76 (power-save-off, device-idle-off)
+      #47: +2m2s571ms to 75 (power-save-off, device-idle-off)
+      #48: +2m12s812ms to 74 (power-save-off, device-idle-off)
+      #49: +2m2s584ms to 73 (power-save-off, device-idle-off)
+      #50: +2m12s812ms to 72 (power-save-off, device-idle-off)
+      #51: +2m2s626ms to 71 (power-save-off, device-idle-off)
+      #52: +2m12s838ms to 70 (power-save-off, device-idle-off)
+      #53: +2m2s533ms to 69 (power-save-off, device-idle-off)
+      #54: +2m12s792ms to 68 (power-save-off, device-idle-off)
+      #55: +2m2s603ms to 67 (power-save-off, device-idle-off)
+      #56: +2m12s655ms to 66 (power-save-off, device-idle-off)
+      #57: +2m12s697ms to 65 (power-save-off, device-idle-off)
+      #58: +2m12s889ms to 64 (power-save-off, device-idle-off)
+      #59: +2m2s553ms to 63 (power-save-off, device-idle-off)
+      #60: +2m2s529ms to 62 (power-save-off, device-idle-off)
+      #61: +2m12s832ms to 61 (power-save-off, device-idle-off)
+      #62: +2m12s664ms to 60 (screen-on, power-save-off, device-idle-off)
+      #63: +2m12s659ms to 59 (screen-on, power-save-off, device-idle-off)
+      #64: +20m24s42ms to 58 (screen-on, power-save-off, device-idle-off)
+      #65: +2m53s343ms to 62 (screen-on, power-save-off, device-idle-off)
+      #66: +2m33s105ms to 61 (screen-on, power-save-off, device-idle-off)
+      #67: +7m8s406ms to 60 (power-save-off, device-idle-off)
+      #68: +3m34s302ms to 59 (screen-on, power-save-off, device-idle-off)
+      #69: +3m52s216ms to 58 (screen-on, power-save-off, device-idle-off)
+      #70: +3m13s720ms to 56 (power-save-off, device-idle-off)
+      #71: +3m34s486ms to 55 (screen-on, power-save-off, device-idle-off)
+      #72: +3m54s630ms to 54 (screen-on, power-save-off, device-idle-off)
+      #73: +2m53s546ms to 53 (screen-on, power-save-off, device-idle-off)
+      #74: +2m12s810ms to 52 (screen-on, power-save-off, device-idle-off)
+      #75: +2m2s590ms to 51 (screen-on, power-save-off, device-idle-off)
+      #76: +1h51m39s602ms to 50 (screen-on, power-save-off, device-idle-off)
+      #77: +51s71ms to 64 (power-save-off, device-idle-off)
+      #78: +34s198ms to 63 (power-save-off, device-idle-off)
+      #79: +1m18s799ms to 62 (power-save-off, device-idle-off)
+      #80: +40s214ms to 61 (power-save-off, device-idle-off)
+      #81: +1m1s7ms to 60 (power-save-off, device-idle-off)
+      #82: +35s988ms to 59 (power-save-off, device-idle-off)
+      #83: +1m0s40ms to 58 (power-save-off, device-idle-off)
+      #84: +1m3s893ms to 57 (power-save-off, device-idle-off)
+      #85: +44s976ms to 56 (power-save-off, device-idle-off)
+      #86: +34s110ms to 55 (power-save-off, device-idle-off)
+      #87: +1m0s974ms to 54 (power-save-off, device-idle-off)
+      #88: +1m7s304ms to 53 (power-save-off, device-idle-off)
+      #89: +57s59ms to 52 (power-save-off, device-idle-off)
+      #90: +54s652ms to 51 (power-save-off, device-idle-off)
+      #91: +35s993ms to 50 (power-save-off, device-idle-off)
+      #92: +59s983ms to 49 (power-save-off, device-idle-off)
+      #93: +53s952ms to 48 (power-save-off, device-idle-off)
+      #94: +24s75ms to 47 (power-save-off, device-idle-off)
+      #95: +58s12ms to 46 (power-save-off, device-idle-off)
+      #96: +59s964ms to 45 (power-save-off, device-idle-off)
+      #97: +1m8s25ms to 44 (power-save-off, device-idle-off)
+      #98: +36s16ms to 43 (power-save-off, device-idle-off)
+      #99: +59s987ms to 42 (power-save-off, device-idle-off)
+      #100: +53s786ms to 41 (power-save-off, device-idle-off)
+      #101: +21s212ms to 40 (power-save-off, device-idle-off)
+      #102: +1m16s993ms to 39 (power-save-off, device-idle-off)
+      #103: +52s36ms to 38 (power-save-off, device-idle-off)
+      #104: +35s978ms to 37 (power-save-off, device-idle-off)
+      #105: +1m1s0ms to 36 (power-save-off, device-idle-off)
+      #106: +1m0s15ms to 35 (power-save-off, device-idle-off)
+      #107: +53s273ms to 34 (power-save-off, device-idle-off)
+      #108: +50s933ms to 33 (power-save-off, device-idle-off)
+      #109: +50s813ms to 32 (power-save-off, device-idle-off)
+        Charge total time: 10h 8m 45s 200ms  (from 110 steps)
+        Charge screen on time: 21h 10m 42s 300ms  (from 33 steps)
+    Package changes:
+      Update com.google.android.aicore vers=527099
+      Update com.google.android.aicore vers=527099
+      Update com.google.android.aicore vers=527099
+      Update com.google.android.aicore vers=527099
+      Update com.google.android.aicore vers=527099
+      Update com.biodino.edge vers=0
+      Update com.biodino.edge vers=0
+      Update com.biodino.edge vers=0
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+      Update com.biodino.edge vers=2
+  Daily from 2026-11-11-01-00-26 to 2026-11-12-01-08-19:
+    Discharge step durations:
+      #0: +5m32s431ms to 39 (screen-on, power-save-off, device-idle-off)
+      #1: +5m2s41ms to 40 (screen-on, power-save-off, device-idle-off)
+      #2: +5m32s317ms to 41 (screen-on, power-save-off, device-idle-off)
+      #3: +5m32s312ms to 42 (screen-on, power-save-off, device-idle-off)
+      #4: +4m31s834ms to 43 (screen-on, power-save-off, device-idle-off)
+      #5: +8m0s986ms to 44 (power-save-off, device-idle-off)
+      #6: +14m8s927ms to 45 (power-save-off, device-idle-off)
+      #7: +27m47s354ms to 46 (power-save-off, device-idle-off)
+      #8: +5m11s940ms to 47 (power-save-off, device-idle-off)
+      #9: +9m46s711ms to 48 (power-save-off, device-idle-off)
+      #10: +6m2s111ms to 49 (power-save-off, device-idle-off)
+      #11: +9m26s159ms to 50 (power-save-off, device-idle-off)
+      #12: +13m3s909ms to 51 (power-save-off, device-idle-off)
+      #13: +40m17s922ms to 52 (power-save-off, device-idle-off)
+      #14: +8m36s776ms to 53 (power-save-off, device-idle-off)
+      #15: +10m4s353ms to 54 (screen-on, power-save-off, device-idle-off)
+      #16: +11m10s520ms to 55 (power-save-off, device-idle-off)
+      #17: +14m45s608ms to 56 (power-save-off, device-idle-off)
+      #18: +18m21s237ms to 57 (power-save-off, device-idle-off)
+      #19: +9m10s382ms to 58 (power-save-off, device-idle-off)
+      #20: +10m49s965ms to 59 (power-save-off, device-idle-off)
+      #21: +10m41s771ms to 60 (power-save-off, device-idle-off)
+      #22: +7m27s255ms to 61 (power-save-off, device-idle-off)
+      #23: +5m41s157ms to 62 (power-save-off, device-idle-off)
+      #24: +7m2s21ms to 63 (power-save-off, device-idle-off)
+      #25: +4m57s576ms to 64 (power-save-off, device-idle-off)
+      #26: +4m46s337ms to 65 (power-save-off, device-idle-off)
+      #27: +6m25s504ms to 66 (power-save-off, device-idle-off)
+      #28: +4m31s709ms to 67 (power-save-off, device-idle-off)
+      #29: +5m1s668ms to 68 (power-save-off, device-idle-off)
+      #30: +10m21s863ms to 69 (power-save-off, device-idle-off)
+      #31: +6m17s851ms to 70 (power-save-off, device-idle-off)
+      #32: +5m38s386ms to 71 (power-save-off, device-idle-off)
+      #33: +6m40s229ms to 72 (power-save-off, device-idle-off)
+      #34: +12m25s248ms to 73 (power-save-off, device-idle-off)
+      #35: +5m32s66ms to 74 (power-save-off, device-idle-off)
+      #36: +11m35s624ms to 75 (power-save-off, device-idle-off)
+      #37: +20m37s163ms to 76 (power-save-off, device-idle-off)
+      #38: +15m21s816ms to 77 (power-save-off, device-idle-off)
+      #39: +4m31s840ms to 78 (power-save-off, device-idle-off)
+      #40: +20m3s423ms to 79 (power-save-off, device-idle-off)
+      #41: +15m50s314ms to 80 (power-save-off, device-idle-off)
+      #42: +8m2s999ms to 81 (power-save-off, device-idle-off)
+      #43: +11m49s392ms to 82 (power-save-off, device-idle-off)
+      #44: +11m34s745ms to 83 (power-save-off, device-idle-off)
+      #45: +8m33s389ms to 84 (power-save-off, device-idle-off)
+      #46: +19m38s395ms to 85 (power-save-off, device-idle-off)
+      #47: +12m5s94ms to 86 (power-save-off, device-idle-off)
+      #48: +12m35s195ms to 87 (power-save-off, device-idle-off)
+      #49: +10m4s139ms to 88 (power-save-off, device-idle-off)
+      #50: +4m31s783ms to 89 (power-save-off, device-idle-off)
+      #51: +11m4s675ms to 90 (power-save-off, device-idle-off)
+      #52: +14m5s889ms to 91 (power-save-off, device-idle-off)
+      #53: +6m40s398ms to 92 (power-save-off, device-idle-off)
+      #54: +12m30s194ms to 93 (power-save-off, device-idle-off)
+      #55: +7m18s383ms to 84 (power-save-off, device-idle-off)
+      #56: +9m26s125ms to 85 (power-save-off, device-idle-off)
+      #57: +7m1s502ms to 86 (power-save-off, device-idle-off)
+      #58: +6m32s526ms to 87 (power-save-off, device-idle-off)
+      #59: +8m10s315ms to 88 (power-save-off, device-idle-off)
+      #60: +6m32s568ms to 89 (power-save-off, device-idle-off)
+      #61: +7m2s771ms to 90 (screen-on, power-save-off, device-idle-off)
+      #62: +5m32s166ms to 91 (power-save-off, device-idle-off)
+      #63: +5m2s94ms to 92 (power-save-off, device-idle-off)
+      #64: +7m47s920ms to 87 (power-save-off, device-idle-off)
+      #65: +7m33s226ms to 88 (screen-off, power-save-off, device-idle-off)
+      #66: +7m3s89ms to 89 (power-save-off, device-idle-off)
+      #67: +16m25s729ms to 90 (power-save-off, device-idle-off)
+      #68: +10m4s702ms to 91 (power-save-off, device-idle-off)
+      #69: +29m43s303ms to 92 (power-save-off)
+      #70: +54m22s445ms to 93 (power-save-off, device-idle-off)
+        Discharge total time: 18h 9m 14s 600ms  (from 71 steps)
+        Discharge screen off time: 12h 35m 22s 600ms  (from 1 steps)
+        Discharge screen on time: 10h 18m 35s 100ms  (from 7 steps)
+    Charge step durations:
+      #0: +2m13s61ms to 95 (power-save-off, device-idle-off)
+      #1: +2m13s22ms to 94 (power-save-off, device-idle-off)
+      #2: +2m22s836ms to 93 (power-save-off, device-idle-off)
+      #3: +2m12s825ms to 92 (screen-on, power-save-off, device-idle-off)
+      #4: +2m23s105ms to 91 (screen-on, power-save-off, device-idle-off)
+      #5: +2m22s992ms to 90 (screen-on, power-save-off, device-idle-off)
+      #6: +4m8s18ms to 89 (screen-on, power-save-off, device-idle-off)
+      #7: +2m53s95ms to 88 (screen-on, power-save-off, device-idle-off)
+      #8: +3m3s337ms to 87 (screen-on, power-save-off, device-idle-off)
+      #9: +3m13s426ms to 86 (screen-on, power-save-off, device-idle-off)
+      #10: +2h56m18s325ms to 85 (screen-on, power-save-off, device-idle-off)
+      #11: +2m22s791ms to 95 (screen-on, power-save-off, device-idle-off)
+      #12: +2m22s621ms to 94 (screen-on, power-save-off, device-idle-off)
+      #13: +2m22s579ms to 93 (screen-on, power-save-off, device-idle-off)
+      #14: +2m12s654ms to 92 (screen-on, power-save-off, device-idle-off)
+      #15: +2m32s771ms to 91 (power-save-off, device-idle-off)
+      #16: +2m32s931ms to 90 (power-save-off, device-idle-off)
+      #17: +2m32s668ms to 89 (screen-on, power-save-off, device-idle-off)
+      #18: +10h2m19s112ms to 88 (screen-on, power-save-off, device-idle-off)
+      #19: +1m24s25ms to 95 (power-save-off, device-idle-off)
+      #20: +1m0s14ms to 94 (power-save-off, device-idle-off)
+      #21: +1m13s46ms to 93 (power-save-off, device-idle-off)
+      #22: +45s956ms to 92 (power-save-off, device-idle-off)
+      #23: +1m0s4ms to 91 (power-save-off, device-idle-off)
+      #24: +1m0s994ms to 90 (power-save-off, device-idle-off)
+      #25: +1m0s17ms to 89 (power-save-off, device-idle-off)
+      #26: +34s978ms to 88 (power-save-off, device-idle-off)
+      #27: +59s986ms to 87 (power-save-off, device-idle-off)
+      #28: +59s29ms to 86 (power-save-off, device-idle-off)
+      #29: +1m1s6ms to 85 (power-save-off, device-idle-off)
+      #30: +59s971ms to 84 (power-save-off, device-idle-off)
+      #31: +1m27s52ms to 83 (power-save-off, device-idle-off)
+      #32: +1m16s559ms to 82 (power-save-off, device-idle-off)
+      #33: +41s474ms to 81 (power-save-off, device-idle-off)
+      #34: +58s949ms to 80 (power-save-off, device-idle-off)
+      #35: +1m1s10ms to 79 (power-save-off, device-idle-off)
+      #36: +1m0s36ms to 78 (power-save-off, device-idle-off)
+      #37: +34s968ms to 77 (power-save-off, device-idle-off)
+      #38: +1m0s23ms to 76 (power-save-off, device-idle-off)
+      #39: +58s981ms to 75 (power-save-off, device-idle-off)
+      #40: +24s10ms to 74 (power-save-off, device-idle-off)
+      #41: +1m1s989ms to 73 (power-save-off, device-idle-off)
+      #42: +59s1ms to 72 (power-save-off, device-idle-off)
+      #43: +1m1s12ms to 71 (power-save-off, device-idle-off)
+      #44: +35s0ms to 70 (power-save-off, device-idle-off)
+      #45: +58s970ms to 69 (power-save-off, device-idle-off)
+      #46: +1m1s19ms to 68 (power-save-off, device-idle-off)
+      #47: +53s796ms to 67 (power-save-off, device-idle-off)
+      #48: +31s221ms to 66 (power-save-off, device-idle-off)
+      #49: +1m34s953ms to 65 (power-save-off, device-idle-off)
+        Charge total time: 1d 4h 25m 22s 400ms  (from 50 steps)
+        Charge screen on time: 4d 0h 31m 22s 400ms  (from 14 steps)
+    Package changes:
+      Update com.google.ar.core vers=262640293
+      Update com.google.ar.core vers=262640293
+      Update com.google.ar.core vers=262640293
+      Update com.google.ar.core vers=262640293
+      Update com.google.ar.core vers=262640293
+      Update com.biodino.edge vers=1
+      Update com.biodino.edge vers=1
+      Update com.biodino.edge vers=1
+      Update com.biodino.edge vers=1
+      Update com.biodino.edge vers=1
+      Update com.biodino.edge vers=1
+      Update com.nero.swiftlink.mirror vers=60021212
+      Update com.nero.swiftlink.mirror vers=60021212
+      Update com.nero.swiftlink.mirror vers=60021212
+      Update com.nero.swiftlink.mirror vers=60021212
+      Update com.nero.swiftlink.mirror vers=60021212
+  Daily from 2026-11-10-08-13-11 to 2026-11-11-01-00-26:
+    Discharge step durations:
+      #0: +42m35s172ms to 47 (power-save-off, device-idle-off)
+      #1: +16m13s169ms to 48 (power-save-off, device-idle-off)
+      #2: +32m11s114ms to 49 (power-save-off, device-idle-off)
+      #3: +15m38s95ms to 50 (power-save-off, device-idle-off)
+      #4: +4m1s563ms to 51 (screen-on, power-save-off, device-idle-off)
+      #5: +17m44s822ms to 23 (power-save-off, device-idle-off)
+      #6: +9m51s748ms to 24 (power-save-off, device-idle-off)
+      #7: +11m39s146ms to 25 (power-save-off, device-idle-off)
+      #8: +9m15s499ms to 26 (power-save-off, device-idle-off)
+      #9: +43s36ms to 27 (power-save-off, device-idle-off)
+      #10: +1m0s299ms to 28 (screen-on, power-save-off, device-idle-off)
+      #11: +30s175ms to 29 (screen-on, power-save-off, device-idle-off)
+      #12: +9m6s474ms to 30 (power-save-off, device-idle-off)
+      #13: +13m46s423ms to 31 (power-save-off, device-idle-off)
+      #14: +26m54s199ms to 32 (power-save-off, device-idle-off)
+      #15: +16m59s969ms to 33 (power-save-off, device-idle-off)
+      #16: +6m31s981ms to 34 (power-save-off, device-idle-off)
+      #17: +8m55s737ms to 35 (power-save-off, device-idle-off)
+      #18: +19m37s811ms to 36 (power-save-off, device-idle-off)
+      #19: +14m34s744ms to 37 (power-save-off, device-idle-off)
+      #20: +14m53s677ms to 38 (power-save-off, device-idle-off)
+      #21: +13m37s843ms to 39 (power-save-off, device-idle-off)
+      #22: +3m52s812ms to 40 (power-save-off, device-idle-off)
+      #23: +10m38s411ms to 41 (power-save-off, device-idle-off)
+      #24: +3m31s528ms to 42 (screen-on, power-save-off, device-idle-off)
+      #25: +8m11s180ms to 43 (power-save-off, device-idle-off)
+      #26: +10m42s584ms to 44 (power-save-off, device-idle-off)
+      #27: +5m54s705ms to 45 (power-save-off, device-idle-off)
+      #28: +26m36s860ms to 46 (power-save-off, device-idle-off)
+      #29: +11m7s658ms to 47 (power-save-off, device-idle-off)
+      #30: +18m50s16ms to 48 (power-save-off, device-idle-off)
+      #31: +22m0s258ms to 49 (power-save-off, device-idle-off)
+      #32: +14m20s728ms to 50 (power-save-off, device-idle-off)
+      #33: +8m35s252ms to 51 (power-save-off, device-idle-off)
+      #34: +33m41s426ms to 52 (power-save-off, device-idle-off)
+      #35: +18m58s819ms to 53 (power-save-off, device-idle-off)
+      #36: +8m20s467ms to 54 (power-save-off, device-idle-off)
+      #37: +3m31s431ms to 55 (power-save-off, device-idle-off)
+      #38: +9m42s421ms to 56 (power-save-off, device-idle-off)
+      #39: +6m53s722ms to 57 (power-save-off, device-idle-off)
+      #40: +6m2s397ms to 58 (screen-on, power-save-off, device-idle-off)
+      #41: +5m2s95ms to 59 (screen-on, power-save-off, device-idle-off)
+      #42: +3m1s130ms to 60 (screen-on, power-save-off, device-idle-off)
+      #43: +4m31s722ms to 61 (screen-on, power-save-off, device-idle-off)
+      #44: +6m32s688ms to 62 (power-save-off, device-idle-off)
+      #45: +8m47s439ms to 63 (power-save-off, device-idle-off)
+      #46: +16m59s456ms to 64 (power-save-off, device-idle-off)
+      #47: +3m38s627ms to 65 (power-save-off, device-idle-off)
+      #48: +13m28s149ms to 66 (power-save-off, device-idle-off)
+      #49: +6m54s908ms to 67 (power-save-off, device-idle-off)
+      #50: +5m32s142ms to 68 (screen-on, power-save-off, device-idle-off)
+      #51: +4m1s531ms to 69 (power-save-off, device-idle-off)
+      #52: +5m32s162ms to 70 (screen-on, power-save-off, device-idle-off)
+      #53: +15m13s497ms to 71 (power-save-off, device-idle-off)
+      #54: +5m2s72ms to 72 (power-save-off, device-idle-off)
+      #55: +9m3s889ms to 73 (power-save-off, device-idle-off)
+      #56: +8m3s107ms to 74 (power-save-off, device-idle-off)
+      #57: +4m1s654ms to 75 (power-save-off, device-idle-off)
+      #58: +5m2s65ms to 76 (power-save-off, device-idle-off)
+      #59: +12m35s269ms to 77 (power-save-off, device-idle-off)
+      #60: +9m3s601ms to 78 (power-save-off, device-idle-off)
+      #61: +6m32s681ms to 79 (power-save-off, device-idle-off)
+      #62: +10m34s375ms to 80 (power-save-off, device-idle-off)
+      #63: +8m30s608ms to 81 (power-save-off, device-idle-off)
+      #64: +7m13s730ms to 82 (power-save-off, device-idle-off)
+      #65: +6m32s989ms to 83 (power-save-off, device-idle-off)
+      #66: +5m41s37ms to 84 (power-save-off, device-idle-off)
+      #67: +8m16s483ms to 61 (power-save-off, device-idle-off)
+      #68: +6m32s734ms to 62 (screen-on, power-save-off, device-idle-off)
+      #69: +21m38s940ms to 63 (power-save-off, device-idle-off)
+      #70: +8m33s947ms to 64 (power-save-off, device-idle-off)
+      #71: +2m31s35ms to 65 (screen-on, power-save-off, device-idle-off)
+      #72: +26m11s440ms to 66 (power-save-off, device-idle-off)
+      #73: +5m31s717ms to 69 (screen-on, power-save-off, device-idle-off)
+      #74: +3m31s73ms to 70 (screen-on, power-save-off, device-idle-off)
+      #75: +2m30s769ms to 71 (screen-on, power-save-off, device-idle-off)
+      #76: +1m0s364ms to 72 (screen-on, power-save-off, device-idle-off)
+      #77: +51s299ms to 73 (power-save-off, device-idle-off)
+        Discharge total time: 17h 34m 13s 500ms  (from 78 steps)
+        Discharge screen on time: 6h 17m 23s 100ms  (from 16 steps)
+    Charge step durations:
+      #0: +1m21s648ms to 63 (screen-on, power-save-off, device-idle-off)
+      #1: +1m1s269ms to 62 (screen-on, power-save-off, device-idle-off)
+      #2: +50s967ms to 61 (screen-on, power-save-off, device-idle-off)
+      #3: +1m1s205ms to 60 (screen-on, power-save-off, device-idle-off)
+      #4: +51s125ms to 59 (screen-on, power-save-off, device-idle-off)
+      #5: +51s31ms to 58 (screen-on, power-save-off, device-idle-off)
+      #6: +1m1s257ms to 57 (screen-on, power-save-off, device-idle-off)
+      #7: +51s26ms to 56 (screen-on, power-save-off, device-idle-off)
+      #8: +1m1s196ms to 55 (screen-on, power-save-off, device-idle-off)
+      #9: +51s37ms to 54 (screen-on, power-save-off, device-idle-off)
+      #10: +1m1s183ms to 53 (screen-on, power-save-off, device-idle-off)
+      #11: +51s2ms to 52 (screen-on, power-save-off, device-idle-off)
+      #12: +1m1s214ms to 51 (screen-on, power-save-off, device-idle-off)
+      #13: +50s964ms to 50 (screen-on, power-save-off, device-idle-off)
+      #14: +1m1s163ms to 49 (screen-on, power-save-off, device-idle-off)
+      #15: +2h37m57s306ms to 48 (power-save-off, device-idle-off)
+      #16: +3m33s716ms to 53 (power-save-off, device-idle-off)
+      #17: +3m44s344ms to 52 (power-save-off, device-idle-off)
+      #18: +3m23s945ms to 51 (screen-on, power-save-off, device-idle-off)
+      #19: +3m24s36ms to 50 (screen-on, power-save-off, device-idle-off)
+      #20: +3m24s25ms to 49 (power-save-off, device-idle-off)
+      #21: +4m14s952ms to 48 (power-save-off, device-idle-off)
+      #22: +4m15s174ms to 47 (power-save-off, device-idle-off)
+      #23: +4m45s755ms to 46 (power-save-off, device-idle-off)
+      #24: +3m54s592ms to 45 (power-save-off, device-idle-off)
+      #25: +2m43s222ms to 44 (power-save-off, device-idle-off)
+      #26: +2m12s707ms to 43 (power-save-off, device-idle-off)
+      #27: +2m12s713ms to 42 (power-save-off, device-idle-off)
+      #28: +2m22s937ms to 41 (power-save-off, device-idle-off)
+      #29: +2m12s733ms to 40 (power-save-off, device-idle-off)
+      #30: +2m12s653ms to 39 (power-save-off, device-idle-off)
+      #31: +2m22s837ms to 38 (power-save-off, device-idle-off)
+      #32: +2m12s700ms to 37 (power-save-off, device-idle-off)
+      #33: +2m12s627ms to 36 (power-save-off, device-idle-off)
+      #34: +2m22s748ms to 35 (power-save-off, device-idle-off)
+      #35: +2m22s878ms to 34 (power-save-off, device-idle-off)
+      #36: +2m12s661ms to 33 (power-save-off, device-idle-off)
+      #37: +2m43s199ms to 32 (power-save-off, device-idle-off)
+      #38: +2m43s287ms to 31 (power-save-off, device-idle-off)
+      #39: +2m32s979ms to 30 (power-save-off, device-idle-off)
+      #40: +2m22s849ms to 29 (screen-off, power-save-off, device-idle-off)
+      #41: +2m22s864ms to 28 (power-save-off, device-idle-off)
+      #42: +2m12s600ms to 27 (power-save-off, device-idle-off)
+      #43: +2m22s891ms to 26 (power-save-off, device-idle-off)
+      #44: +2m38s366ms to 25 (power-save-off, device-idle-off)
+      #45: +10h29m40s777ms to 24 (screen-on, power-save-off, device-idle-off)
+      #46: +51s65ms to 86 (power-save-off, device-idle-off)
+      #47: +1m1s415ms to 85 (power-save-off, device-idle-off)
+      #48: +51s137ms to 84 (power-save-off, device-idle-off)
+      #49: +45s764ms to 83 (power-save-off, device-idle-off)
+      #50: +37s461ms to 82 (power-save-off, device-idle-off)
+      #51: +57s1ms to 81 (power-save-off, device-idle-off)
+      #52: +1m17s337ms to 80 (power-save-off, device-idle-off)
+      #53: +30s687ms to 79 (power-save-off, device-idle-off)
+      #54: +1m8s890ms to 78 (power-save-off, device-idle-off)
+      #55: +1m4s134ms to 77 (power-save-off, device-idle-off)
+      #56: +46s948ms to 76 (power-save-off, device-idle-off)
+      #57: +1m1s27ms to 75 (power-save-off, device-idle-off)
+      #58: +58s320ms to 74 (power-save-off, device-idle-off)
+      #59: +59s350ms to 73 (power-save-off, device-idle-off)
+      #60: +51s106ms to 72 (power-save-off, device-idle-off)
+      #61: +54s711ms to 71 (power-save-off, device-idle-off)
+      #62: +57s548ms to 70 (power-save-off, device-idle-off)
+      #63: +53s769ms to 69 (power-save-off, device-idle-off)
+      #64: +49s279ms to 68 (power-save-off, device-idle-off)
+      #65: +59s967ms to 67 (power-save-off, device-idle-off)
+      #66: +36s26ms to 66 (power-save-off, device-idle-off)
+      #67: +1m4s658ms to 65 (power-save-off, device-idle-off)
+      #68: +53s17ms to 64 (power-save-off, device-idle-off)
+      #69: +20s325ms to 63 (power-save-off, device-idle-off)
+        Charge total time: 21h 33m 47s 500ms  (from 70 steps)
+        Charge screen off time: 3h 58m 4s 900ms  (from 1 steps)
+        Charge screen on time: 2d 12h 16m 18s 0ms  (from 18 steps)
+    Package changes:
+      Update cab.snapp.passenger vers=307
+      Update cab.snapp.passenger vers=307
+      Update cab.snapp.passenger vers=307
+      Update cab.snapp.passenger vers=307
+      Update cab.snapp.passenger vers=307
+      Update cab.snapp.passenger vers=307
+  Daily from 2026-11-09-03-10-03 to 2026-11-10-01-28-12:
+    Discharge step durations:
+      #0: +10m24s280ms to 63 (power-save-off, device-idle-off)
+      #1: +11m59s444ms to 64 (power-save-off, device-idle-off)
+      #2: +6m2s329ms to 65 (power-save-off, device-idle-off)
+      #3: +8m22s108ms to 66 (power-save-off, device-idle-off)
+      #4: +17m5s32ms to 67 (power-save-off, device-idle-off)
+      #5: +9m41s486ms to 68 (power-save-off, device-idle-off)
+      #6: +3m31s291ms to 69 (screen-on, power-save-off, device-idle-off)
+      #7: +6m11s622ms to 70 (power-save-off, device-idle-off)
+      #8: +8m13s315ms to 71 (power-save-off, device-idle-off)
+      #9: +28m17s268ms to 72 (power-save-off, device-idle-off)
+      #10: +6m49s0ms to 73 (power-save-off, device-idle-off)
+      #11: +15m45s697ms to 74 (power-save-off, device-idle-off)
+      #12: +28m17s379ms to 75 (power-save-off, device-idle-off)
+      #13: +6m36s550ms to 76 (power-save-off, device-idle-off)
+      #14: +11m48s225ms to 77 (power-save-off, device-idle-off)
+      #15: +6m44s895ms to 78 (power-save-off, device-idle-off)
+      #16: +6m22s285ms to 79 (power-save-off, device-idle-off)
+      #17: +7m39s300ms to 80 (power-save-off, device-idle-off)
+      #18: +5m27s711ms to 81 (power-save-off, device-idle-off)
+      #19: +5m47s366ms to 82 (power-save-off, device-idle-off)
+      #20: +2m0s728ms to 83 (screen-on, power-save-off, device-idle-off)
+      #21: +4m24s535ms to 84 (power-save-off, device-idle-off)
+      #22: +2m0s706ms to 85 (screen-on, power-save-off, device-idle-off)
+      #23: +4m1s677ms to 86 (power-save-off, device-idle-off)
+      #24: +3m34s937ms to 87 (power-save-off, device-idle-off)
+      #25: +6m55s678ms to 88 (power-save-off, device-idle-off)
+      #26: +5m1s925ms to 89 (power-save-off, device-idle-off)
+      #27: +13m31s309ms to 90 (power-save-off, device-idle-off)
+      #28: +11m17s116ms to 91 (power-save-off, device-idle-off)
+      #29: +9m23s643ms to 92 (power-save-off, device-idle-off)
+      #30: +7m2s310ms to 82 (power-save-off, device-idle-off)
+      #31: +8m31s68ms to 83 (power-save-off, device-idle-off)
+      #32: +9m41s405ms to 84 (power-save-off, device-idle-off)
+      #33: +10m1s442ms to 85 (power-save-off, device-idle-off)
+      #34: +8m3s606ms to 86 (screen-on, power-save-off, device-idle-off)
+      #35: +6m57s846ms to 87 (power-save-off, device-idle-off)
+      #36: +7m33s228ms to 38 (screen-on, power-save-off, device-idle-off)
+      #37: +11m12s760ms to 39 (power-save-off, device-idle-off)
+      #38: +7m2s808ms to 40 (screen-on, power-save-off, device-idle-off)
+      #39: +6m2s395ms to 41 (screen-on, power-save-off, device-idle-off)
+      #40: +5m1s900ms to 42 (screen-on, power-save-off, device-idle-off)
+      #41: +10m0s55ms to 43 (power-save-off, device-idle-off)
+      #42: +28m41s696ms to 44 (power-save-off, device-idle-off)
+      #43: +8m3s207ms to 45 (screen-on, power-save-off, device-idle-off)
+      #44: +1h8m41s277ms to 46 (power-save-off, device-idle-off)
+      #45: +1h15m30s738ms to 47 (power-save-off)
+      #46: +1h31m23s643ms to 48 (screen-off, power-save-off, device-idle-on)
+      #47: +1h24m50s674ms to 49 (screen-off, power-save-off, device-idle-on)
+        Discharge total time: 1d 1h 16m 0s 100ms  (from 48 steps)
+        Discharge screen off time: 6d 2h 51m 55s 800ms  (from 2 steps)
+        Discharge screen off device idle time: 6d 2h 51m 55s 800ms  (from 2 steps)
+        Discharge screen on time: 9h 8m 7s 400ms  (from 9 steps)
+    Charge step durations:
+      #0: +2m12s879ms to 95 (power-save-off, device-idle-off)
+      #1: +2m12s832ms to 94 (power-save-off, device-idle-off)
+      #2: +2m12s859ms to 93 (power-save-off, device-idle-off)
+      #3: +2m12s773ms to 92 (power-save-off, device-idle-off)
+      #4: +2m12s676ms to 91 (power-save-off, device-idle-off)
+      #5: +2m12s855ms to 90 (power-save-off, device-idle-off)
+      #6: +2m12s879ms to 89 (power-save-off, device-idle-off)
+      #7: +2m2s547ms to 88 (power-save-off, device-idle-off)
+      #8: +2m12s823ms to 87 (power-save-off, device-idle-off)
+      #9: +2m12s744ms to 86 (power-save-off, device-idle-off)
+      #10: +2m12s700ms to 85 (power-save-off, device-idle-off)
+      #11: +2m33s145ms to 84 (power-save-off, device-idle-off)
+      #12: +2m22s944ms to 83 (power-save-off, device-idle-off)
+      #13: +2m12s683ms to 82 (power-save-off, device-idle-off)
+      #14: +2m32s983ms to 81 (power-save-off, device-idle-off)
+      #15: +2m2s509ms to 80 (power-save-off, device-idle-off)
+      #16: +2m12s622ms to 79 (power-save-off, device-idle-off)
+      #17: +8m16s846ms to 78 (screen-on, power-save-off, device-idle-off)
+      #18: +2m12s691ms to 78 (power-save-off, device-idle-off)
+      #19: +2m23s42ms to 77 (power-save-off, device-idle-off)
+      #20: +2m12s780ms to 76 (power-save-off, device-idle-off)
+      #21: +2m22s972ms to 75 (power-save-off, device-idle-off)
+      #22: +2m22s854ms to 74 (power-save-off, device-idle-off)
+      #23: +2m12s841ms to 73 (power-save-off, device-idle-off)
+      #24: +2m12s821ms to 72 (power-save-off, device-idle-off)
+      #25: +2m12s595ms to 71 (power-save-off, device-idle-off)
+      #26: +2m12s852ms to 70 (power-save-off, device-idle-off)
+      #27: +2m2s605ms to 69 (power-save-off, device-idle-off)
+      #28: +2m12s716ms to 68 (power-save-off, device-idle-off)
+      #29: +2m12s732ms to 67 (power-save-off, device-idle-off)
+      #30: +2m22s843ms to 66 (power-save-off, device-idle-off)
+      #31: +2m12s329ms to 65 (power-save-off, device-idle-off)
+      #32: +6h21m31s325ms to 64 (power-save-off, device-idle-off)
+      #33: +1h43m52s101ms to 95 (power-save-off, device-idle-off)
+      #34: +2m33s200ms to 95 (power-save-off, device-idle-off)
+      #35: +2m32s927ms to 94 (power-save-off, device-idle-off)
+      #36: +2m43s339ms to 93 (screen-on, power-save-off, device-idle-off)
+      #37: +2m22s955ms to 92 (screen-on, power-save-off, device-idle-off)
+      #38: +3m34s210ms to 91 (screen-on, power-save-off, device-idle-off)
+      #39: +4m34s803ms to 90 (screen-on, power-save-off, device-idle-off)
+      #40: +2m33s195ms to 89 (screen-on, power-save-off, device-idle-off)
+      #41: +2m53s720ms to 88 (screen-on, power-save-off, device-idle-off)
+      #42: +2m43s483ms to 87 (screen-on, power-save-off, device-idle-off)
+      #43: +3m3s922ms to 86 (screen-on, power-save-off, device-idle-off)
+      #44: +3m13s760ms to 85 (power-save-off, device-idle-off)
+      #45: +2m33s123ms to 84 (power-save-off, device-idle-off)
+      #46: +1h3m10s111ms to 83 (screen-on, power-save-off, device-idle-off)
+      #47: +2m23s173ms to 89 (screen-on, power-save-off, device-idle-off)
+      #48: +2m33s482ms to 88 (screen-on, power-save-off, device-idle-off)
+      #49: +2m33s492ms to 87 (screen-on, power-save-off, device-idle-off)
+      #50: +2m33s534ms to 86 (screen-on, power-save-off, device-idle-off)
+      #51: +2m43s305ms to 85 (screen-on, power-save-off, device-idle-off)
+      #52: +2m33s298ms to 84 (screen-on, power-save-off, device-idle-off)
+      #53: +3m3s521ms to 83 (power-save-off, device-idle-off)
+      #54: +2m12s638ms to 82 (power-save-off, device-idle-off)
+      #55: +2m22s938ms to 81 (power-save-off, device-idle-off)
+      #56: +2m22s808ms to 80 (screen-on, power-save-off, device-idle-off)
+      #57: +2m12s834ms to 79 (screen-on, power-save-off, device-idle-off)
+      #58: +2m12s793ms to 78 (screen-on, power-save-off, device-idle-off)
+      #59: +2m12s878ms to 77 (screen-on, power-save-off, device-idle-off)
+      #60: +2m23s71ms to 76 (screen-on, power-save-off, device-idle-off)
+      #61: +2m43s77ms to 75 (screen-on, power-save-off, device-idle-off)
+      #62: +2m43s51ms to 74 (power-save-off, device-idle-off)
+      #63: +2m22s998ms to 73 (power-save-off, device-idle-off)
+      #64: +2m12s838ms to 72 (screen-on, power-save-off, device-idle-off)
+      #65: +2m2s555ms to 71 (power-save-off, device-idle-off)
+      #66: +2m2s636ms to 70 (power-save-off, device-idle-off)
+      #67: +2m12s639ms to 69 (power-save-off, device-idle-off)
+      #68: +2m23s19ms to 68 (screen-on, power-save-off, device-idle-off)
+      #69: +2m2s660ms to 67 (screen-on, power-save-off, device-idle-off)
+      #70: +2m12s857ms to 66 (screen-on, power-save-off, device-idle-off)
+      #71: +2m12s723ms to 65 (power-save-off, device-idle-off)
+      #72: +2m2s690ms to 64 (power-save-off, device-idle-off)
+      #73: +2m2s640ms to 63 (power-save-off, device-idle-off)
+      #74: +2m2s647ms to 62 (power-save-off, device-idle-off)
+      #75: +2m2s697ms to 61 (power-save-off, device-idle-off)
+      #76: +2m12s847ms to 60 (power-save-off, device-idle-off)
+      #77: +2m2s707ms to 59 (power-save-off, device-idle-off)
+      #78: +2m2s610ms to 58 (power-save-off, device-idle-off)
+      #79: +2m12s848ms to 57 (power-save-off, device-idle-off)
+      #80: +2m2s654ms to 56 (power-save-off, device-idle-off)
+      #81: +2m2s666ms to 55 (power-save-off, device-idle-off)
+      #82: +2m2s612ms to 54 (power-save-off, device-idle-off)
+      #83: +2m12s739ms to 53 (power-save-off, device-idle-off)
+      #84: +2m2s623ms to 52 (power-save-off, device-idle-off)
+      #85: +2m2s505ms to 51 (power-save-off, device-idle-off)
+      #86: +2m12s731ms to 50 (power-save-off, device-idle-off)
+      #87: +2m2s669ms to 49 (screen-on, power-save-off, device-idle-off)
+      #88: +2m12s835ms to 48 (screen-on, power-save-off, device-idle-off)
+      #89: +2m2s567ms to 47 (screen-on, power-save-off, device-idle-off)
+      #90: +2m12s616ms to 46 (screen-on, power-save-off, device-idle-off)
+      #91: +2m2s462ms to 45 (power-save-off, device-idle-off)
+      #92: +1m52s361ms to 44 (power-save-off, device-idle-off)
+      #93: +2m2s495ms to 43 (power-save-off, device-idle-off)
+      #94: +1m52s391ms to 42 (power-save-off, device-idle-off)
+      #95: +2m2s509ms to 41 (power-save-off, device-idle-off)
+      #96: +2m12s664ms to 40 (power-save-off, device-idle-off)
+      #97: +2m12s487ms to 39 (power-save-off, device-idle-off)
+        Charge total time: 13h 11m 21s 800ms  (from 98 steps)
+        Charge screen on time: 7h 55m 54s 600ms  (from 30 steps)
+    Package changes:
+      Update com.android.vending vers=85392340
+      Update com.android.vending vers=85392340
+      Update com.android.vending vers=85392340
+      Update com.android.vending vers=85392340
+      Update com.linkedin.android vers=217800
+      Update com.linkedin.android vers=217800
+      Update com.linkedin.android vers=217800
+      Update com.linkedin.android vers=217800
+  Daily from 2026-11-08-01-06-24 to 2026-11-09-03-10-03:
+    Discharge step durations:
+      #0: +1h1m40s696ms to 51 (screen-off, power-save-off)
+      #1: +14m9s124ms to 52 (power-save-off, device-idle-off)
+      #2: +8m59s896ms to 53 (power-save-off, device-idle-off)
+      #3: +7m2s932ms to 54 (screen-on, power-save-off, device-idle-off)
+      #4: +6m26s604ms to 55 (power-save-off, device-idle-off)
+      #5: +7m2s923ms to 56 (screen-on, power-save-off, device-idle-off)
+      #6: +7m34s280ms to 57 (power-save-off, device-idle-off)
+      #7: +7m18s195ms to 58 (power-save-off, device-idle-off)
+      #8: +15m28s275ms to 59 (power-save-off, device-idle-off)
+      #9: +34m46s294ms to 60 (power-save-off, device-idle-off)
+      #10: +11m42s638ms to 61 (power-save-off, device-idle-off)
+      #11: +9m23s477ms to 62 (power-save-off, device-idle-off)
+      #12: +34m39s665ms to 63 (power-save-off, device-idle-off)
+      #13: +39m2s11ms to 64 (power-save-off, device-idle-off)
+      #14: +7m38s129ms to 65 (power-save-off, device-idle-off)
+      #15: +4m1s669ms to 66 (power-save-off, device-idle-off)
+      #16: +4m32s106ms to 67 (screen-off, power-save-off, device-idle-off)
+      #17: +4m32s75ms to 68 (screen-off, power-save-off, device-idle-off)
+      #18: +4m32s145ms to 69 (screen-off, power-save-off, device-idle-off)
+      #19: +5m2s260ms to 70 (power-save-off, device-idle-off)
+      #20: +5m32s655ms to 71 (screen-off, power-save-off, device-idle-off)
+      #21: +4m32s36ms to 72 (power-save-off, device-idle-off)
+      #22: +17m11s15ms to 73 (power-save-off, device-idle-off)
+      #23: +40m39s163ms to 74 (power-save-off, device-idle-off)
+      #24: +5m1s857ms to 75 (power-save-off, device-idle-off)
+      #25: +10m4s148ms to 76 (power-save-off, device-idle-off)
+      #26: +7m3s85ms to 77 (power-save-off, device-idle-off)
+      #27: +6m33s6ms to 78 (power-save-off, device-idle-off)
+      #28: +6m17s836ms to 79 (power-save-off, device-idle-off)
+      #29: +5m32s195ms to 80 (screen-on, power-save-off, device-idle-off)
+      #30: +7m35s8ms to 81 (power-save-off, device-idle-off)
+      #31: +43m24s21ms to 82 (power-save-off, device-idle-off)
+      #32: +17m59s418ms to 83 (power-save-off, device-idle-off)
+      #33: +17m15s561ms to 84 (power-save-off, device-idle-off)
+      #34: +6m5s224ms to 85 (power-save-off, device-idle-off)
+      #35: +27m2s199ms to 86 (power-save-off, device-idle-off)
+      #36: +15m50s997ms to 87 (power-save-off, device-idle-off)
+      #37: +23m44s211ms to 88 (power-save-off, device-idle-off)
+      #38: +6m32s625ms to 89 (screen-on, power-save-off, device-idle-off)
+      #39: +6m25s201ms to 90 (power-save-off, device-idle-off)
+      #40: +32m25s799ms to 91 (power-save-off, device-idle-off)
+      #41: +9m44s627ms to 92 (power-save-off, device-idle-off)
+      #42: +24m10s478ms to 72 (power-save-off, device-idle-off)
+      #43: +39m4s355ms to 73 (power-save-off, device-idle-off)
+      #44: +1h9m26s319ms to 74 (power-save-off)
+      #45: +2h8m57s431ms to 75 (screen-off, power-save-off, device-idle-on)
+      #46: +1h43m14s46ms to 76 (screen-off, power-save-off)
+      #47: +7m45s974ms to 77 (power-save-off, device-idle-off)
+      #48: +7m33s224ms to 78 (screen-on, power-save-off, device-idle-off)
+      #49: +7m2s832ms to 79 (screen-on, power-save-off, device-idle-off)
+      #50: +13m16s783ms to 80 (power-save-off, device-idle-off)
+      #51: +17m58s197ms to 81 (power-save-off, device-idle-off)
+      #52: +14m5s830ms to 82 (power-save-off, device-idle-off)
+        Discharge total time: 1d 9h 2m 28s 500ms  (from 53 steps)
+        Discharge screen off time: 3d 2h 31m 42s 200ms  (from 7 steps)
+        Discharge screen off device idle time: 8d 22h 55m 43s 100ms  (from 1 steps)
+        Discharge screen on time: 11h 19m 38s 800ms  (from 6 steps)
+    Charge step durations:
+      #0: +2m43s222ms to 95 (power-save-off, device-idle-off)
+      #1: +2m23s145ms to 94 (power-save-off, device-idle-off)
+      #2: +2m33s271ms to 93 (power-save-off, device-idle-off)
+      #3: +2m22s912ms to 92 (power-save-off, device-idle-off)
+      #4: +2m43s107ms to 91 (power-save-off, device-idle-off)
+      #5: +2m12s819ms to 90 (power-save-off, device-idle-off)
+      #6: +2m12s851ms to 89 (power-save-off, device-idle-off)
+      #7: +2m12s891ms to 88 (power-save-off, device-idle-off)
+      #8: +2m12s799ms to 87 (power-save-off, device-idle-off)
+      #9: +2m23s110ms to 86 (power-save-off, device-idle-off)
+      #10: +2m12s855ms to 85 (power-save-off, device-idle-off)
+      #11: +2m12s935ms to 84 (power-save-off, device-idle-off)
+      #12: +2m2s757ms to 83 (power-save-off, device-idle-off)
+      #13: +2m23s35ms to 82 (power-save-off, device-idle-off)
+      #14: +2m2s632ms to 81 (power-save-off, device-idle-off)
+      #15: +2m23s0ms to 80 (power-save-off, device-idle-off)
+      #16: +2m12s648ms to 79 (power-save-off, device-idle-off)
+      #17: +2m22s896ms to 78 (power-save-off, device-idle-off)
+      #18: +2m2s691ms to 77 (power-save-off, device-idle-off)
+      #19: +2m2s658ms to 76 (power-save-off, device-idle-off)
+      #20: +2m22s859ms to 75 (power-save-off, device-idle-off)
+      #21: +2m32s676ms to 74 (screen-on, power-save-off, device-idle-off)
+        Charge total time: 3h 51m 20s 700ms  (from 22 steps)
+        Charge screen on time: 4h 14m 27s 600ms  (from 1 steps)
+  Daily from 2026-11-07-01-03-21 to 2026-11-08-01-06-23:
+    Discharge step durations:
+      #0: +38m42s464ms to 84 (power-save-off, device-idle-off)
+      #1: +55m1s362ms to 85 (power-save-off, device-idle-off)
+      #2: +29m44s160ms to 86 (power-save-off, device-idle-off)
+      #3: +21m4s846ms to 87 (power-save-off, device-idle-off)
+      #4: +8m31s240ms to 88 (power-save-off, device-idle-off)
+      #5: +11m40s417ms to 89 (power-save-off, device-idle-off)
+      #6: +8m48s325ms to 90 (power-save-off, device-idle-off)
+      #7: +13m47s552ms to 91 (power-save-off, device-idle-off)
+      #8: +29m24s421ms to 92 (power-save-off, device-idle-off)
+      #9: +15m5s951ms to 49 (power-save-off, device-idle-off)
+      #10: +7m54s59ms to 50 (power-save-off, device-idle-off)
+      #11: +10m7s56ms to 51 (power-save-off, device-idle-off)
+      #12: +5m2s163ms to 52 (screen-on, power-save-off, device-idle-off)
+      #13: +5m25s242ms to 53 (power-save-off, device-idle-off)
+      #14: +13m32s758ms to 54 (power-save-off, device-idle-off)
+      #15: +10m2s371ms to 55 (power-save-off, device-idle-off)
+      #16: +8m14s432ms to 56 (power-save-off, device-idle-off)
+      #17: +8m9s806ms to 57 (power-save-off, device-idle-off)
+      #18: +16m12s561ms to 58 (power-save-off, device-idle-off)
+      #19: +22m24s799ms to 59 (power-save-off, device-idle-off)
+      #20: +17m46s936ms to 60 (power-save-off, device-idle-off)
+      #21: +7m26s750ms to 61 (power-save-off, device-idle-off)
+      #22: +13m18s531ms to 62 (power-save-off, device-idle-off)
+      #23: +21m6s74ms to 63 (power-save-off, device-idle-off)
+      #24: +23m0s4ms to 64 (power-save-off, device-idle-off)
+      #25: +9m20s130ms to 65 (power-save-off, device-idle-off)
+      #26: +12m0s184ms to 66 (power-save-off, device-idle-off)
+      #27: +5m32s298ms to 67 (power-save-off, device-idle-off)
+      #28: +11m30s134ms to 68 (power-save-off, device-idle-off)
+      #29: +12m21s731ms to 69 (power-save-off, device-idle-off)
+      #30: +6m2s368ms to 70 (screen-on, power-save-off, device-idle-off)
+      #31: +5m1s944ms to 71 (screen-on, power-save-off, device-idle-off)
+      #32: +7m53s226ms to 72 (power-save-off, device-idle-off)
+      #33: +9m41s743ms to 73 (power-save-off, device-idle-off)
+      #34: +9m49s123ms to 74 (power-save-off, device-idle-off)
+      #35: +8m48s409ms to 75 (power-save-off, device-idle-off)
+      #36: +10m9s168ms to 76 (screen-off, power-save-off, device-idle-off)
+      #37: +8m33s598ms to 77 (power-save-off, device-idle-off)
+      #38: +10m32s532ms to 78 (power-save-off, device-idle-off)
+      #39: +6m42s685ms to 79 (screen-off, power-save-off, device-idle-off)
+      #40: +6m13s529ms to 80 (power-save-off, device-idle-off)
+      #41: +41m53s307ms to 81 (power-save-off, device-idle-off)
+      #42: +1h17m20s839ms to 82 (power-save-off)
+      #43: +2h44m43s510ms to 83 (screen-off, power-save-off, device-idle-on)
+      #44: +1h37m15s624ms to 84 (power-save-off)
+      #45: +8m3s423ms to 85 (screen-on, power-save-off, device-idle-off)
+      #46: +6m32s681ms to 86 (screen-on, power-save-off, device-idle-off)
+      #47: +5m1s982ms to 87 (power-save-off, device-idle-off)
+      #48: +5m1s826ms to 88 (screen-on, power-save-off, device-idle-off)
+      #49: +5m8s403ms to 89 (power-save-off, device-idle-off)
+      #50: +9m54s422ms to 90 (power-save-off, device-idle-off)
+        Discharge total time: 1d 8h 6m 53s 900ms  (from 51 steps)
+        Discharge screen off time: 4d 4h 52m 58s 700ms  (from 3 steps)
+        Discharge screen off device idle time: 11d 10h 32m 31s 0ms  (from 1 steps)
+        Discharge screen on time: 9h 55m 40s 0ms  (from 6 steps)
+    Charge step durations:
+      #0: +1h15m54s711ms to 95 (power-save-off, device-idle-off)
+      #1: +2m43s361ms to 95 (screen-on, power-save-off, device-idle-off)
+      #2: +2m22s899ms to 95 (screen-on, power-save-off, device-idle-off)
+      #3: +3h3m49s210ms to 94 (screen-on, power-save-off, device-idle-off)
+      #4: +2m32s827ms to 95 (power-save-off, device-idle-off)
+      #5: +2m12s872ms to 94 (power-save-off, device-idle-off)
+      #6: +2m12s724ms to 93 (power-save-off, device-idle-off)
+      #7: +2m12s763ms to 92 (power-save-off, device-idle-off)
+      #8: +2m12s730ms to 91 (power-save-off, device-idle-off)
+      #9: +2m22s934ms to 90 (power-save-off, device-idle-off)
+      #10: +2m32s945ms to 89 (power-save-off, device-idle-off)
+      #11: +2m53s337ms to 88 (screen-on, power-save-off, device-idle-off)
+      #12: +2m43s38ms to 87 (screen-on, power-save-off, device-idle-off)
+      #13: +2m53s477ms to 86 (screen-on, power-save-off, device-idle-off)
+      #14: +2m53s378ms to 85 (screen-on, power-save-off, device-idle-off)
+      #15: +2m43s144ms to 84 (power-save-off, device-idle-off)
+      #16: +2m22s989ms to 83 (power-save-off, device-idle-off)
+      #17: +2m12s876ms to 82 (power-save-off, device-idle-off)
+      #18: +2m12s777ms to 81 (power-save-off, device-idle-off)
+      #19: +2m12s688ms to 80 (power-save-off, device-idle-off)
+      #20: +2m33s50ms to 79 (power-save-off, device-idle-off)
+      #21: +2m12s731ms to 78 (power-save-off, device-idle-off)
+      #22: +2m23s14ms to 77 (power-save-off, device-idle-off)
+      #23: +2m2s619ms to 76 (power-save-off, device-idle-off)
+      #24: +2m23s77ms to 75 (power-save-off, device-idle-off)
+      #25: +2m12s707ms to 74 (power-save-off, device-idle-off)
+      #26: +2m12s706ms to 73 (power-save-off, device-idle-off)
+      #27: +2m12s659ms to 72 (power-save-off, device-idle-off)
+      #28: +2m2s720ms to 71 (power-save-off, device-idle-off)
+      #29: +2m33s81ms to 70 (power-save-off, device-idle-off)
+      #30: +2m12s867ms to 69 (power-save-off, device-idle-off)
+      #31: +2m2s594ms to 68 (power-save-off, device-idle-off)
+      #32: +2m12s913ms to 67 (power-save-off, device-idle-off)
+      #33: +2m2s683ms to 66 (power-save-off, device-idle-off)
+      #34: +2m22s866ms to 65 (power-save-off, device-idle-off)
+      #35: +2m33s131ms to 64 (screen-on, power-save-off, device-idle-off)
+      #36: +2m13s58ms to 63 (screen-on, power-save-off, device-idle-off)
+      #37: +2m12s808ms to 62 (screen-on, power-save-off, device-idle-off)
+      #38: +2m23s204ms to 61 (screen-on, power-save-off, device-idle-off)
+      #39: +2m43s113ms to 60 (screen-on, power-save-off, device-idle-off)
+      #40: +2m22s710ms to 59 (screen-on, power-save-off, device-idle-off)
+      #41: +2m2s570ms to 58 (screen-on, power-save-off, device-idle-off)
+      #42: +2m22s724ms to 57 (screen-on, power-save-off, device-idle-off)
+      #43: +2m12s695ms to 56 (screen-on, power-save-off, device-idle-off)
+      #44: +2m12s872ms to 55 (screen-on, power-save-off, device-idle-off)
+      #45: +2m12s775ms to 54 (screen-on, power-save-off, device-idle-off)
+      #46: +2m43s582ms to 53 (screen-on, power-save-off, device-idle-off)
+      #47: +2m33s147ms to 52 (screen-on, power-save-off, device-idle-off)
+      #48: +2m22s735ms to 51 (screen-on, power-save-off, device-idle-off)
+        Charge total time: 12h 37m 31s 200ms  (from 49 steps)
+        Charge screen on time: 18h 31m 53s 400ms  (from 21 steps)
+  Daily from 2026-11-06-01-00-00 to 2026-11-07-01-03-21:
+    Discharge step durations:
+      #0: +14m32s577ms to 92 (power-save-off, device-idle-off)
+      #1: +3m1s302ms to 74 (power-save-off, device-idle-off)
+      #2: +5m2s124ms to 75 (power-save-off, device-idle-off)
+      #3: +5m38s100ms to 76 (power-save-off, device-idle-off)
+      #4: +4m31s469ms to 77 (power-save-off, device-idle-off)
+      #5: +2m30s969ms to 78 (power-save-off, device-idle-off)
+      #6: +3m31s347ms to 79 (power-save-off, device-idle-off)
+      #7: +3m43s943ms to 80 (power-save-off, device-idle-off)
+      #8: +4m1s727ms to 81 (power-save-off, device-idle-off)
+      #9: +2m0s819ms to 82 (power-save-off, device-idle-off)
+      #10: +1m30s522ms to 83 (power-save-off, device-idle-off)
+      #11: +2m0s817ms to 84 (power-save-off, device-idle-off)
+      #12: +4m1s747ms to 85 (power-save-off, device-idle-off)
+      #13: +5m2s93ms to 86 (power-save-off, device-idle-off)
+      #14: +3m31s497ms to 87 (power-save-off, device-idle-off)
+      #15: +3m31s319ms to 88 (screen-on, power-save-off, device-idle-off)
+      #16: +3m1s255ms to 89 (screen-on, power-save-off, device-idle-off)
+      #17: +6m21s278ms to 90 (power-save-off, device-idle-off)
+      #18: +15m27s222ms to 91 (power-save-off, device-idle-off)
+      #19: +4m9s301ms to 92 (power-save-off, device-idle-off)
+      #20: +4m31s723ms to 64 (screen-on, power-save-off, device-idle-off)
+      #21: +4m31s750ms to 65 (power-save-off, device-idle-off)
+      #22: +4m1s535ms to 66 (screen-on, power-save-off, device-idle-off)
+      #23: +3m31s397ms to 67 (screen-on, power-save-off, device-idle-off)
+      #24: +3m31s382ms to 68 (screen-on, power-save-off, device-idle-off)
+      #25: +3m1s31ms to 69 (power-save-off, device-idle-off)
+      #26: +5m32s88ms to 70 (power-save-off, device-idle-off)
+      #27: +5m1s953ms to 71 (screen-on, power-save-off, device-idle-off)
+      #28: +4m31s754ms to 72 (screen-on, power-save-off, device-idle-off)
+      #29: +4m31s701ms to 73 (screen-on, power-save-off, device-idle-off)
+      #30: +5m32s419ms to 74 (screen-on, power-save-off, device-idle-off)
+      #31: +5m32s335ms to 75 (screen-on, power-save-off, device-idle-off)
+      #32: +8m19s756ms to 76 (power-save-off, device-idle-off)
+      #33: +5m2s3ms to 77 (power-save-off, device-idle-off)
+      #34: +3m31s480ms to 78 (screen-on, power-save-off, device-idle-off)
+      #35: +5m2s5ms to 79 (power-save-off, device-idle-off)
+      #36: +7m2s886ms to 80 (power-save-off, device-idle-off)
+      #37: +5m32s198ms to 81 (power-save-off, device-idle-off)
+      #38: +4m31s697ms to 82 (screen-on, power-save-off, device-idle-off)
+      #39: +4m31s942ms to 83 (screen-on, power-save-off, device-idle-off)
+      #40: +4m31s770ms to 84 (screen-on, power-save-off, device-idle-off)
+      #41: +6m2s631ms to 85 (screen-on, power-save-off, device-idle-off)
+      #42: +5m2s227ms to 86 (screen-on, power-save-off, device-idle-off)
+      #43: +6m40s289ms to 87 (power-save-off, device-idle-off)
+      #44: +5m23s871ms to 88 (power-save-off, device-idle-off)
+      #45: +5m2s74ms to 89 (power-save-off, device-idle-off)
+      #46: +5m2s219ms to 90 (screen-on, power-save-off, device-idle-off)
+      #47: +7m3s194ms to 91 (screen-on, power-save-off, device-idle-off)
+      #48: +7m33s512ms to 92 (screen-on, power-save-off, device-idle-off)
+      #49: +8m17s346ms to 93 (power-save-off, device-idle-off)
+      #50: +8m42s537ms to 53 (power-save-off, device-idle-off)
+      #51: +7m44s820ms to 54 (power-save-off, device-idle-off)
+      #52: +5m32s220ms to 55 (power-save-off, device-idle-off)
+      #53: +7m47s197ms to 56 (power-save-off, device-idle-off)
+      #54: +7m10s31ms to 57 (power-save-off, device-idle-off)
+      #55: +7m44s33ms to 58 (power-save-off, device-idle-off)
+      #56: +5m12s736ms to 59 (power-save-off, device-idle-off)
+      #57: +12m55s250ms to 60 (power-save-off, device-idle-off)
+      #58: +8m33s491ms to 61 (screen-on, power-save-off, device-idle-off)
+      #59: +6m34s963ms to 62 (power-save-off, device-idle-off)
+      #60: +7m48s187ms to 63 (power-save-off, device-idle-off)
+      #61: +5m32s374ms to 64 (power-save-off, device-idle-off)
+      #62: +5m6s793ms to 65 (power-save-off, device-idle-off)
+      #63: +4m31s683ms to 66 (power-save-off, device-idle-off)
+      #64: +5m32s306ms to 67 (screen-on, power-save-off, device-idle-off)
+      #65: +4m1s553ms to 68 (power-save-off, device-idle-off)
+      #66: +7m2s368ms to 69 (power-save-off, device-idle-off)
+      #67: +6m2s470ms to 70 (power-save-off, device-idle-off)
+      #68: +4m31s855ms to 71 (screen-on, power-save-off, device-idle-off)
+      #69: +7m58s90ms to 72 (power-save-off, device-idle-off)
+      #70: +10m40s350ms to 73 (power-save-off, device-idle-off)
+      #71: +11m28s549ms to 74 (power-save-off, device-idle-off)
+      #72: +6m21s257ms to 75 (power-save-off, device-idle-off)
+      #73: +5m2s7ms to 76 (screen-on, power-save-off, device-idle-off)
+      #74: +23m29s502ms to 77 (power-save-off, device-idle-off)
+      #75: +24m9s616ms to 78 (power-save-off, device-idle-off)
+      #76: +44m4s430ms to 79 (power-save-off, device-idle-off)
+      #77: +28m21s31ms to 80 (power-save-off, device-idle-off)
+      #78: +8m33s600ms to 81 (screen-on, power-save-off, device-idle-off)
+      #79: +7m33s62ms to 82 (screen-on, power-save-off, device-idle-off)
+      #80: +25m25s592ms to 83 (power-save-off)
+      #81: +2h26m5s731ms to 84 (screen-off, power-save-off, device-idle-on)
+      #82: +1h56m41s264ms to 85 (power-save-off)
+      #83: +7m33s245ms to 86 (screen-on, power-save-off, device-idle-off)
+      #84: +8m3s456ms to 87 (screen-on, power-save-off, device-idle-off)
+      #85: +8m3s355ms to 88 (screen-on, power-save-off, device-idle-off)
+      #86: +7m33s369ms to 89 (screen-on, power-save-off, device-idle-off)
+      #87: +6m32s689ms to 90 (screen-on, power-save-off, device-idle-off)
+      #88: +7m32s916ms to 91 (screen-on, power-save-off, device-idle-off)
+      #89: +7m39s415ms to 92 (power-save-off, device-idle-off)
+        Discharge total time: 16h 42m 29s 900ms  (from 90 steps)
+        Discharge screen off time: 10d 3h 29m 33s 100ms  (from 1 steps)
+        Discharge screen off device idle time: 10d 3h 29m 33s 100ms  (from 1 steps)
+        Discharge screen on time: 9h 23m 16s 200ms  (from 32 steps)
+    Charge step durations:
+      #0: +2m22s941ms to 95 (screen-on, power-save-off, device-idle-off)
+      #1: +2m33s288ms to 94 (power-save-off, device-idle-off)
+      #2: +2m12s979ms to 93 (power-save-off, device-idle-off)
+      #3: +2m12s836ms to 92 (power-save-off, device-idle-off)
+      #4: +2m12s806ms to 91 (power-save-off, device-idle-off)
+      #5: +2m2s687ms to 90 (power-save-off, device-idle-off)
+      #6: +2m2s627ms to 89 (power-save-off, device-idle-off)
+      #7: +2m2s708ms to 88 (power-save-off, device-idle-off)
+      #8: +2m2s762ms to 87 (power-save-off, device-idle-off)
+      #9: +2m13s34ms to 86 (power-save-off, device-idle-off)
+      #10: +2m2s682ms to 85 (power-save-off, device-idle-off)
+      #11: +2m12s820ms to 84 (power-save-off, device-idle-off)
+      #12: +2m2s664ms to 83 (power-save-off, device-idle-off)
+      #13: +2m12s647ms to 82 (power-save-off, device-idle-off)
+      #14: +2m13s19ms to 81 (screen-on, power-save-off, device-idle-off)
+      #15: +2m12s915ms to 80 (screen-on, power-save-off, device-idle-off)
+      #16: +2m22s806ms to 79 (screen-on, power-save-off, device-idle-off)
+      #17: +2m12s670ms to 78 (screen-on, power-save-off, device-idle-off)
+      #18: +2m12s698ms to 77 (screen-on, power-save-off, device-idle-off)
+      #19: +2m12s604ms to 76 (screen-on, power-save-off, device-idle-off)
+      #20: +2h41m33s97ms to 75 (screen-on, power-save-off, device-idle-off)
+      #21: +2m22s952ms to 95 (power-save-off, device-idle-off)
+      #22: +2m12s801ms to 94 (power-save-off, device-idle-off)
+      #23: +2m23s18ms to 93 (power-save-off, device-idle-off)
+      #24: +2m33s94ms to 92 (power-save-off, device-idle-off)
+      #25: +2m12s703ms to 91 (power-save-off, device-idle-off)
+      #26: +2m12s829ms to 90 (power-save-off, device-idle-off)
+      #27: +2m22s768ms to 89 (power-save-off, device-idle-off)
+      #28: +2m12s693ms to 88 (power-save-off, device-idle-off)
+      #29: +2m22s531ms to 87 (power-save-off, device-idle-off)
+      #30: +2m2s528ms to 86 (power-save-off, device-idle-off)
+      #31: +2m53s423ms to 85 (power-save-off, device-idle-off)
+      #32: +2m23s151ms to 84 (power-save-off, device-idle-off)
+      #33: +2m23s260ms to 83 (power-save-off, device-idle-off)
+      #34: +2m23s128ms to 82 (power-save-off, device-idle-off)
+      #35: +2m13s41ms to 81 (power-save-off, device-idle-off)
+      #36: +2m23s224ms to 80 (power-save-off, device-idle-off)
+      #37: +2m12s950ms to 79 (power-save-off, device-idle-off)
+      #38: +2m23s230ms to 78 (power-save-off, device-idle-off)
+      #39: +2m13s90ms to 77 (power-save-off, device-idle-off)
+      #40: +2m23s130ms to 76 (power-save-off, device-idle-off)
+      #41: +2m13s40ms to 75 (power-save-off, device-idle-off)
+      #42: +2m22s954ms to 74 (power-save-off, device-idle-off)
+      #43: +2m33s158ms to 73 (power-save-off, device-idle-off)
+      #44: +2m23s53ms to 72 (screen-on, power-save-off, device-idle-off)
+      #45: +2m33s168ms to 71 (screen-on, power-save-off, device-idle-off)
+      #46: +2m52s965ms to 70 (screen-on, power-save-off, device-idle-off)
+      #47: +2m58s553ms to 69 (screen-on, power-save-off, device-idle-off)
+      #48: +2m37s770ms to 68 (screen-on, power-save-off, device-idle-off)
+      #49: +6m18s551ms to 67 (screen-on, power-save-off, device-idle-off)
+      #50: +2h47m9s498ms to 65 (power-save-off, device-idle-off)
+      #51: +50m33s821ms to 95 (screen-on, power-save-off, device-idle-off)
+      #52: +3m34s554ms to 95 (screen-on, power-save-off, device-idle-off)
+      #53: +3m24s472ms to 94 (screen-on, power-save-off, device-idle-off)
+      #54: +2m43s416ms to 93 (screen-on, power-save-off, device-idle-off)
+      #55: +2m33s182ms to 92 (screen-on, power-save-off, device-idle-off)
+      #56: +2m43s475ms to 91 (screen-on, power-save-off, device-idle-off)
+      #57: +2m43s338ms to 90 (screen-on, power-save-off, device-idle-off)
+      #58: +2m33s218ms to 89 (screen-on, power-save-off, device-idle-off)
+      #59: +2m33s113ms to 88 (power-save-off, device-idle-off)
+      #60: +2m33s233ms to 87 (power-save-off, device-idle-off)
+      #61: +2m23s97ms to 86 (power-save-off, device-idle-off)
+      #62: +2m23s88ms to 85 (power-save-off, device-idle-off)
+      #63: +2m12s806ms to 84 (power-save-off, device-idle-off)
+      #64: +2m22s976ms to 83 (power-save-off, device-idle-off)
+      #65: +2m12s929ms to 82 (power-save-off, device-idle-off)
+      #66: +2m33s184ms to 81 (power-save-off, device-idle-off)
+      #67: +2m22s941ms to 80 (power-save-off, device-idle-off)
+      #68: +2m12s858ms to 79 (power-save-off, device-idle-off)
+      #69: +2m23s29ms to 78 (power-save-off, device-idle-off)
+      #70: +2m33s73ms to 77 (power-save-off, device-idle-off)
+      #71: +2m12s846ms to 76 (power-save-off, device-idle-off)
+      #72: +2m23s85ms to 75 (power-save-off, device-idle-off)
+      #73: +2m23s20ms to 74 (power-save-off, device-idle-off)
+      #74: +2m23s143ms to 73 (power-save-off, device-idle-off)
+      #75: +2m12s688ms to 72 (power-save-off, device-idle-off)
+      #76: +2m23s109ms to 71 (power-save-off, device-idle-off)
+      #77: +2m12s924ms to 70 (power-save-off, device-idle-off)
+      #78: +2m23s137ms to 69 (power-save-off, device-idle-off)
+      #79: +2m12s775ms to 68 (power-save-off, device-idle-off)
+      #80: +2m33s175ms to 67 (power-save-off, device-idle-off)
+      #81: +2m33s86ms to 66 (power-save-off, device-idle-off)
+      #82: +2m22s946ms to 65 (power-save-off, device-idle-off)
+      #83: +2m33s155ms to 64 (power-save-off, device-idle-off)
+      #84: +2m53s473ms to 63 (power-save-off, device-idle-off)
+      #85: +2m43s282ms to 62 (power-save-off, device-idle-off)
+      #86: +2m33s0ms to 61 (power-save-off, device-idle-off)
+      #87: +2m2s569ms to 60 (power-save-off, device-idle-off)
+      #88: +2m12s762ms to 59 (power-save-off, device-idle-off)
+      #89: +2m12s453ms to 58 (power-save-off, device-idle-off)
+      #90: +2m2s630ms to 57 (screen-on, power-save-off, device-idle-off)
+      #91: +2m12s820ms to 56 (screen-on, power-save-off, device-idle-off)
+      #92: +2m21s867ms to 55 (screen-on, power-save-off, device-idle-off)
+      #93: +11h21m36s240ms to 54 (power-save-off, device-idle-off)
+      #94: +2m22s544ms to 95 (power-save-off, device-idle-off)
+      #95: +2m42s900ms to 94 (power-save-off, device-idle-off)
+      #96: +2m2s664ms to 93 (power-save-off, device-idle-off)
+      #97: +2m12s912ms to 92 (power-save-off, device-idle-off)
+      #98: +2m12s899ms to 91 (power-save-off, device-idle-off)
+      #99: +2m12s869ms to 90 (power-save-off, device-idle-off)
+      #100: +2m23s72ms to 89 (power-save-off, device-idle-off)
+      #101: +2m12s848ms to 88 (power-save-off, device-idle-off)
+      #102: +2m12s900ms to 87 (power-save-off, device-idle-off)
+      #103: +2m12s763ms to 86 (power-save-off, device-idle-off)
+      #104: +2m2s620ms to 85 (power-save-off, device-idle-off)
+      #105: +2m22s915ms to 84 (power-save-off, device-idle-off)
+      #106: +2m12s842ms to 83 (power-save-off, device-idle-off)
+      #107: +2m12s814ms to 82 (power-save-off, device-idle-off)
+      #108: +2m12s866ms to 81 (power-save-off, device-idle-off)
+        Charge total time: 20h 5m 2s 700ms  (from 109 steps)
+        Charge screen on time: 18h 18m 14s 400ms  (from 25 steps)
+    Package changes:
+      Update com.biodino.edge vers=1
+      Update com.biodino.edge vers=1
+      Update com.biodino.edge vers=1
+      Update com.google.android.safetycore vers=30070
+      Update com.google.android.safetycore vers=30070
+      Update com.google.android.safetycore vers=30070
+      Update com.google.android.safetycore vers=30070
+      Update network.loki.messenger vers=4565
+      Update network.loki.messenger vers=4565
+      Update network.loki.messenger vers=4565
+      Update network.loki.messenger vers=4565
+  Daily from 2026-11-05-03-42-01 to 2026-11-06-01-00-00:
+    Discharge step durations:
+      #0: +5m50s918ms to 40 (power-save-off, device-idle-off)
+      #1: +7m8s31ms to 41 (power-save-off, device-idle-off)
+      #2: +5m4s991ms to 42 (power-save-off, device-idle-off)
+      #3: +5m32s99ms to 43 (screen-on, power-save-off, device-idle-off)
+      #4: +4m46s470ms to 44 (power-save-off, device-idle-off)
+      #5: +6m15s968ms to 45 (power-save-off, device-idle-off)
+      #6: +6m2s388ms to 46 (screen-on, power-save-off, device-idle-off)
+      #7: +9m7s582ms to 47 (power-save-off, device-idle-off)
+      #8: +21m8s68ms to 48 (power-save-off, device-idle-off)
+      #9: +5m2s160ms to 49 (power-save-off, device-idle-off)
+      #10: +5m26s346ms to 50 (power-save-off, device-idle-off)
+      #11: +6m2s488ms to 51 (screen-on, power-save-off, device-idle-off)
+      #12: +5m2s119ms to 52 (screen-on, power-save-off, device-idle-off)
+      #13: +6m9s82ms to 53 (power-save-off, device-idle-off)
+      #14: +8m10s563ms to 54 (power-save-off, device-idle-off)
+      #15: +8m10s49ms to 55 (power-save-off, device-idle-off)
+      #16: +6m42s86ms to 56 (power-save-off, device-idle-off)
+      #17: +9m10s474ms to 57 (power-save-off, device-idle-off)
+      #18: +5m38s280ms to 58 (power-save-off, device-idle-off)
+      #19: +4m31s816ms to 59 (power-save-off, device-idle-off)
+      #20: +5m2s36ms to 60 (power-save-off, device-idle-off)
+      #21: +4m31s764ms to 61 (power-save-off, device-idle-off)
+      #22: +4m31s789ms to 62 (screen-on, power-save-off, device-idle-off)
+      #23: +5m2s105ms to 63 (screen-on, power-save-off, device-idle-off)
+      #24: +5m55s851ms to 64 (power-save-off, device-idle-off)
+      #25: +9m9s501ms to 65 (power-save-off, device-idle-off)
+      #26: +6m27s781ms to 66 (power-save-off, device-idle-off)
+      #27: +4m20s359ms to 67 (power-save-off, device-idle-off)
+      #28: +5m29s222ms to 68 (power-save-off, device-idle-off)
+      #29: +4m31s730ms to 69 (screen-on, power-save-off, device-idle-off)
+      #30: +7m10s348ms to 70 (power-save-off, device-idle-off)
+      #31: +9m32s854ms to 71 (power-save-off, device-idle-off)
+      #32: +8m15s575ms to 72 (screen-off, power-save-off, device-idle-off)
+      #33: +7m20s523ms to 73 (power-save-off, device-idle-off)
+      #34: +8m26s795ms to 62 (power-save-off, device-idle-off)
+      #35: +8m2s124ms to 63 (power-save-off, device-idle-off)
+      #36: +7m39s748ms to 64 (power-save-off, device-idle-off)
+      #37: +5m48s624ms to 65 (power-save-off, device-idle-off)
+      #38: +5m32s303ms to 66 (screen-on, power-save-off, device-idle-off)
+      #39: +6m2s494ms to 67 (screen-on, power-save-off, device-idle-off)
+      #40: +7m2s785ms to 68 (screen-on, power-save-off, device-idle-off)
+      #41: +8m8s228ms to 69 (power-save-off, device-idle-off)
+      #42: +8m27s57ms to 70 (power-save-off, device-idle-off)
+      #43: +6m2s455ms to 71 (screen-on, power-save-off, device-idle-off)
+      #44: +8m19s11ms to 72 (power-save-off, device-idle-off)
+      #45: +6m53s192ms to 73 (power-save-off, device-idle-off)
+      #46: +9m3s640ms to 74 (power-save-off, device-idle-off)
+      #47: +7m56s776ms to 75 (power-save-off, device-idle-off)
+      #48: +8m43s26ms to 76 (screen-off, power-save-off, device-idle-off)
+      #49: +6m53s899ms to 77 (power-save-off, device-idle-off)
+      #50: +6m42s861ms to 78 (screen-off, power-save-off, device-idle-off)
+      #51: +8m33s410ms to 80 (screen-on, power-save-off, device-idle-off)
+      #52: +8m3s209ms to 81 (screen-on, power-save-off, device-idle-off)
+      #53: +6m42s566ms to 82 (power-save-off, device-idle-off)
+      #54: +6m2s477ms to 83 (screen-on, power-save-off, device-idle-off)
+      #55: +6m32s572ms to 84 (power-save-off, device-idle-off)
+      #56: +8m3s172ms to 85 (screen-on, power-save-off, device-idle-off)
+      #57: +13m0s596ms to 86 (power-save-off, device-idle-off)
+      #58: +13m49s283ms to 87 (power-save-off, device-idle-off)
+      #59: +13m4s868ms to 88 (power-save-off, device-idle-off)
+      #60: +19m28s468ms to 89 (power-save-off, device-idle-off)
+      #61: +10m43s28ms to 90 (power-save-off, device-idle-off)
+      #62: +9m7s427ms to 91 (power-save-off, device-idle-off)
+      #63: +9m36s186ms to 92 (power-save-off, device-idle-off)
+      #64: +7m32s15ms to 72 (power-save-off, device-idle-off)
+      #65: +5m1s982ms to 73 (screen-on, power-save-off, device-idle-off)
+      #66: +8m33s885ms to 74 (screen-on, power-save-off, device-idle-off)
+      #67: +11m39s102ms to 75 (power-save-off, device-idle-off)
+      #68: +8m33s797ms to 76 (screen-on, power-save-off, device-idle-off)
+      #69: +8m3s689ms to 77 (screen-on, power-save-off, device-idle-off)
+      #70: +13m37s92ms to 78 (power-save-off, device-idle-off)
+      #71: +26m44s737ms to 79 (power-save-off, device-idle-off)
+      #72: +1h11m16s377ms to 80 (power-save-off, device-idle-off)
+      #73: +1h37m27s133ms to 81 (screen-off, power-save-off)
+      #74: +1h36m32s117ms to 82 (power-save-off, device-idle-on)
+        Discharge total time: 18h 42m 36s 800ms  (from 75 steps)
+        Discharge screen off time: 2d 2h 28m 34s 800ms  (from 4 steps)
+        Discharge screen on time: 10h 43m 53s 500ms  (from 19 steps)
+    Charge step durations:
+      #0: +2m12s894ms to 79 (power-save-off, device-idle-off)
+      #1: +2m22s936ms to 78 (power-save-off, device-idle-off)
+      #2: +2m12s853ms to 77 (power-save-off, device-idle-off)
+      #3: +2m23s83ms to 76 (power-save-off, device-idle-off)
+      #4: +2m12s770ms to 75 (power-save-off, device-idle-off)
+      #5: +2m22s953ms to 74 (power-save-off, device-idle-off)
+      #6: +2m12s722ms to 73 (power-save-off, device-idle-off)
+      #7: +2m12s974ms to 72 (power-save-off, device-idle-off)
+      #8: +2m12s895ms to 71 (power-save-off, device-idle-off)
+      #9: +2m12s856ms to 70 (power-save-off, device-idle-off)
+      #10: +2m12s872ms to 69 (power-save-off, device-idle-off)
+      #11: +2m2s660ms to 68 (power-save-off, device-idle-off)
+      #12: +2m12s884ms to 67 (power-save-off, device-idle-off)
+      #13: +2m12s802ms to 66 (power-save-off, device-idle-off)
+      #14: +2m12s740ms to 65 (screen-on, power-save-off, device-idle-off)
+      #15: +2m22s933ms to 64 (power-save-off, device-idle-off)
+      #16: +2m12s617ms to 63 (power-save-off, device-idle-off)
+      #17: +2m2s632ms to 62 (power-save-off, device-idle-off)
+      #18: +2m12s882ms to 61 (power-save-off, device-idle-off)
+      #19: +2m12s751ms to 60 (power-save-off, device-idle-off)
+      #20: +2m2s565ms to 59 (power-save-off, device-idle-off)
+      #21: +2m2s542ms to 58 (power-save-off, device-idle-off)
+      #22: +2m12s772ms to 57 (power-save-off, device-idle-off)
+      #23: +2m2s609ms to 56 (power-save-off, device-idle-off)
+      #24: +2m12s915ms to 55 (power-save-off, device-idle-off)
+      #25: +2m12s750ms to 54 (power-save-off, device-idle-off)
+      #26: +2m33s40ms to 53 (power-save-off, device-idle-off)
+      #27: +1m52s474ms to 52 (power-save-off, device-idle-off)
+      #28: +2m12s817ms to 51 (power-save-off, device-idle-off)
+      #29: +2m2s643ms to 50 (power-save-off, device-idle-off)
+      #30: +2m12s712ms to 49 (power-save-off, device-idle-off)
+      #31: +2m2s508ms to 48 (power-save-off, device-idle-off)
+      #32: +2m12s709ms to 47 (power-save-off, device-idle-off)
+      #33: +2m2s568ms to 46 (power-save-off, device-idle-off)
+      #34: +2m2s649ms to 45 (power-save-off, device-idle-off)
+      #35: +2m2s472ms to 44 (power-save-off, device-idle-off)
+      #36: +2m2s528ms to 43 (power-save-off, device-idle-off)
+      #37: +2m2s605ms to 42 (power-save-off, device-idle-off)
+      #38: +4h1m46s493ms to 41 (power-save-off, device-idle-off)
+      #39: +3m13s747ms to 75 (power-save-off, device-idle-off)
+      #40: +2m53s569ms to 74 (screen-on, power-save-off, device-idle-off)
+      #41: +3m3s720ms to 73 (screen-on, power-save-off, device-idle-off)
+      #42: +3m3s591ms to 72 (screen-on, power-save-off, device-idle-off)
+      #43: +3m3s724ms to 71 (screen-on, power-save-off, device-idle-off)
+      #44: +2m53s416ms to 70 (power-save-off, device-idle-off)
+      #45: +2m53s478ms to 69 (power-save-off, device-idle-off)
+      #46: +3m13s852ms to 68 (screen-on, power-save-off, device-idle-off)
+      #47: +4m15s133ms to 67 (screen-on, power-save-off, device-idle-off)
+      #48: +3m44s532ms to 66 (power-save-off, device-idle-off)
+      #49: +2m33s152ms to 65 (screen-on, power-save-off, device-idle-off)
+      #50: +2m33s103ms to 64 (screen-on, power-save-off, device-idle-off)
+      #51: +8h21m4s906ms to 63 (screen-on, power-save-off, device-idle-off)
+      #52: +2m12s893ms to 95 (power-save-off, device-idle-off)
+      #53: +2m23s178ms to 94 (power-save-off, device-idle-off)
+      #54: +2m12s879ms to 93 (power-save-off, device-idle-off)
+      #55: +2m43s218ms to 92 (power-save-off, device-idle-off)
+      #56: +2m12s816ms to 91 (power-save-off, device-idle-off)
+      #57: +2m22s935ms to 90 (power-save-off, device-idle-off)
+      #58: +2m23s77ms to 89 (power-save-off, device-idle-off)
+      #59: +2m12s957ms to 88 (power-save-off, device-idle-off)
+      #60: +2m22s980ms to 87 (power-save-off, device-idle-off)
+      #61: +2m12s722ms to 86 (power-save-off, device-idle-off)
+      #62: +2m53s423ms to 85 (power-save-off, device-idle-off)
+      #63: +3m13s583ms to 84 (power-save-off, device-idle-off)
+      #64: +2m22s828ms to 83 (power-save-off, device-idle-off)
+      #65: +2m12s927ms to 82 (screen-on, power-save-off, device-idle-off)
+      #66: +2m33s109ms to 81 (screen-on, power-save-off, device-idle-off)
+      #67: +2m33s205ms to 80 (screen-on, power-save-off, device-idle-off)
+      #68: +2m23s184ms to 79 (screen-on, power-save-off, device-idle-off)
+      #69: +2m23s78ms to 78 (screen-on, power-save-off, device-idle-off)
+      #70: +2m23s16ms to 77 (screen-on, power-save-off, device-idle-off)
+      #71: +2m23s98ms to 76 (screen-on, power-save-off, device-idle-off)
+      #72: +2m23s11ms to 75 (screen-on, power-save-off, device-idle-off)
+      #73: +2m23s105ms to 74 (screen-on, power-save-off, device-idle-off)
+        Charge total time: 20h 38m 28s 400ms  (from 74 steps)
+        Charge screen on time: 2d 0h 12m 33s 800ms  (from 19 steps)
+    Package changes:
+      Update com.google.android.as.oss vers=152997
+      Update com.google.android.as.oss vers=152997
+      Update com.google.android.as.oss vers=152997
+      Update com.google.android.as.oss vers=152997
+  Daily from 2026-11-04-03-57-52 to 2026-11-05-03-42-01:
+    Discharge step durations:
+      #0: +58m17s964ms to 84 (screen-off, power-save-off)
+      #1: +28m48s622ms to 85 (power-save-off, device-idle-off)
+      #2: +7m33s91ms to 86 (screen-on, power-save-off, device-idle-off)
+      #3: +8m33s623ms to 87 (screen-on, power-save-off, device-idle-off)
+      #4: +7m33s170ms to 88 (screen-on, power-save-off, device-idle-off)
+      #5: +8m33s661ms to 89 (screen-on, power-save-off, device-idle-off)
+      #6: +7m33s342ms to 90 (screen-on, power-save-off, device-idle-off)
+      #7: +7m33s150ms to 91 (screen-on, power-save-off, device-idle-off)
+      #8: +7m2s350ms to 92 (power-save-off, device-idle-off)
+      #9: +6m32s636ms to 80 (power-save-off, device-idle-off)
+      #10: +9m14s173ms to 81 (power-save-off, device-idle-off)
+      #11: +17m14s899ms to 82 (power-save-off, device-idle-off)
+      #12: +19m43s928ms to 83 (power-save-off, device-idle-off)
+      #13: +11m37s302ms to 84 (power-save-off, device-idle-off)
+      #14: +8m3s252ms to 85 (screen-on, power-save-off, device-idle-off)
+      #15: +7m3s15ms to 86 (screen-on, power-save-off, device-idle-off)
+      #16: +5m32s399ms to 87 (screen-on, power-save-off, device-idle-off)
+      #17: +7m2s616ms to 88 (screen-on, power-save-off, device-idle-off)
+      #18: +7m25s154ms to 89 (power-save-off, device-idle-off)
+      #19: +14m37s86ms to 90 (screen-on, power-save-off, device-idle-off)
+      #20: +10m34s516ms to 91 (screen-on, power-save-off, device-idle-off)
+      #21: +7m2s729ms to 92 (screen-on, power-save-off, device-idle-off)
+      #22: +7m3s38ms to 90 (screen-on, power-save-off, device-idle-off)
+      #23: +7m3s137ms to 91 (screen-on, power-save-off, device-idle-off)
+      #24: +7m3s255ms to 92 (screen-on, power-save-off, device-idle-off)
+      #25: +8m3s474ms to 88 (screen-on, power-save-off, device-idle-off)
+      #26: +6m35s370ms to 89 (power-save-off, device-idle-off)
+      #27: +8m3s274ms to 90 (screen-on, power-save-off, device-idle-off)
+      #28: +6m32s623ms to 91 (power-save-off, device-idle-off)
+      #29: +8m23s460ms to 92 (power-save-off, device-idle-off)
+      #30: +8m33s677ms to 65 (screen-on, power-save-off, device-idle-off)
+      #31: +7m33s212ms to 66 (screen-on, power-save-off, device-idle-off)
+      #32: +16m55s659ms to 67 (power-save-off, device-idle-off)
+      #33: +14m31s437ms to 68 (power-save-off, device-idle-off)
+      #34: +7m2s798ms to 69 (screen-on, power-save-off, device-idle-off)
+      #35: +6m32s546ms to 70 (screen-on, power-save-off, device-idle-off)
+      #36: +38m20s568ms to 71 (power-save-off)
+      #37: +1h14m5s401ms to 72 (power-save-off, device-idle-off)
+      #38: +1h7m19s98ms to 73 (power-save-off, device-idle-off)
+      #39: +7m2s861ms to 74 (screen-on, power-save-off, device-idle-off)
+      #40: +4m1s633ms to 75 (screen-on, power-save-off, device-idle-off)
+      #41: +5m1s963ms to 76 (screen-on, power-save-off, device-idle-off)
+        Discharge total time: 23h 22m 25s 600ms  (from 42 steps)
+        Discharge screen off time: 4d 1h 9m 56s 400ms  (from 1 steps)
+        Discharge screen on time: 12h 41m 22s 0ms  (from 25 steps)
+    Charge step durations:
+      #0: +2m33s158ms to 95 (power-save-off, device-idle-off)
+      #1: +2m32s946ms to 94 (power-save-off, device-idle-off)
+      #2: +2m12s866ms to 93 (power-save-off, device-idle-off)
+      #3: +2m2s684ms to 92 (power-save-off, device-idle-off)
+      #4: +2m22s934ms to 91 (power-save-off, device-idle-off)
+      #5: +2m2s585ms to 90 (power-save-off, device-idle-off)
+      #6: +2m12s968ms to 89 (power-save-off, device-idle-off)
+      #7: +2m12s928ms to 88 (power-save-off, device-idle-off)
+      #8: +2m12s961ms to 87 (power-save-off, device-idle-off)
+      #9: +2m13s11ms to 86 (power-save-off, device-idle-off)
+      #10: +2m2s807ms to 85 (power-save-off, device-idle-off)
+      #11: +2m12s719ms to 84 (power-save-off, device-idle-off)
+      #12: +10m18s239ms to 83 (power-save-off, device-idle-off)
+      #13: +2m33s11ms to 82 (power-save-off, device-idle-off)
+      #14: +4h43m39s504ms to 81 (screen-on, power-save-off, device-idle-off)
+      #15: +2m12s470ms to 95 (power-save-off, device-idle-off)
+      #16: +2m22s561ms to 94 (power-save-off, device-idle-off)
+      #17: +2m12s595ms to 93 (power-save-off, device-idle-off)
+      #18: +2m53s233ms to 92 (screen-on, power-save-off, device-idle-off)
+      #19: +1h36m35s835ms to 91 (screen-on, power-save-off, device-idle-off)
+      #20: +2m25s226ms to 95 (screen-on, power-save-off, device-idle-off)
+      #21: +3m47s217ms to 95 (screen-on, power-save-off, device-idle-off)
+      #22: +22m53s695ms to 95 (screen-on, power-save-off, device-idle-off)
+      #23: +2m12s815ms to 95 (screen-on, power-save-off, device-idle-off)
+      #24: +2m12s775ms to 94 (screen-on, power-save-off, device-idle-off)
+      #25: +2m2s469ms to 93 (screen-on, power-save-off, device-idle-off)
+      #26: +2m13s99ms to 92 (screen-on, power-save-off, device-idle-off)
+      #27: +2m12s974ms to 91 (screen-on, power-save-off, device-idle-off)
+      #28: +2m22s583ms to 90 (screen-on, power-save-off, device-idle-off)
+      #29: +3h0m17s978ms to 89 (screen-on, power-save-off, device-idle-off)
+      #30: +3m13s388ms to 95 (power-save-off, device-idle-off)
+      #31: +2m43s142ms to 94 (power-save-off, device-idle-off)
+      #32: +2m22s997ms to 93 (power-save-off, device-idle-off)
+      #33: +2m22s953ms to 92 (power-save-off, device-idle-off)
+      #34: +2m23s54ms to 91 (power-save-off, device-idle-off)
+      #35: +2m22s987ms to 90 (power-save-off, device-idle-off)
+      #36: +2m23s67ms to 89 (power-save-off, device-idle-off)
+      #37: +2m12s830ms to 88 (power-save-off, device-idle-off)
+      #38: +2m23s28ms to 87 (power-save-off, device-idle-off)
+      #39: +3m3s430ms to 86 (power-save-off, device-idle-off)
+      #40: +2m43s415ms to 85 (screen-on, power-save-off, device-idle-off)
+      #41: +2m33s171ms to 84 (screen-on, power-save-off, device-idle-off)
+      #42: +2m43s543ms to 83 (screen-on, power-save-off, device-idle-off)
+      #43: +2m33s268ms to 82 (screen-on, power-save-off, device-idle-off)
+      #44: +2m33s288ms to 81 (screen-on, power-save-off, device-idle-off)
+      #45: +2m43s640ms to 80 (screen-on, power-save-off, device-idle-off)
+      #46: +2m43s553ms to 79 (screen-on, power-save-off, device-idle-off)
+      #47: +2m33s380ms to 78 (screen-on, power-save-off, device-idle-off)
+      #48: +2m33s251ms to 77 (screen-on, power-save-off, device-idle-off)
+      #49: +2m43s545ms to 76 (screen-on, power-save-off, device-idle-off)
+      #50: +2m43s161ms to 75 (screen-on, power-save-off, device-idle-off)
+      #51: +2m53s590ms to 74 (screen-on, power-save-off, device-idle-off)
+      #52: +2m33s538ms to 73 (screen-on, power-save-off, device-idle-off)
+      #53: +2m33s123ms to 72 (screen-on, power-save-off, device-idle-off)
+      #54: +2m22s984ms to 71 (screen-on, power-save-off, device-idle-off)
+      #55: +2m23s36ms to 70 (screen-on, power-save-off, device-idle-off)
+      #56: +2m23s23ms to 69 (screen-on, power-save-off, device-idle-off)
+      #57: +2m23s191ms to 68 (screen-on, power-save-off, device-idle-off)
+      #58: +2m22s973ms to 67 (screen-on, power-save-off, device-idle-off)
+      #59: +2m33s18ms to 66 (screen-on, power-save-off, device-idle-off)
+      #60: +3m55s928ms to 65 (screen-on, power-save-off, device-idle-off)
+        Charge total time: 20h 2m 19s 900ms  (from 61 steps)
+        Charge screen on time: 1d 8h 25m 8s 800ms  (from 34 steps)
+    Package changes:
+      Update com.fotopix.businessCardMaker vers=22
+      Update com.fotopix.businessCardMaker vers=22
+      Update com.fotopix.businessCardMaker vers=22
+      Update ir.kateb.app.kateb vers=93
+      Update ir.kateb.app.kateb vers=93
+      Update ir.kateb.app.kateb vers=93
+      Update com.fotopix.businessCardMaker vers=0
+      Update com.fotopix.businessCardMaker vers=0
+  Daily from 2026-11-03-01-00-00 to 2026-11-04-03-57-52:
+    Discharge step durations:
+      #0: +2h1m14s221ms to 78 (screen-off, power-save-off, device-idle-on)
+      #1: +1h19m49s724ms to 79 (power-save-off)
+      #2: +5m32s289ms to 80 (screen-on, power-save-off, device-idle-off)
+      #3: +10m34s490ms to 81 (power-save-off, device-idle-off)
+      #4: +5m32s320ms to 82 (screen-on, power-save-off, device-idle-off)
+      #5: +7m30s966ms to 83 (power-save-off, device-idle-off)
+      #6: +17m35s626ms to 84 (power-save-off, device-idle-off)
+      #7: +8m24s786ms to 85 (power-save-off, device-idle-off)
+      #8: +8m32s63ms to 86 (power-save-off, device-idle-off)
+      #9: +35m39s966ms to 87 (power-save-off, device-idle-off)
+      #10: +38m53s216ms to 88 (power-save-off, device-idle-off)
+      #11: +16m38s882ms to 89 (power-save-off, device-idle-off)
+      #12: +5m32s170ms to 90 (screen-on, power-save-off, device-idle-off)
+      #13: +4m1s466ms to 91 (screen-on, power-save-off, device-idle-off)
+      #14: +7m52s969ms to 92 (power-save-off, device-idle-off)
+      #15: +13m9s748ms to 92 (power-save-off, device-idle-off)
+      #16: +29m9s702ms to 91 (power-save-off, device-idle-off)
+      #17: +15m31s869ms to 92 (power-save-off, device-idle-off)
+      #18: +17m29s974ms to 93 (power-save-off, device-idle-off)
+      #19: +8m24s909ms to 71 (power-save-off, device-idle-off)
+      #20: +8m24s900ms to 72 (power-save-off, device-idle-off)
+      #21: +5m1s893ms to 73 (power-save-off, device-idle-off)
+      #22: +5m1s817ms to 74 (power-save-off, device-idle-off)
+      #23: +5m30s273ms to 75 (power-save-off, device-idle-off)
+      #24: +5m1s916ms to 76 (power-save-off, device-idle-off)
+      #25: +10m43s850ms to 77 (power-save-off, device-idle-off)
+      #26: +12m31s472ms to 78 (power-save-off, device-idle-off)
+      #27: +11m35s730ms to 79 (power-save-off, device-idle-off)
+      #28: +9m14s78ms to 80 (power-save-off, device-idle-off)
+      #29: +13m34s954ms to 81 (screen-off, power-save-off, device-idle-off)
+      #30: +11m1s450ms to 82 (power-save-off, device-idle-off)
+      #31: +11m6s632ms to 83 (power-save-off, device-idle-off)
+      #32: +5m32s165ms to 84 (power-save-off, device-idle-off)
+      #33: +6m32s566ms to 85 (power-save-off, device-idle-off)
+      #34: +10m51s255ms to 86 (power-save-off, device-idle-off)
+      #35: +17m6s702ms to 87 (power-save-off, device-idle-off)
+      #36: +6m30s947ms to 88 (power-save-off, device-idle-off)
+      #37: +8m11s365ms to 89 (power-save-off, device-idle-off)
+      #38: +8m33s454ms to 90 (screen-on, power-save-off, device-idle-off)
+      #39: +17m24s823ms to 91 (power-save-off, device-idle-off)
+      #40: +9m1s750ms to 92 (power-save-off, device-idle-off)
+      #41: +7m2s614ms to 93 (screen-on, power-save-off, device-idle-off)
+        Discharge total time: 1d 2h 18m 5s 600ms  (from 42 steps)
+        Discharge screen off time: 4d 16h 20m 58s 700ms  (from 2 steps)
+        Discharge screen off device idle time: 8d 10h 3m 42s 100ms  (from 1 steps)
+        Discharge screen on time: 10h 3m 58s 500ms  (from 6 steps)
+    Charge step durations:
+      #0: +2m12s761ms to 95 (screen-on, power-save-off, device-idle-off)
+      #1: +2m22s717ms to 94 (screen-on, power-save-off, device-idle-off)
+      #2: +50m22s99ms to 93 (power-save-off, device-idle-off)
+      #3: +2m2s682ms to 95 (screen-on, power-save-off, device-idle-off)
+      #4: +2h10m35s7ms to 94 (power-save-off, device-idle-off)
+      #5: +1h46m31s250ms to 95 (screen-on, power-save-off, device-idle-off)
+      #6: +2m33s83ms to 95 (power-save-off, device-idle-off)
+      #7: +2m34s367ms to 94 (screen-on, power-save-off, device-idle-off)
+      #8: +2m22s294ms to 93 (screen-on, power-save-off, device-idle-off)
+      #9: +1h43m13s655ms to 92 (screen-on, power-save-off, device-idle-off)
+      #10: +2m33s106ms to 95 (power-save-off, device-idle-off)
+      #11: +2m2s697ms to 94 (power-save-off, device-idle-off)
+      #12: +2m2s761ms to 93 (power-save-off, device-idle-off)
+      #13: +2m23s158ms to 92 (power-save-off, device-idle-off)
+      #14: +2m2s580ms to 91 (power-save-off, device-idle-off)
+      #15: +2m12s848ms to 90 (power-save-off, device-idle-off)
+      #16: +2m2s743ms to 89 (power-save-off, device-idle-off)
+      #17: +2m2s741ms to 88 (power-save-off, device-idle-off)
+      #18: +2m12s924ms to 87 (power-save-off, device-idle-off)
+      #19: +2m22s820ms to 86 (power-save-off, device-idle-off)
+      #20: +2m2s767ms to 85 (power-save-off, device-idle-off)
+      #21: +2m2s700ms to 84 (power-save-off, device-idle-off)
+      #22: +2m13s2ms to 83 (power-save-off, device-idle-off)
+      #23: +2m2s575ms to 82 (power-save-off, device-idle-off)
+      #24: +2m12s891ms to 81 (power-save-off, device-idle-off)
+      #25: +2m12s763ms to 80 (power-save-off, device-idle-off)
+      #26: +2m12s889ms to 79 (power-save-off, device-idle-off)
+      #27: +2m2s667ms to 78 (power-save-off, device-idle-off)
+      #28: +2m2s639ms to 77 (power-save-off, device-idle-off)
+      #29: +2m12s896ms to 76 (power-save-off, device-idle-off)
+      #30: +2m2s712ms to 75 (power-save-off, device-idle-off)
+      #31: +2m2s621ms to 74 (power-save-off, device-idle-off)
+      #32: +2m22s695ms to 73 (power-save-off, device-idle-off)
+        Charge total time: 22h 57m 28s 800ms  (from 33 steps)
+        Charge screen on time: 2d 4h 41m 50s 300ms  (from 7 steps)
+    Package changes:
+      Update com.android.vending vers=85381140
+      Update com.android.vending vers=85381140
+      Update com.android.vending vers=85381140
+      Update com.android.vending vers=85381140
+      Update com.google.android.aicore vers=527015
+      Update com.google.android.aicore vers=527015
+      Update com.google.android.aicore vers=527015
+      Update com.google.android.aicore vers=527015
+      Update org.outline.android.client vers=498232
+      Update org.outline.android.client vers=498232
+      Update org.outline.android.client vers=498232
+      Update org.outline.android.client vers=498232
+
+Feature status:
+  Can read 'charging remaining time': true
+  Can trust power_profile: true
+
+Statistics since last charge:
+  System starts: 0, currently on battery: false
+  Estimated battery capacity: 4700 mAh
+  Last learned battery capacity: 4700 mAh
+  Min learned battery capacity: 4700 mAh
+  Max learned battery capacity: 4700 mAh
+  Time on battery: 0ms (0.0%) realtime, 0ms (--%) uptime
+  Time on battery screen off: 0ms (--%) realtime, 0ms (--%) uptime
+  Time on battery screen doze: 0ms (--%)
+  Total run time: 12m 56s 628ms realtime, 12m 56s 628ms uptime
+  Charge time remaining: 0ms 
+  Discharge: 0 mAh
+  Screen off discharge: 0 mAh
+  Screen doze discharge: 0 mAh
+  Screen on discharge: 0 mAh
+  Device light doze discharge: 0 mAh
+  Device deep doze discharge: 0 mAh
+  Start clock time: 2026-11-14-00-30-07
+  Screen on: 0ms (--%) 0x, Interactive: 0ms (--%)
+  Screen brightnesses: (no activity)
+  Screen refresh rate: (disabled)
+
+  Mobile info
+     Weak signal time: 0ms 
+     Mobile active time: 0ms 
+     Mobile active 5G time: 0ms 
+     Silent log on screen on time: 0ms 
+     Silent log on screen off time: 0ms 
+
+  CONNECTIVITY POWER SUMMARY START
+  Logging duration for connectivity statistics: 0ms 
+  Cellular Statistics:
+     Cellular kernel active time: 0ms (--%)
+     Cellular Sleep time:  0ms (--%)
+     Cellular Idle time:   0ms (--%)
+     Cellular Rx time:     0ms (--%)
+     Cellular Tx time:     
+       less than 0dBm:  0ms (--%)
+       0dBm to 8dBm:  0ms (--%)
+       8dBm to 15dBm:  0ms (--%)
+       15dBm to 20dBm:  0ms (--%)
+       above 20dBm:  0ms (--%)
+     Active Cellular Radio Access Technology Breakdown:
+       (no activity)
+     Cellular data received: 0B
+     Cellular data sent: 0B
+     Cellular packets received: 0
+     Cellular packets sent: 0
+     Cellular Radio Access Technology: (no activity)
+     Cellular Rx signal strength (RSRP): (no activity)
+  Wifi Statistics:
+     Wifi kernel active time: 0ms (--%)
+     WiFi Scan time:  0ms (--%)
+     WiFi Sleep time:  0ms (--%)
+     WiFi Idle time:   0ms (--%)
+     WiFi Rx time:     0ms (--%)
+     WiFi Tx time:     0ms (--%)
+     Wifi data received: 0B
+     Wifi data sent: 0B
+     Wifi packets received: 0
+     Wifi packets sent: 0
+     Wifi states: (no activity)
+     Wifi supplicant states: (no activity)
+     Wifi Rx signal strength (RSSI): (no activity)
+  GPS Statistics:
+     GPS signal quality (Top 4 Average CN0):
+      poor (less than 20 dBHz): 0ms (--%) 
+      good (greater than 20 dBHz): 0ms (--%) 
+  CONNECTIVITY POWER SUMMARY END
+
+  Bluetooth total received: 0B, sent: 0B
+  Bluetooth scan time: 0ms 
+     Bluetooth Idle time:   0ms (--%)
+     Bluetooth Rx time:     0ms (--%)
+     Bluetooth Tx time:     0ms (--%)
+
+  Speaker Statistics: (no activity)
+
+  Device battery use since last full charge
+    Amount discharged (lower bound): 0
+    Amount discharged (upper bound): 0
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+    Amount discharged while screen doze: 0
+    Amount discharged permil while screen on: 0
+    Amount discharged permil while screen off: 0
+    Amount discharged permil while screen doze: 0
+
+  PowerStatsStoreSize: 98KB, BatteryStatsFileSize: 144KB, BatteryStatsCheckinFileSize: 4756KB, BatteryStatsDailyFileSize: 31KB
+  Estimated power use (mAh):
+    Capacity: 4700, Rated: 4565, Typical: 4700, Computed drain: 0, actual drain: 0
+    Global
+    cpu: 120 apps: 120 duration: 12m 56s 572ms 
+    audio: 0.0194 apps: 0.0194 duration: 3s 33ms 
+    mobile_radio: 38.0 apps: 37.3
+    sensors: 0.0000480 apps: 0.0000480
+      (on battery, screen on)
+      cpu: 120 apps: 120 duration: 12m 56s 572ms 
+      audio: 0.0194 apps: 0.0194 duration: 3s 33ms 
+      mobile_radio: 38.0 apps: 37.3
+      sensors: 0.0000480 apps: 0.0000480
+  UID u0a404: 113 fg: 113 (12m 56s 270ms) bg: 0.0247 cached: 0.00556 (37ms)
+      cpu=113 cpu:fg=113 cpu:bg=0.0247 cpu:cached=0.00556
+      (on battery, screen on) cpu=113 cpu:fg=113 cpu:bg=0.0247 cpu:cached=0.00556
+  UID -5: 35.6 bg: 35.6
+      mobile_radio=35.6 mobile_radio:bg=35.6
+      (on battery, screen on) mobile_radio=35.6 mobile_radio:bg=35.6
+  UID 1000: 1.93 bg: 1.93
+      cpu=1.93 cpu:bg=1.93 sensors=0.0000480 sensors:bg=0.0000480
+      (on battery, screen on) cpu=1.93 cpu:bg=1.93 sensors=0.0000480 sensors:bg=0.0000480
+  UID 0: 1.58 bg: 1.58
+      cpu=1.56 cpu:bg=1.56 mobile_radio=0.0175 mobile_radio:bg=0.0175
+      (on battery, screen on) cpu=1.56 cpu:bg=1.56 mobile_radio=0.0175 mobile_radio:bg=0.0175
+  UID 1036: 0.810 bg: 0.810
+      cpu=0.810 cpu:bg=0.810
+      (on battery, screen on) cpu=0.810 cpu:bg=0.810
+  UID 1052: 0.639 bg: 0.639
+      cpu=0.00437 cpu:bg=0.00437 mobile_radio=0.634 mobile_radio:bg=0.634
+      (on battery, screen on) cpu=0.00437 cpu:bg=0.00437 mobile_radio=0.634 mobile_radio:bg=0.634
+  UID 2000: 0.599 bg: 0.599
+      cpu=0.599 cpu:bg=0.599
+      (on battery, screen on) cpu=0.599 cpu:bg=0.599
+  UID u0a55: 0.437 bg: 0.437
+      cpu=0.430 cpu:bg=0.430 audio=0.00738 (1s 155ms) audio:bg=0.00738 (1s 155ms)
+      (on battery, screen on) cpu=0.430 cpu:bg=0.430 audio=0.00738 (1s 155ms) audio:bg=0.00738 (1s 155ms)
+  UID u0a81: 0.411 bg: 0.411
+      cpu=0.0163 cpu:bg=0.0163 mobile_radio=0.395 mobile_radio:bg=0.395
+      (on battery, screen on) cpu=0.0163 cpu:bg=0.0163 mobile_radio=0.395 mobile_radio:bg=0.395
+  UID u0a438: 0.409 bg: 0.0139 (165ms) cached: 0.395 (11m 47s 826ms)
+      cpu=0.0203 cpu:bg=0.00487 cpu:cached=0.0154 mobile_radio=0.389 mobile_radio:bg=0.00906 mobile_radio:cached=0.380
+      (on battery, screen on) cpu=0.0203 cpu:bg=0.00487 cpu:cached=0.0154 mobile_radio=0.389 mobile_radio:bg=0.00906 mobile_radio:cached=0.380
+  UID u0a345: 0.378 bg: 0.378
+      cpu=0.378 cpu:bg=0.378
+      (on battery, screen on) cpu=0.378 cpu:bg=0.378
+  UID 1001: 0.227 bg: 0.227
+      cpu=0.227 cpu:bg=0.227
+      (on battery, screen on) cpu=0.227 cpu:bg=0.227
+  UID u0a270: 0.179 bg: 0.000825 (6s 12ms) fgs: 0.178 (12m 49s 883ms)
+      cpu=0.0966 cpu:bg=0.000825 cpu:fgs=0.0958 mobile_radio=0.0819 mobile_radio:fgs=0.0819
+      (on battery, screen on) cpu=0.0966 cpu:bg=0.000825 cpu:fgs=0.0958 mobile_radio=0.0819 mobile_radio:fgs=0.0819
+  UID u0a269: 0.123 bg: 0.0966 (53s 688ms) cached: 0.0265 (11m 47s 952ms)
+      cpu=0.00901 cpu:bg=0.00209 cpu:cached=0.00691 mobile_radio=0.114 mobile_radio:bg=0.0945 mobile_radio:cached=0.0196
+      (on battery, screen on) cpu=0.00901 cpu:bg=0.00209 cpu:cached=0.00691 mobile_radio=0.114 mobile_radio:bg=0.0945 mobile_radio:cached=0.0196
+  UID u0a451: 0.106 bg: 0.106
+      cpu=0.104 cpu:bg=0.104 mobile_radio=0.00175 mobile_radio:bg=0.00175
+      (on battery, screen on) cpu=0.104 cpu:bg=0.104 mobile_radio=0.00175 mobile_radio:bg=0.00175
+  UID 1010: 0.0884 bg: 0.0884
+      cpu=0.0884 cpu:bg=0.0884
+      (on battery, screen on) cpu=0.0884 cpu:bg=0.0884
+  UID 1073: 0.0794 bg: 0.0794
+      cpu=0.0794 cpu:bg=0.0794
+      (on battery, screen on) cpu=0.0794 cpu:bg=0.0794
+  UID 1041: 0.0515 bg: 0.0515
+      cpu=0.0515 cpu:bg=0.0515
+      (on battery, screen on) cpu=0.0515 cpu:bg=0.0515
+  UID u0a272: 0.0498 bg: 0.0000640 fgs: 0.0497 (12m 55s 895ms)
+      cpu=0.0378 cpu:bg=0.0000260 cpu:fgs=0.0378 audio=0.0120 (1s 877ms) audio:bg=0.0000380 (6ms) audio:fgs=0.0120 (1s 871ms)
+      (on battery, screen on) cpu=0.0378 cpu:bg=0.0000260 cpu:fgs=0.0378 audio=0.0120 (1s 877ms) audio:bg=0.0000380 (6ms) audio:fgs=0.0120 (1s 871ms)
+  UID u0a157: 0.0286 fgs: 0.0286 (12m 55s 895ms)
+      cpu=0.0286 cpu:fgs=0.0286
+      (on battery, screen on) cpu=0.0286 cpu:fgs=0.0286
+  UID 1002: 0.0271 bg: 0.0271
+      cpu=0.0271 cpu:bg=0.0271
+      (on battery, screen on) cpu=0.0271 cpu:bg=0.0271
+  UID u0a60: 0.0256 bg: 0.0000800 cached: 0.0256 (12m 53s 348ms)
+      cpu=0.0256 cpu:bg=0.0000800 cpu:cached=0.0256
+      (on battery, screen on) cpu=0.0256 cpu:bg=0.0000800 cpu:cached=0.0256
+  UID u0a277: 0.0239 bg: 0.0239
+      cpu=0.0239 cpu:bg=0.0239
+      (on battery, screen on) cpu=0.0239 cpu:bg=0.0239
+  UID 1066: 0.0211 bg: 0.0211
+      cpu=0.0211 cpu:bg=0.0211
+      (on battery, screen on) cpu=0.0211 cpu:bg=0.0211
+  UID u0a142: 0.0150 bg: 0.0150
+      cpu=0.000429 cpu:bg=0.000429 mobile_radio=0.0146 mobile_radio:bg=0.0146
+      (on battery, screen on) cpu=0.000429 cpu:bg=0.000429 mobile_radio=0.0146 mobile_radio:bg=0.0146
+  UID u0a128: 0.0150 bg: 0.0150
+      cpu=0.0150 cpu:bg=0.0150
+      (on battery, screen on) cpu=0.0150 cpu:bg=0.0150
+  UID 1013: 0.0104 bg: 0.0104
+      cpu=0.0104 cpu:bg=0.0104
+      (on battery, screen on) cpu=0.0104 cpu:bg=0.0104
+  UID u0a195: 0.00888 bg: 0.00888
+      cpu=0.00888 cpu:bg=0.00888
+      (on battery, screen on) cpu=0.00888 cpu:bg=0.00888
+  UID 9999: 0.00869 bg: 0.00869
+      cpu=0.00869 cpu:bg=0.00869
+      (on battery, screen on) cpu=0.00869 cpu:bg=0.00869
+  UID 1047: 0.00793 bg: 0.00793
+      cpu=0.00793 cpu:bg=0.00793
+      (on battery, screen on) cpu=0.00793 cpu:bg=0.00793
+  UID u0a71: 0.00666 bg: 0.00666
+      cpu=0.00666 cpu:bg=0.00666
+      (on battery, screen on) cpu=0.00666 cpu:bg=0.00666
+  UID u0a122: 0.00633 bg: 0.00633
+      cpu=0.00633 cpu:bg=0.00633
+      (on battery, screen on) cpu=0.00633 cpu:bg=0.00633
+  UID u0a121: 0.00600 bg: 0.0000260 (6s 142ms) cached: 0.00597 (12m 50s 116ms)
+      cpu=0.00600 cpu:bg=0.0000260 cpu:cached=0.00597
+      (on battery, screen on) cpu=0.00600 cpu:bg=0.0000260 cpu:cached=0.00597
+  UID 5023: 0.00421 bg: 0 (23ms) cached: 0.00421 (8m 9s 911ms)
+      cpu=0.00421 cpu:cached=0.00421
+      (on battery, screen on) cpu=0.00421 cpu:cached=0.00421
+  UID 1046: 0.00317 bg: 0.00317
+      cpu=0.00317 cpu:bg=0.00317
+      (on battery, screen on) cpu=0.00317 cpu:bg=0.00317
+  UID 1069: 0.00290 bg: 0.00290
+      cpu=0.00290 cpu:bg=0.00290
+      (on battery, screen on) cpu=0.00290 cpu:bg=0.00290
+  UID u0a358: 0.00126 bg: 0.00126
+      cpu=0.00126 cpu:bg=0.00126
+      (on battery, screen on) cpu=0.00126 cpu:bg=0.00126
+  UID 1040: 0.00106 bg: 0.00106
+      cpu=0.00106 cpu:bg=0.00106
+      (on battery, screen on) cpu=0.00106 cpu:bg=0.00106
+  UID u0a299: 0.00106 bg: 0.00106
+      cpu=0.00106 cpu:bg=0.00106
+      (on battery, screen on) cpu=0.00106 cpu:bg=0.00106
+  UID u0a285: 0.000832 bg: 0.000832
+      cpu=0.000832 cpu:bg=0.000832
+      (on battery, screen on) cpu=0.000832 cpu:bg=0.000832
+  UID u0a154: 0.000805 bg: 0.000805
+      cpu=0.000805 cpu:bg=0.000805
+      (on battery, screen on) cpu=0.000805 cpu:bg=0.000805
+  UID u0a93: 0.000724 bg: 0.000724
+      cpu=0.000724 cpu:bg=0.000724
+      (on battery, screen on) cpu=0.000724 cpu:bg=0.000724
+  UID u0a108: 0.000697 bg: 0.000697
+      cpu=0.000697 cpu:bg=0.000697
+      (on battery, screen on) cpu=0.000697 cpu:bg=0.000697
+  UID u0a264: 0.000590 bg: 0.000590
+      cpu=0.000590 cpu:bg=0.000590
+      (on battery, screen on) cpu=0.000590 cpu:bg=0.000590
+  UID u0a57: 0.000589 bg: 0.000536 (7ms) fgs: 0 (5s 662ms) cached: 0.0000530 (8m 33s 229ms)
+      cpu=0.000589 cpu:bg=0.000536 cpu:cached=0.0000530
+      (on battery, screen on) cpu=0.000589 cpu:bg=0.000536 cpu:cached=0.0000530
+  UID u0a145: 0.000348 bg: 0.000322 fgs: 0 (6s 739ms) cached: 0.0000260 (8m 31s 935ms)
+      cpu=0.000348 cpu:bg=0.000322 cpu:cached=0.0000260
+      (on battery, screen on) cpu=0.000348 cpu:bg=0.000322 cpu:cached=0.0000260
+  UID u0a494: 0.000342 bg: 0.0000260 (35s 383ms) cached: 0.000316 (12m 6s 257ms)
+      cpu=0.000342 cpu:bg=0.0000260 cpu:cached=0.000316
+      (on battery, screen on) cpu=0.000342 cpu:bg=0.0000260 cpu:cached=0.000316
+  UID u0a392: 0.000322 bg: 0 (6s 12ms) fgs: 0.000322 (12m 49s 883ms)
+      cpu=0.000322 cpu:fgs=0.000322
+      (on battery, screen on) cpu=0.000322 cpu:fgs=0.000322
+  UID u0a110: 0.000295 bg: 0.000295
+      cpu=0.000295 cpu:bg=0.000295
+      (on battery, screen on) cpu=0.000295 cpu:bg=0.000295
+  UID u0a317: 0.000241 bg: 0.000241 (174ms) cached: 0 (8m 14s 533ms)
+      cpu=0.000241 cpu:bg=0.000241
+      (on battery, screen on) cpu=0.000241 cpu:bg=0.000241
+  UID u0a305: 0.000230 bg: 0.000230
+      cpu=0.000230 cpu:bg=0.000230
+      (on battery, screen on) cpu=0.000230 cpu:bg=0.000230
+  UID u0a256: 0.000214 bg: 0.000214
+      cpu=0.000214 cpu:bg=0.000214
+      (on battery, screen on) cpu=0.000214 cpu:bg=0.000214
+  UID u0a146: 0.000192 bg: 0.000192
+      cpu=0.000192 cpu:bg=0.000192
+      (on battery, screen on) cpu=0.000192 cpu:bg=0.000192
+  UID u0a133: 0.000187 bg: 0.000187
+      cpu=0.000187 cpu:bg=0.000187
+      (on battery, screen on) cpu=0.000187 cpu:bg=0.000187
+  UID u0a85: 0.000134 bg: 0.000134
+      cpu=0.000134 cpu:bg=0.000134
+      (on battery, screen on) cpu=0.000134 cpu:bg=0.000134
+  UID u0a89: 0.000107 bg: 0.000107 cached: 0 (8m 27s 792ms)
+      cpu=0.000107 cpu:bg=0.000107
+      (on battery, screen on) cpu=0.000107 cpu:bg=0.000107
+  UID 1027: 0.0000800 bg: 0.0000800
+      cpu=0.0000800 cpu:bg=0.0000800
+      (on battery, screen on) cpu=0.0000800 cpu:bg=0.0000800
+  UID u0a314: 0.0000800 bg: 0 (8ms) cached: 0.0000800 (12m 49s 800ms)
+      cpu=0.0000800 cpu:cached=0.0000800
+      (on battery, screen on) cpu=0.0000800 cpu:cached=0.0000800
+  UID 5006: 0.0000530 bg: 0.0000530
+      cpu=0.0000530 cpu:bg=0.0000530
+      (on battery, screen on) cpu=0.0000530 cpu:bg=0.0000530
+  UID u0a127: 0.0000480 bg: 0.0000480
+      cpu=0.0000480 cpu:bg=0.0000480
+      (on battery, screen on) cpu=0.0000480 cpu:bg=0.0000480
+  UID 1017: 0.0000260 bg: 0.0000260
+      cpu=0.0000260 cpu:bg=0.0000260
+      (on battery, screen on) cpu=0.0000260 cpu:bg=0.0000260
+  UID 1072: 0.0000260 bg: 0.0000260
+      cpu=0.0000260 cpu:bg=0.0000260
+      (on battery, screen on) cpu=0.0000260 cpu:bg=0.0000260
+  UID 1092: 0.0000260 bg: 0.0000260
+      cpu=0.0000260 cpu:bg=0.0000260
+      (on battery, screen on) cpu=0.0000260 cpu:bg=0.0000260
+  UID u0a193: 0.0000260 bg: 0.0000260
+      cpu=0.0000260 cpu:bg=0.0000260
+      (on battery, screen on) cpu=0.0000260 cpu:bg=0.0000260
+
+  CPU scaling: 
+    policy0: 400000 576000 672000 768000 864000 960000 1056000 1152000 1248000 1344000 1440000 1536000 1632000 1728000 1824000 1920000 1959000
+    policy4: 672000 768000 864000 960000 1056000 1152000 1248000 1344000 1440000 1536000 1632000 1728000 1824000 1920000 2016000 2112000 2208000 2304000 2400000 2496000 2592000
+    policy7: 672000 768000 864000 960000 1056000 1152000 1248000 1344000 1440000 1536000 1632000 1728000 1824000 1920000 2016000 2112000 2208000 2304000 2400000 2496000 2592000 2688000 2784000 2880000 2900000
+    policy9: 672000 768000 864000 960000 1056000 1152000 1248000 1344000 1440000 1536000 1632000 1728000 1824000 1920000 2016000 2112000 2208000 2304000 2400000 2496000 2592000 2688000 2784000 2880000 2976000 3110000
+
+  CPU times (time_in_state): 
+    policy0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    policy4: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    policy7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    policy9: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+  Screen off CPU times (time_in_state): 
+    policy0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    policy4: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    policy7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    policy9: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+  1000:
+    Wake lock *alarm* realtime
+    Wake lock Prevent Sleep by AssistantDelay realtime
+    Wake lock NetworkStats realtime
+    Wake lock *telephony-radio* realtime
+    Wake lock com.android.server.stats.StatsCompanionService$PullingAlarmListener realtime
+    Sensor 5: (not used)
+    Sensor 17: (not used)
+    Sensor 19: (not used)
+    Sensor 27: (not used)
+    Sensor 32: (not used)
+    Sensor 34: (not used)
+    Sensor 42: (not used)
+    Sensor 55: (not used)
+    Sensor 16777217: (not used)
+    Sensor 50331649: (not used)
+    Sensor 1601008243: (not used)
+    Apk com.samsung.android.dqagent:
+      (nothing executed)
+  1001:
+    Wake lock RILJ_ACK_WL realtime
+    Wake lock *telephony-radio* realtime
+    Wake lock *telephony-sem-radio* realtime
+  1002:
+    (nothing executed)
+  1027:
+    (nothing executed)
+  1041:
+    Wake lock AudioMix realtime
+    Wake lock AudioIn realtime
+  1052:
+    (nothing executed)
+  1068:
+    (nothing executed)
+  1073:
+    (nothing executed)
+  5006:
+    (nothing executed)
+  5023:
+    (nothing executed)
+  u0a55:
+    Wake lock EdgeLighting:edge realtime
+    Wake lock RingtonePlayer realtime
+    Wake lock AudioMix realtime
+    Wake lock Window:EdgeLightingWindow realtime
+    Wake lock android.media.MediaPlayer realtime
+    Sensor 27: (not used)
+    Apk com.android.systemui:
+      (nothing executed)
+  u0a57:
+    (nothing executed)
+  u0a60:
+    (nothing executed)
+  u0a65:
+    (nothing executed)
+  u0a71:
+    (nothing executed)
+  u0a73:
+    (nothing executed)
+  u0a79:
+    (nothing executed)
+  u0a81:
+    (nothing executed)
+  u0a83:
+    (nothing executed)
+  u0a85:
+    (nothing executed)
+  u0a89:
+    Apk com.samsung.klmsagent:
+      (nothing executed)
+  u0a93:
+    (nothing executed)
+  u0a98:
+    (nothing executed)
+  u0a108:
+    (nothing executed)
+  u0a110:
+    (nothing executed)
+  u0a115:
+    (nothing executed)
+  u0a121:
+    (nothing executed)
+  u0a122:
+    (nothing executed)
+  u0a127:
+    (nothing executed)
+  u0a128:
+    Apk com.samsung.android.smartsuggestions:
+      (nothing executed)
+  u0a133:
+    (nothing executed)
+  u0a142:
+    (nothing executed)
+  u0a145:
+    (nothing executed)
+  u0a146:
+    (nothing executed)
+  u0a154:
+    (nothing executed)
+  u0a157:
+    (nothing executed)
+  u0a193:
+    (nothing executed)
+  u0a194:
+    (nothing executed)
+  u0a195:
+    (nothing executed)
+  u0a256:
+    (nothing executed)
+  u0a264:
+    (nothing executed)
+  u0a269:
+    Apk com.android.vending:
+      (nothing executed)
+  u0a270:
+    Wake lock GCM_WORK realtime
+    Wake lock GCM_READ realtime
+    Sensor 1: (not used)
+    Sensor 17: (not used)
+    Apk com.google.android.gms:
+      (nothing executed)
+  u0a272:
+    Wake lock AudioIn realtime
+    Apk com.google.android.googlequicksearchbox:
+      (nothing executed)
+  u0a277:
+    (nothing executed)
+  u0a285:
+    (nothing executed)
+  u0a293:
+    (nothing executed)
+  u0a299:
+    (nothing executed)
+  u0a305:
+    (nothing executed)
+  u0a314:
+    Apk com.google.android.permissioncontroller:
+      (nothing executed)
+  u0a315:
+    (nothing executed)
+  u0a317:
+    (nothing executed)
+  u0a345:
+    (nothing executed)
+  u0a358:
+    (nothing executed)
+  u0a392:
+    (nothing executed)
+  u0a404:
+    Wake lock *launch* realtime
+    Wake lock WindowManager/displayId:0 realtime
+  u0a438:
+    Wake lock GOOGLE_C2DM realtime
+    Wake lock NotificationManagerService:post:org.telegram.messenger realtime
+    Wake lock wake:com.google.firebase.iid.WakeLockHolder realtime
+    Apk org.telegram.messenger:
+      (nothing executed)
+  u0a451:
+    Wake lock *alarm* realtime
+    Apk com.mxtech.videoplayer.ad:
+      (nothing executed)
+  u0a467:
+    (nothing executed)
+  u0a494:
+    Apk com.google.android.verifier:
+      (nothing executed)
+
+Per process state tracking available: true
+Total cpu time reads: 0
+Batching Duration (min): 1627
+All UID cpu time reads since the later of device start or stats reset: 16
+UIDs removed since the later of device start or stats reset: 5
+Currently mapped isolated uids:
+  1037->1000 (ref count = 1)
+  90000->10320 (ref count = 1)
+  90001->10277 (ref count = 1)
+  90002->10277 (ref count = 1)
+  90003->10277 (ref count = 1)
+  90004->10277 (ref count = 1)
+  90005->10277 (ref count = 1)
+  90006->10277 (ref count = 1)
+  90007->10277 (ref count = 1)
+  90008->10277 (ref count = 1)
+  90009->10277 (ref count = 1)
+  90010->10277 (ref count = 1)
+  90011->10277 (ref count = 1)
+  90012->10277 (ref count = 1)
+  90013->10277 (ref count = 1)
+  90014->10277 (ref count = 1)
+  90015->10277 (ref count = 1)
+  90016->10277 (ref count = 1)
+  90017->10277 (ref count = 1)
+  90018->10277 (ref count = 1)
+  90019->10277 (ref count = 1)
+  90020->10277 (ref count = 1)
+  90021->10277 (ref count = 1)
+  90022->10277 (ref count = 1)
+  90023->10277 (ref count = 1)
+  90024->10277 (ref count = 1)
+  90025->10277 (ref count = 1)
+  90026->10277 (ref count = 1)
+  90027->10277 (ref count = 1)
+  90028->10277 (ref count = 1)
+  90029->10277 (ref count = 1)
+  90030->10277 (ref count = 1)
+  90031->10277 (ref count = 1)
+  90032->10277 (ref count = 1)
+  90033->10277 (ref count = 1)
+  90034->10277 (ref count = 1)
+  90035->10277 (ref count = 1)
+  90036->10277 (ref count = 1)
+  90037->10277 (ref count = 1)
+  90038->10277 (ref count = 1)
+  90039->10277 (ref count = 1)
+  90040->10277 (ref count = 1)
+  90041->10277 (ref count = 1)
+  90042->10277 (ref count = 1)
+  90043->10277 (ref count = 1)
+  90044->10277 (ref count = 1)
+  90045->10277 (ref count = 1)
+  90046->10277 (ref count = 1)
+  90047->10277 (ref count = 1)
+  90048->10277 (ref count = 1)
+  90049->10277 (ref count = 1)
+  90050->10277 (ref count = 1)
+  90051->10277 (ref count = 1)
+  90052->10277 (ref count = 1)
+  90053->10277 (ref count = 1)
+  90054->10277 (ref count = 1)
+  99000->10272 (ref count = 1)
+  99001->10393 (ref count = 1)
+  99002->10270 (ref count = 1)
+  99003->10383 (ref count = 1)
+  99004->10383 (ref count = 1)
+  99005->10290 (ref count = 1)
+  99006->10451 (ref count = 1)
+  99007->10493 (ref count = 1)
+  99008->10319 (ref count = 1)
+  99009->10319 (ref count = 1)
+  99010->10269 (ref count = 1)
+  99011->10269 (ref count = 1)
+  99012->10383 (ref count = 1)
+  99013->10369 (ref count = 1)
+  99014->10369 (ref count = 1)
+  99015->10272 (ref count = 1)
+  99016->10269 (ref count = 1)
+  99017->10269 (ref count = 1)
+  99018->10269 (ref count = 1)
+  99019->10269 (ref count = 1)
+  99020->10269 (ref count = 1)
+  99021->10269 (ref count = 1)
+  99022->10290 (ref count = 1)
+  99023->10467 (ref count = 1)
+  99024->10524 (ref count = 1)
+  99025->10451 (ref count = 1)
+  99026->10290 (ref count = 1)
+  99027->10451 (ref count = 1)
+  99028->10451 (ref count = 1)
+  99029->10272 (ref count = 1)
+  99030->10451 (ref count = 1)
+  99031->10451 (ref count = 1)
+  99032->10451 (ref count = 1)
+  99033->10467 (ref count = 1)
+  99034->10451 (ref count = 1)
+  99035->10467 (ref count = 1)
+  99036->10467 (ref count = 1)
+  99037->10524 (ref count = 1)
+  99038->10270 (ref count = 1)
+  99039->10272 (ref count = 1)
+  99040->10467 (ref count = 1)
+  99041->10451 (ref count = 1)
+  99042->10270 (ref count = 1)
+  99043->10290 (ref count = 1)
+  99044->10451 (ref count = 1)
+  99045->10270 (ref count = 1)
+  99046->10467 (ref count = 1)
+  99047->10290 (ref count = 1)
+  99048->10467 (ref count = 1)
+  99049->10290 (ref count = 1)
+  99050->10467 (ref count = 1)
+  99051->10290 (ref count = 1)
+  99052->10467 (ref count = 1)
+  99053->10373 (ref count = 1)
+  99054->10387 (ref count = 1)
+  99055->10270 (ref count = 1)
+  99056->10467 (ref count = 1)
+  99057->10269 (ref count = 1)
+  99058->10467 (ref count = 1)
+  99059->10451 (ref count = 1)
+  99060->10270 (ref count = 1)
+  99061->10269 (ref count = 1)
+  99062->10269 (ref count = 1)
+
+BatteryStats constants:
+    track_cpu_active_cluster_time=true
+    kernel_uid_readers_throttle_time=1000
+    external_stats_collection_rate_limit_ms=600000
+    battery_level_collection_delay_ms=300000
+    procstate_change_collection_delay_ms=60000
+    max_history_size=4194304
+    max_history_buffer_kb=128
+    battery_charged_delay_ms=900000
+    battery_charging_enforce_level=90
+    per_uid_modem_power_model=modem_activity_info_rx_tx
+    phone_on_external_stats_collection=true
+    reset_while_plugged_in_minimum_duration_hours=47
+
+CPU power brackets; cluster/freq in MHz(avg current in mA):
+    0: 0/400(37.0), 0/576(42.0), 0/672(44.0), 0/768(46.0), 0/864(48.0), 0/960(51.0), 0/1056(54.0), 0/1152(57.0), 0/1248(60.0), 0/1344(65.0), 0/1440(70.0), 0/1536(75.0), 0/1632(80.0), 0/1728(87.0), 0/1824(93.0), 0/1920(100.0), 0/1959(103.0), 4/672(67.0), 4/768(74.0), 4/864(83.0), 4/960(91.0), 4/1056(100.0), 4/1152(109.0), 4/1248(117.0), 4/1344(129.0), 7/672(73.0), 7/768(81.0), 7/864(90.0), 7/960(101.0), 7/1056(111.0), 7/1152(121.0), 7/1248(129.0), 9/672(101.0), 9/768(113.0), 9/864(133.0)
+    1: 4/1440(140.0), 4/1536(153.0), 4/1632(170.0), 4/1728(183.0), 4/1824(203.0), 4/1920(222.0), 4/2016(242.0), 4/2112(276.0), 4/2208(307.0), 4/2304(350.0), 4/2400(403.0), 4/2496(453.0), 7/1344(143.0), 7/1440(155.0), 7/1536(168.0), 7/1632(188.0), 7/1728(199.0), 7/1824(218.0), 7/1920(237.0), 7/2016(259.0), 7/2112(285.0), 7/2208(311.0), 7/2304(344.0), 7/2400(374.0), 7/2496(418.0), 7/2592(464.0), 7/2688(509.0), 9/960(141.0), 9/1056(165.0), 9/1152(181.0), 9/1248(204.0), 9/1344(227.0), 9/1440(243.0), 9/1536(274.0), 9/1632(291.0), 9/1728(324.0), 9/1824(351.0), 9/1920(384.0), 9/2016(422.0), 9/2112(464.0)
+    2: 4/2592(516.0), 7/2784(566.0), 7/2880(618.0), 7/2900(625.0), 9/2208(526.0), 9/2304(581.0), 9/2400(672.0), 9/2496(755.0), 9/2592(871.0), 9/2688(1011.0), 9/2784(1154.0), 9/2880(1379.0), 9/2976(1629.0), 9/3110(1920.0)
+x86_cpu_energy_attribution enabled: false
+
+CPU wakeup stats:
+  Config:
+    wakeup_stats_retention_ms=+1d0h0m0s0ms
+    wakeup_matching_window_ms=+1s0ms
+    waking_activity_retention_ms=+5m0s0ms
+  
+  Irq device map:
+    Loaded from xml resource: 0x1170013
+    Map:
+      mt6358-rtc: [Alarm]
+      pm8xxx_rtc_alarm: [Alarm]
+  
+  Recent waking activity:
+    Subsystem Alarm:
+      -13m10s962ms: 1000 [PER ], u0a110 [SVC ], 
+      -14m39s662ms: 1000 [PER ], 
+      -16m2s583ms: 1000 [PER ], 
+      -17m14s490ms: 1000 [PER ], 
+    Subsystem Sound_trigger:
+      -5m30s152ms: 1000 [PER ], 
+      -5m30s191ms: u0a272 [BFGS], 
+    Subsystem Sensor:
+      -22m42s360ms: u0a438 [TOP ], 
+      -22m54s31ms: u0a438 [TOP ], 
+      -22m56s413ms: u0a438 [TOP ], 
+      -23m2s176ms: u0a438 [TOP ], 
+      -24m1s709ms: u0a438 [TOP ], 
+  
+  Current proc-state map (334):
+    1000:PER , 1001:PER , 1002:PER , 1027:PER , 1037:NONE, 1068:PER , 1073:PER , 2000:NONE, 5004:NONE, 5006:TRNB, 5009:NONE, 5022:NONE, 5023:CEM , 5025:NONE, 5026:NONE, 5278:NONE, u0a25:NONE, u0a31:NONE, u0a48:NONE, u0a51:NONE, u0a53:NONE, u0a54:NONE, u0a55:PER , u0a57:CEM , u0a59:NONE, u0a60:CEM , u0a61:NONE, u0a63:NONE, u0a65:CEM , u0a66:NONE, u0a69:NONE, u0a70:NONE, u0a71:SVC , u0a73:CEM , u0a77:NONE, u0a79:CEM , u0a80:NONE, u0a81:SVC , u0a83:CEM , u0a84:NONE, u0a85:CEM , u0a86:NONE, u0a87:NONE, u0a88:NONE, u0a89:CEM , u0a90:NONE, u0a91:NONE, u0a93:NONE, u0a94:NONE, u0a96:NONE, u0a97:NONE, u0a98:IMPF, u0a99:NONE, u0a101:NONE, u0a105:NONE, u0a108:CEM , u0a110:SVC , u0a112:NONE, u0a113:NONE, u0a115:SVC , u0a116:NONE, u0a117:NONE, u0a119:NONE, u0a120:NONE, u0a121:CEM , u0a122:SVC , u0a123:NONE, u0a124:NONE, u0a125:NONE, u0a126:NONE, u0a127:IMPF, u0a128:BFGS, u0a129:NONE, u0a131:NONE, u0a132:NONE, u0a133:CEM , u0a134:NONE, u0a135:NONE, u0a136:NONE, u0a138:NONE, u0a142:CEM , u0a144:NONE, u0a145:CEM , u0a146:BFGS, u0a148:NONE, u0a154:NONE, u0a157:BFGS, u0a160:NONE, u0a161:NONE, u0a168:NONE, u0a172:NONE, u0a185:NONE, u0a186:NONE, u0a193:CEM , u0a194:CEM , u0a195:IMPB, u0a200:NONE, u0a201:NONE, u0a202:NONE, u0a204:NONE, u0a205:NONE, u0a207:NONE, u0a210:NONE, u0a215:NONE, u0a216:NONE, u0a230:NONE, u0a234:NONE, u0a236:NONE, u0a238:NONE, u0a240:NONE, u0a242:NONE, u0a243:NONE, u0a247:NONE, u0a254:NONE, u0a256:SVC , u0a257:NONE, u0a260:NONE, u0a262:NONE, u0a263:NONE, u0a264:BFGS, u0a265:NONE, u0a266:NONE, u0a267:NONE, u0a268:NONE, u0a269:CEM , u0a270:BFGS, u0a272:BFGS, u0a275:NONE, u0a277:CEM , u0a279:NONE, u0a280:NONE, u0a285:NONE, u0a289:NONE, u0a290:NONE, u0a291:NONE, u0a293:CEM , u0a296:NONE, u0a299:BFGS, u0a300:NONE, u0a301:NONE, u0a302:NONE, u0a303:NONE, u0a305:PER , u0a314:CEM , u0a315:CEM , u0a317:CEM , u0a319:NONE, u0a320:NONE, u0a322:NONE, u0a323:NONE, u0a324:NONE, u0a325:NONE, u0a326:NONE, u0a327:NONE, u0a331:NONE, u0a332:NONE, u0a334:NONE, u0a337:NONE, u0a340:NONE, u0a342:NONE, u0a343:NONE, u0a344:NONE, u0a345:FGS , u0a353:NONE, u0a356:NONE, u0a358:NONE, u0a359:NONE, u0a360:NONE, u0a361:NONE, u0a362:NONE, u0a364:NONE, u0a366:NONE, u0a369:NONE, u0a370:NONE, u0a373:NONE, u0a377:NONE, u0a383:NONE, u0a387:NONE, u0a389:NONE, u0a392:BFGS, u0a393:NONE, u0a395:NONE, u0a404:TOP , u0a414:NONE, u0a415:NONE, u0a419:NONE, u0a421:NONE, u0a422:NONE, u0a427:NONE, u0a428:NONE, u0a430:NONE, u0a431:NONE, u0a435:NONE, u0a438:CEM , u0a440:NONE, u0a441:NONE, u0a442:NONE, u0a451:CEM , u0a455:NONE, u0a461:NONE, u0a466:NONE, u0a467:CEM , u0a473:NONE, u0a476:NONE, u0a481:NONE, u0a485:NONE, u0a489:NONE, u0a491:NONE, u0a493:NONE, u0a494:CEM , u0a500:NONE, u0a504:NONE, u0a506:NONE, u0a524:NONE, u0a526:NONE, u0a527:NONE, u0ai0:NONE, u0ai1:NONE, u0ai2:NONE, u0ai3:NONE, u0ai4:NONE, u0ai5:NONE, u0ai6:NONE, u0ai7:NONE, u0ai8:NONE, u0ai9:NONE, u0ai10:NONE, u0ai11:NONE, u0ai12:NONE, u0ai13:NONE, u0ai14:NONE, u0ai15:NONE, u0ai16:NONE, u0ai17:NONE, u0ai18:NONE, u0ai19:NONE, u0ai20:NONE, u0ai21:NONE, u0ai22:NONE, u0ai23:NONE, u0ai24:NONE, u0ai25:NONE, u0ai26:NONE, u0ai27:NONE, u0ai28:NONE, u0ai29:NONE, u0ai30:NONE, u0ai31:NONE, u0ai32:NONE, u0ai33:NONE, u0ai34:NONE, u0ai35:NONE, u0ai36:NONE, u0ai37:NONE, u0ai38:NONE, u0ai39:NONE, u0ai40:NONE, u0ai41:NONE, u0ai42:NONE, u0ai43:NONE, u0ai44:NONE, u0ai45:NONE, u0ai46:NONE, u0ai47:NONE, u0ai48:NONE, u0ai49:NONE, u0ai50:NONE, u0ai51:NONE, u0ai52:NONE, u0ai53:NONE, u0ai54:NONE, u0ai9000:BFGS, u0i1:NONE, u0i2:NONE, u0i3:NONE, u0i4:NONE, u0i5:NONE, u0i6:NONE, u0i7:NONE, u0i8:NONE, u0i9:NONE, u0i10:NONE, u0i11:NONE, u0i12:NONE, u0i13:NONE, u0i14:NONE, u0i15:NONE, u0i16:NONE, u0i17:NONE, u0i18:NONE, u0i19:NONE, u0i20:NONE, u0i21:NONE, u0i22:NONE, u0i23:NONE, u0i24:NONE, u0i25:NONE, u0i26:NONE, u0i27:NONE, u0i28:NONE, u0i29:NONE, u0i30:NONE, u0i31:NONE, u0i32:NONE, u0i33:NONE, u0i34:NONE, u0i35:NONE, u0i36:NONE, u0i37:NONE, u0i38:NONE, u0i39:NONE, u0i40:NONE, u0i41:NONE, u0i42:NONE, u0i43:NONE, u0i44:NONE, u0i45:NONE, u0i46:NONE, u0i47:NONE, u0i48:NONE, u0i49:NONE, u0i50:NONE, u0i51:NONE, u0i52:NONE, u0i53:NONE, u0i54:NONE, u0i55:NONE, u0i56:NONE, u0i57:NONE, u0i58:NONE, u0i59:NONE, u0i60:CEM , u0i61:NONE, u0i62:NONE
+  
+  Wakeup events:
+  Attribution stats:
+    Total: 0
+
+
+Companion Device Baterry Infos: 
+    [ 000000_0, 2, 89, -1, -1, -1, 2 ]
+

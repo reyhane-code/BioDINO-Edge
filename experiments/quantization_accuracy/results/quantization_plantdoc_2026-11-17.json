@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-17",
+  "protocol": {
+    "k_shot": 5,
+    "n_views": 8,
+    "seed": 42,
+    "scale": 20.0,
+    "w_lda": 0.75,
+    "tau": 0.35,
+    "providers": "CPUExecutionProvider"
+  },
+  "plantdoc": {
+    "fp32": {
+      "tier1": {
+        "accuracy": 42.46031746031746,
+        "macro_f1": 39.04880327757472
+      },
+      "bioclip_only": {
+        "accuracy": 51.98412698412699,
+        "macro_f1": 53.54602351735522
+      },
+      "fisher": {
+        "accuracy": 46.03174603174603,
+        "macro_f1": 45.03576684161031
+      },
+      "transductive": {
+        "accuracy": 51.587301587301596,
+        "macro_f1": 51.45225703521504
+      },
+      "feature_seconds": 267.3
+    },
+    "int8": {
+      "tier1": {
+        "accuracy": 38.88888888888889,
+        "macro_f1": 35.25142768188041
+      },
+      "bioclip_only": {
+        "accuracy": 49.60317460317461,
+        "macro_f1": 49.896801331876105
+      },
+      "fisher": {
+        "accuracy": 46.42857142857143,
+        "macro_f1": 44.79094534807881
+      },
+      "transductive": {
+        "accuracy": 50.0,
+        "macro_f1": 49.40905405315779
+      },
+      "feature_seconds": 100.6
+    }
+  }
+}

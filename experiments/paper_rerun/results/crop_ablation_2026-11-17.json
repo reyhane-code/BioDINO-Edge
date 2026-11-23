@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-17",
+  "protocol": {
+    "dataset": "PlantDoc 27-way 5-shot",
+    "n_views": 8,
+    "crop_fraction": 0.6
+  },
+  "conditions": {
+    "full_leaf": {
+      "inductive": {
+        "acc": 48.01587301587302,
+        "f1": 46.73600203381391
+      },
+      "transductive": {
+        "acc": 51.98412698412699,
+        "f1": 51.76267087507984
+      }
+    },
+    "center_crop_60": {
+      "inductive": {
+        "acc": 50.79365079365079,
+        "f1": 49.25794622915515
+      },
+      "transductive": {
+        "acc": 53.17460317460318,
+        "f1": 51.51093186329082
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-18",
+  "results": {
+    "support_weight_1": 85.01,
+    "support_weight_2": 84.62,
+    "support_weight_3": 84.31
+  },
+  "note": "isolates support_weight; episode filter is a no-op since min test images/class = 4"
+}
