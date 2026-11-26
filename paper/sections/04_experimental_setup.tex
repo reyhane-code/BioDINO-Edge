@@ -1,0 +1,61 @@
+% =============================================================================
+% 5. EXPERIMENTAL SETUP
+% =============================================================================
+\section{Experimental Setup}
+\label{sec:experiments_setup}
+
+\subsection{Datasets and Diagnostic Pathology Coverage}
+\label{sec:datasets}
+We evaluate BioDINO-Edge across two foliar pathology benchmarks with contrasting imaging characteristics:
+
+\subsubsection{PlantVillage Controlled Benchmark}
+From the standard PlantVillage repository~\cite{hughes2015plantvillage,mohanty2016plantvillage}, we build a curated 11-class subset of 9,385 foliar images from three crops: Apple (\textit{Malus domestica}), Grape (\textit{Vitis vinifera}), and Potato (\textit{Solanum tuberosum}). The classes cover healthy foliage and eight diseases: Apple Scab, Apple Black Rot, Apple Cedar Rust, Grape Black Rot, Grape Esca, Grape Leaf Blight, Potato Early Blight, and Potato Late Blight. This setup evaluates fine-grained lesion identification on the same plant species rather than broad crop separation, providing a genuine test of disease discrimination.
+
+For few-shot calibration, five support images per class ($K=5$) are drawn at random (55 in total), while the remaining 9,330 images serve as unseen queries. We did not fine-tune the backbones on either benchmark; exact overlap with the web-scale pre-training corpora cannot be excluded.
+
+\subsubsection{PlantDoc In-The-Wild Field Benchmark}
+To test robustness under field conditions (sunlight glare, canopy shadows, soil clutter, and overlapping foliage), we use the in-the-wild PlantDoc benchmark~\cite{singh2020plantdoc}. In our copy of the benchmark, the training and test splits share 27 pathology classes. The training split has 2{,}670 images; we use 2{,}668 after removing the two training-only tomato two-spotted spider-mite images. The field test split has 252 images. The public GitHub release contains 2{,}342 training and 236 test images. Because our working copy is a 2{,}922-image redistribution with a different partition, \ref{app:plantdoc_official} repeats the headline evaluation on the official release. Support and query splits are disjoint ($\mathcal{S} \cap \mathcal{Q} = \emptyset$). We test under two evaluation settings:
+\begin{itemize}
+    \item \textbf{5-way 5-shot episodic:} Following the episodic $N$-way $K$-shot protocol of Snell et al.~\cite{snell2017prototypical}, we run 50 independent Monte Carlo episodes. In each episode $e$, 5 classes are drawn without replacement ($\mathcal{C}_e \subset \{1, \dots, 27\}$), and the support set $\mathcal{S}_e$ contains 5 labeled leaves per class (25 total) from the training split. The query set $\mathcal{Q}_e$ contains all test images from those 5 classes (averaging 46.7 query leaves per episode).
+    \item \textbf{27-way all-class evaluation:} All 27 classes are evaluated simultaneously (where random-guess accuracy is $1/27 \approx 3.70\%$). The model receives 5 support leaves per class (135 total), expanded by 8-view augmentation to $N = 1{,}080$ feature vectors, and scores all 252 field queries in closed form.
+\end{itemize}
+
+\textbf{Protocol note.} Unless stated otherwise, PlantVillage headline, cascade, and sensitivity results use the cached single-view features. Table~\ref{tab:aug_sensitivity} isolates the 8-view expansion. PlantDoc results use the 8-view expansion throughout. The quantization study (Table~\ref{tab:quantization}) uses the 8-view expansion in a separate single-split ONNX FP32/INT8 audit; its absolute values therefore differ from the headline runs.
+
+\subsection{Evaluation Protocols and Safety Metrics}
+\label{sec:metrics}
+Experiments on PlantVillage are evaluated over 30 independent Monte Carlo episodes with randomized support splits, reporting mean accuracy $\bar{x}$, standard deviation $\sigma$, 95\% confidence intervals (CI; $95\%\,\text{CI} = \bar{x} \pm 1.96 \cdot \sigma / \sqrt{30}$), and peak single-episode accuracy. Because misclassification costs in precision agriculture are asymmetric, we evaluate safety metrics alongside standard accuracy:
+\begin{itemize}
+    \item \textbf{Top-1 Accuracy and Macro F1-Score:} The F1-score is macro-averaged across all classes to prevent frequent classes from masking errors on smaller or healthy classes.
+    \item \textbf{False-Negative Rate:} The proportion of diseased leaves incorrectly classified as healthy, where false-negative (FN) and true-positive (TP) counts define the rate: $\text{FNR} = \text{FN} / (\text{TP} + \text{FN})$.
+    \item \textbf{Cross-Species Confusion Rate:} The proportion of queries misattributed to an entirely different botanical family (e.g., classifying a potato leaf as an apple disease).
+    \item \textbf{Area Under the Risk--Coverage Curve (AURC):} For selective classification and confidence gating, we evaluate the trade-off between coverage (fraction of queries processed by the gating rule) and selective risk (error rate among accepted queries). The AURC integrates empirical risk across all coverage levels; lower values denote better uncertainty calibration and safer selective triage.
+\end{itemize}
+
+To ensure unbiased cross-domain evaluation, shared parameters ($\gamma = 20.0$, $w_{\text{lda}} = 0.75$, and $\tau_{\text{conf}} = 0.35$) were calibrated strictly on independent PlantVillage validation episodes and applied to PlantDoc without re-tuning. The transductive buffer is adapted to the smaller test volume of PlantDoc (252 total queries across 27 classes): the buffer retains confident predictions capped at two anchors per class, preventing buffer starvation while maintaining high pseudo-label purity. We report both static inductive and transductive results across all benchmarks to separate baseline feature discrimination from dynamic adaptation gains.
+
+\subsection{Edge Hardware Testbed}
+\label{sec:edge_hardware_testbed}
+On-device profiling is conducted on a physical Samsung Galaxy S24~FE smartphone running Android~17, as detailed in Table~\ref{tab:device_spec}. Neural network inference executes strictly on the ARM64 CPU via ONNX Runtime with per-channel INT8 quantization (4 intra-op threads; GPU and neural accelerators disabled), while closed-form linear algebra runs via the Efficient Java Matrix Library (EJML). Benchmark latencies and process PSS memory are averaged over 100 iterations following 10 warm-up runs, with thermal stability monitored during continuous operation.
+
+\begin{table}[htbp]
+\caption{On-device edge testbed configuration (physical Android device, CPU-only INT8).}
+\label{tab:device_spec}
+\centering
+\footnotesize
+\begin{tabular}{ll}
+\toprule
+\textbf{Hardware / Software Property} & \textbf{System Specification} \\
+\midrule
+Physical Device & Samsung SM-S721B (Galaxy S24 FE) \\
+System-on-Chip (SoC) & Samsung s5e9945 (Exynos 2400e) \\
+Operating System & Android 17 (API Level 37) \\
+CPU Architecture / Cores & arm64-v8a / 10 Cores \\
+Available System RAM & 7,224.3~MB ($\approx$7.2~GB) \\
+Inference Engine & ONNX Runtime 1.18.0 (CPUExecutionProvider) \\
+Execution Threading & 4 intra-op / 2 inter-op threads \\
+Quantization Precision & Static INT8 (NNAPI Disabled) \\
+Application Size & Base APK: $\approx$22.8\,MB \\
+\bottomrule
+\end{tabular}
+\end{table}

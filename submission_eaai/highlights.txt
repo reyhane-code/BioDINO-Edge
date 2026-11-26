@@ -1,0 +1,5 @@
+Gradient-free foliar pathology adapting frozen DINOv2 and BioCLIP encoders.
+Analytical Ledoit-Wolf shrinkage resolves small-sample covariance singularity.
+Joint Shannon-margin confidence gate routes routine leaves to a 60 ms Tier-1 path.
+Closed-form transductive recalibration adapts to field shifts in under 0.6 s.
+Standalone ~22.8 MB Android app achieves 97.4% accuracy without cloud servers.

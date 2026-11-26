@@ -1,0 +1,76 @@
+%%
+%% BioDINO-Edge manuscript formatted for Engineering Applications of Artificial Intelligence (Elsevier)
+%% Template: Elsevier elsarticle (EAAI standard)
+%%
+\documentclass[preprint,12pt]{elsarticle}
+%% For submission / review single-column layout, uncomment one of:
+%% \documentclass[review,12pt]{elsarticle}
+%% \documentclass[preprint,12pt]{elsarticle}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage[protrusion=true,expansion=false]{microtype}
+\usepackage{placeins}
+
+%% Professional table row spacing for EAAI standards
+\renewcommand{\arraystretch}{1.12}
+
+%% Float placement improvements for Elsevier two-column layout
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.85}
+\renewcommand{\dbltopfraction}{0.95}
+\renewcommand{\dblfloatpagefraction}{0.85}
+
+\makeatletter
+\long\def\@makecaption#1#2{%
+  \vskip\abovecaptionskip\footnotesize
+  \sbox\@tempboxa{#1: #2}%
+  \ifdim \wd\@tempboxa >\hsize
+    {\parfillskip=0pt plus 1fil #1: #2\par}%
+  \else
+    \global \@minipagefalse
+    \hb@xt@\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
+\makeatother
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@fpsep}{14pt plus 2pt minus 2pt}
+\setlength{\@fpbot}{0pt plus 1fil}
+\setlength{\@dblfptop}{0pt}
+\setlength{\@dblfpsep}{14pt plus 2pt minus 2pt}
+\setlength{\@dblfpbot}{0pt plus 1fil}
+\makeatother
+
+\journal{Engineering Applications of Artificial Intelligence}
+
+\begin{document}
+
+
+\input{00_frontmatter.tex}
+\input{01_introduction.tex}
+\input{02_related_work.tex}
+\input{03_problem_formulation.tex}
+\input{03_methodology.tex}
+\input{04_experimental_setup.tex}
+\input{05_results.tex}
+\input{08_discussion.tex}
+\input{09_conclusion.tex}
+\input{10_appendix.tex}
+\input{11_backmatter.tex}
+
+% REFERENCES
+% =============================================================================
+\bibliographystyle{elsarticle-num}
+\bibliography{references}
+
+\end{document}

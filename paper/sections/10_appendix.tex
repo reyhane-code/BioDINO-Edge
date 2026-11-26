@@ -1,0 +1,110 @@
+% =============================================================================
+% APPENDIX: REPRODUCIBILITY
+% =============================================================================
+\appendix
+\section{Reproducibility Details}
+\label{app:repro}
+This appendix specifies the exact splits, seeds, model versions, hyperparameters, and code needed to reproduce every reported number, and states the provenance of each value in Table~\ref{tab:comparative}.
+
+\subsection{Datasets and Splits}
+\textbf{PlantVillage (controlled, Table~\ref{tab:comparative}).} We use the 11-class novel subset (Apple, Grape, Potato; 9{,}385 images) with frozen embeddings cached once. Reproducing these controlled runs requires only the cached embeddings and the provided script. \emph{11-class regime:} 30 Monte-Carlo episodes; episode $e$ uses \texttt{random.Random(42+17e)}; for each class the image indices are shuffled, the first 5 form the support and all remaining images form the query (9{,}330 queries/episode; support $\cap$ query $=\emptyset$). \emph{5-way $K$-shot regime:} 50 episodes per $K\in\{1,5,10,15\}$; a single \texttt{random.Random(42)} stream samples 5 of the 11 classes per episode (\texttt{rng.sample(range(11),5)}), shuffles each class, takes the first $K$ as support and the rest as query. All methods share identical support/query indices and cached backbone outputs within each episode. Zero-shot BioCLIP and Tip-Adapter use the BioCLIP branches, whereas centroid and Fisher classifiers evaluate joint BioCLIP+DINOv2 representations to isolate the effect of the adaptation rule.
+
+\textbf{PlantDoc (field domain, labeled target-domain support).} The 27 classes shared by both splits are used; the training-only class (Tomato two-spotted spider mites, 2 images) is dropped, leaving 2{,}668 training and 252 test images. 5-way 5-shot: 50 episodes, \texttt{random.Random(42)}, \texttt{rng.sample(range(27),5)}; 5 support leaves/class drawn from the training split, all test images of the sampled classes as queries. 27-way: 135 support leaves (5/class, 8-view augmented to 1{,}080 feature vectors) and 252 field queries. PlantDoc images come from the original benchmark~\cite{singh2020plantdoc}; the main tables use the 2{,}922-image working redistribution described above, and \ref{app:plantdoc_official} compares it with the official release.
+
+\subsection{Full Shot Ladder}
+\label{app:shot_ladder}
+Table~\ref{tab:shot_ladder} reports diagnostic accuracy across 1-shot, 5-shot, 10-shot, and 15-shot regimes. Controlled results are evaluated across 50 episodes per shot count under the splits specified in \ref{app:repro}. Zero-shot BioCLIP requires no support labels; its slight variation across shot counts reflects small differences in the sampled query sets. Published baseline values remain separate because their underlying backbone architectures and class pools differ.
+
+\begin{table*}[htbp]
+\caption{Full PlantVillage 5-way shot ladder (accuracy, \%, single-view reference features).}
+\label{tab:shot_ladder}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{@{}X c c c c@{}}
+\toprule
+\textbf{Method} & \textbf{1-shot} & \textbf{5-shot} & \textbf{10-shot} & \textbf{15-shot} \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Controlled evaluations, 11-class pool}} \\
+Zero-shot BioCLIP & 38.89$\pm$12.78 & 38.86$\pm$12.79 & 38.83$\pm$12.81 & 38.79$\pm$12.83 \\
+Tip-Adapter & 45.15$\pm$13.42 & 68.63$\pm$12.80 & 86.01$\pm$7.49 & 93.23$\pm$4.00 \\
+Prototypical Networks & 88.44$\pm$9.13 & 97.45$\pm$2.03 & 98.35$\pm$1.45 & 98.57$\pm$1.27 \\
+BioDINO-Edge (inductive) & 88.45$\pm$9.12 & 97.96$\pm$1.85 & 99.10$\pm$0.87 & 99.41$\pm$0.60 \\
+BioDINO-Edge (transductive) & 93.42$\pm$6.83 & 98.77$\pm$1.68 & 99.41$\pm$0.60 & 99.63$\pm$0.39 \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Published results (context only)}} \\
+SC-FSL~\cite{mu2024few} & 78.55$\pm$0.81 & 92.90$\pm$0.47 & -- & -- \\
+AgriFewNet~\cite{babu2025agrifewnet} & 87.30 & 94.80 & 97.10 & -- \\
+VSF-Trans (Swin-T)~\cite{zhou2026vsf} & 79.01 & 90.51 & -- & -- \\
+\bottomrule
+\end{tabularx}
+
+\vspace{3pt}
+\begin{minipage}{\textwidth}
+\footnotesize
+\textit{Notes.} Controlled results are mean $\pm$ std over 50 episodes per setting. Published results are retained as reported and provide context only; their protocols differ (e.g., some report N-way rather than 5-way tasks, and SC-FSL reports a 95\% confidence interval rather than a standard deviation). The numeric comparison is limited to studies whose reported 5-shot accuracies could be verified; MAFDE-DN4~\cite{zhao2024mafde} is therefore discussed in Section~\ref{sec:related_work} only. Dashes indicate unreported settings.
+\end{minipage}
+\end{table*}
+
+\subsection{PlantDoc Release Robustness}
+\label{app:plantdoc_official}
+The main tables use 2{,}668 training and 252 test images from a 2{,}922-image working redistribution of PlantDoc; the two training-only tomato two-spotted spider-mite images are excluded. To check whether the conclusions depend on this redistribution, we repeated the headline evaluation on the official GitHub release (2{,}342 training / 236 test) with the same seed, support size, augmentation, and constants. Table~\ref{tab:plantdoc_official} reports both.
+
+\begin{table}[htbp]
+\caption{Headline PlantDoc results on the working redistribution and on the official GitHub release (8-view support expansion).}
+\label{tab:plantdoc_official}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcc}
+\toprule
+\textbf{Regime} & \textbf{Working copy} & \textbf{Official release} \\
+ & (2{,}668 / 252) & (2{,}342 / 236) \\
+\midrule
+27-way inductive & 48.81 & 54.66 \\
+27-way transductive & 52.38 & 56.78 \\
+27-way macro F1 & 52.52 & 57.33 \\
+5-way 5-shot inductive & 82.60$\pm$11.49 & 80.33$\pm$13.94 \\
+5-way 5-shot transductive & 84.94$\pm$11.15 & 82.17$\pm$12.86 \\
+5-way 5-shot macro F1 & 84.55$\pm$11.20 & 81.48$\pm$13.48 \\
+\bottomrule
+\end{tabular*}
+
+\vspace{3pt}
+\begin{minipage}{\columnwidth}
+\footnotesize
+\textit{Notes.} Both columns use the same 8-view support expansion, seed, and constants. The working copy contains 2{,}670 training images; two training-only tomato two-spotted spider-mite images are excluded, leaving 2{,}668. The official-release run uses 135 support and 236 query images after applying the same 5-shot protocol. The 27-way difference is not statistically significant (two-proportion $z=0.98$, $p=0.33$); the 5-way difference is not significant (Welch $t=1.15$, $p=0.25$). Six test images in the working redistribution are byte-identical to training images, four with a different label. None are among the 135 support images, so they do not enter the model; removing them bounds the 27-way accuracy change to $\pm1.24$\,pp. The working split manifest (paths, labels, MD5) is provided as \path{plantdoc_split_manifest.csv}; it lists all 2{,}922 rows, including the two excluded training-only images.
+\end{minipage}
+\end{table}
+
+\subsection{Models and Hyperparameters}
+Frozen backbones: DINOv2 ViT-S/14 (\texttt{timm} \path{vit_small_patch14_dinov2}, 384-D) and BioCLIP ViT-B/16 (\texttt{open\_clip} \path{hf-hub:imageomics/bioclip}, 512-D); joint feature $\mathbf{z}=[\mathbf{f}_{\text{bio}}\,\|\,\mathbf{f}_{\text{dino}}]\in\mathbb{R}^{896}$. Fixed constants: logit scale $\gamma=20.0$, Fisher blend $w_{\text{lda}}=0.75$, routing gate $\tau=0.35$; transductive support weight $3\times$, max anchors 20/class, confidence threshold 0.70 on PlantVillage and the buffer settings stated in Section~\ref{sec:metrics} for PlantDoc; Tip-Adapter $\alpha=1.0,\beta=5.5$. Fisher-LDA uses Ledoit--Wolf shrinkage (\texttt{sklearn LDA solver=lsqr, shrinkage=auto}). The estimator applies Ledoit--Wolf per class in standardized feature space and pools the shrunk within-class covariances with class priors; the augmentation sensitivity study (Section~\ref{sec:aug_sensitivity}) reports the mean per-class intensity. At 5-way 1-shot the raw support has $N=C=5$ and the within-class scatter vanishes; we resolve the singularity with a data-driven ridge floor (mean support feature variance) added to the Ledoit--Wolf covariance, which reduces Fisher to regularized nearest-centroid (the correct degenerate limit). For $N>C$ the canonical sklearn estimator is used unchanged.
+
+\textbf{Three solver paths for one estimator.} The paper uses three implementations of the same regularized discriminant. Section~\ref{sec:shrinkage} presents the estimator analytically as a pooled scatter matrix solved by Cholesky factorization. The Python reference implementation uses \texttt{scikit-learn} with \texttt{solver=lsqr} and automatic Ledoit--Wolf shrinkage. The Android client implements dense Cholesky factorization using EJML. These are mathematically equivalent formulations of the same model: \texttt{lsqr} solves the identical normal equations via conjugate gradients rather than explicit factorization, converging to the pooled Ledoit--Wolf solution within machine precision. The computational latencies in Table~\ref{tab:adaptation_breakdown} (332.00\,ms Cholesky decomposition; 51.31\,ms projection solve) reflect the deterministic dense execution path deployed on the physical mobile device. The FP32/INT8 comparison in Table~\ref{tab:quantization} shows that end-to-end transductive accuracy changes by at most 0.40\,pp on PlantDoc and by 0.24\,pp on PlantVillage; intermediate stages change by up to 1.99\,pp.
+
+\subsection{Environment and Code}
+Reference environment: Python 3.12.1, torch 2.6.0 (Compute Unified Device Architecture (CUDA) 12.4 build); the PlantDoc consistency, component-ladder, and official-release reruns used an NVIDIA RTX 4070 Laptop GPU for feature extraction, whereas all on-device latency, memory, and thermal measurements used the ARM64 CPU of the Galaxy S24 FE. Other dependencies: scikit-learn 1.9.1, numpy 2.5.4, scipy 1.18.1, timm 1.0.30, open\_clip 3.3.0. The controlled comparison is reproduced by \path{run_controlled_baselines.py} in \path{experiments/baseline_comparison/} (output \path{controlled_baseline_results.json}); the canonical PlantVillage reference run by \path{benchmark_engine.py} (\path{pipeline/}) and \path{run_transductive_validation.py} (\path{experiments/transductive_validation/}); the augmentation sensitivity study by \path{run_augmentation_sensitivity.py} (\path{experiments/augmentation_sensitivity/}, output \path{results/augmentation_sensitivity.json}; augmentation RNG re-seeded per episode and pass from the episode seed with fixed offsets); the prompt-geometry measurement in Section~\ref{sec:methodology} by \path{run_prompt_ablation.py} (\path{experiments/paper_rerun/}, output \path{results/prompt_ablation_2026-11-17.json}); and the physical device profile by \path{benchmark_report.json} (\path{experiments/edge_device_benchmark/results/}). Code and pinned release: \url{https://github.com/reyhane-code/BioDINO-Edge}.
+
+\subsection{Provenance and Numerical Reproducibility}
+Table~\ref{tab:provenance} states the origin of each reported value (``Re-run'': computed by us with the provided script on the stated protocol; ``As reported'': quoted from the original publication, not re-run). The controlled script reproduces the canonical inductive accuracy exactly (95.08\%) and the transductive accuracy within 0.04\,pp (97.37\% re-run vs.\ 97.41\% reference); the residual is floating-point sensitivity of the iterative least-squares (\texttt{lsqr}) LDA solve across library versions, far below the episode standard deviation (0.71\,pp). The centroid/cosine baselines involve no iterative solve and reproduce exactly. We report the canonical reference values for the 11-class regime to remain consistent with the paired-significance and sensitivity analyses (Sections~\ref{sec:significance} and~\ref{sec:aug_sensitivity}).
+
+\begin{table}[htbp]
+\caption{Provenance of reported values.}
+\label{tab:provenance}
+\centering
+
+\footnotesize
+\begin{tabularx}{\columnwidth}{l X}
+\toprule
+\textbf{Value} & \textbf{Provenance} \\
+\midrule
+Table~\ref{tab:comparative} baselines & Re-run, shared splits/seeds; feature branches follow each method \\
+Table~\ref{tab:comparative} BioDINO 11-class & Canonical reference run (reproduced $\le$0.04\,pp) \\
+Table~\ref{tab:comparative} BioDINO 5-way & Controlled re-run (this work) \\
+Table~\ref{tab:shot_ladder} literature rows & As reported, not re-run \\
+Table~\ref{tab:plantdoc_context} & Our PlantDoc field-domain run (seeded 8-view ladder, protocol above) \\
+Table~\ref{tab:aug_sensitivity} sensitivity & Re-run, this work (same 30-episode protocol) \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
