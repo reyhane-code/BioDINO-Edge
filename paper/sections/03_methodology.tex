@@ -31,7 +31,7 @@ $\gamma$ & Inverse temperature logit scaling parameter ($\gamma = 20.0$). \\
 $\mathcal{Q}_{\text{anchor}}^{(c)}$ & High-confidence streaming query buffer ($\max_c p_c \ge 0.70$) for background transductive recalibration. \\
 $\epsilon_{\text{esc}}, \text{FNR}$ & Agronomic disease escape bound ($\epsilon_{\text{esc}} = 1.0\%$) and false-negative disease rate. \\
 $L_{\max}, \overline{L}_{\text{inf}}$ & Real-time per-frame latency budget ($L_{\max} = 170$\,ms) and mean cascading stream latency. \\
-$T_{\max}, T_{\text{adapt}}$ & Sub-second on-device adaptation budget ($T_{\max} = 1.0$\,s) and novel-pathology registration latency ($0.53$\,s). \\
+$T_{\max}, T_{\text{adapt}}$ & Sub-second on-device adaptation budget ($T_{\max} = 1.0$\,s) and novel-pathology algebraic solve latency. \\
 $M_{\max}, \text{Mem}_{\text{PSS}}$ & Mobile resident memory budget ($M_{\max} = 500$\,MB) and measured proportional set size (PSS) footprint. \\
 \bottomrule
 \end{tabularx}
@@ -49,7 +49,7 @@ $M_{\max}, \text{Mem}_{\text{PSS}}$ & Mobile resident memory budget ($M_{\max} =
 BioDINO-Edge couples two frozen backbones. DINOv2 provides patch-level features of leaf surface texture and lesion boundaries, while BioCLIP provides organismal taxonomic priors. Concatenating their $\ell_2$-normalized outputs yields an 896-dimensional descriptor that encodes localized symptoms alongside host context.
 
 \subsubsection{Few-Shot Multi-View Support Augmentation}
-To overcome covariance ill-conditioning when reference data are scarce ($K = 5$), each support leaf $\mathbf{x} \in \mathcal{S}_c$ is resized to $224 \times 224$ pixels, normalized, and passed through an 8-view stochastic augmentation pipeline approximating field variations. The pipeline applies random horizontal and vertical flips, rotations within $\pm 15^\circ$, and color jitter (brightness, contrast, and saturation factors of $0.2$). Generating eight views per leaf yields $|\tilde{\mathcal{S}}_c| = 8K = 40$ augmented views per class, producing $N = 40C = 440$ total support representations for $C = 11$. This expansion brings the support sample size close to half the joint feature dimension ($d/2 = 448$), which stabilizes the covariance condition number. Although augmented views are not strictly independent, regularized shrinkage prevents numerical degeneracy and guarantees positive-definiteness. For the controlled PlantVillage comparison we use the cached single-view features; Table~\ref{tab:aug_sensitivity} isolates the 8-view expansion. PlantDoc results use the 8-view features throughout.
+To mitigate sample covariance rank deficiency and spectral ill-conditioning under scarce reference data ($K = 5$), each support leaf $\mathbf{x} \in \mathcal{S}_c$ is resized to $224 \times 224$ pixels, normalized, and passed through an 8-view stochastic augmentation pipeline approximating field variations. The pipeline applies random horizontal and vertical flips, rotations within $\pm 15^\circ$, and color jitter (brightness, contrast, and saturation factors of $0.2$). Generating eight views per leaf yields $|\tilde{\mathcal{S}}_c| = 8K = 40$ augmented views per class, producing $N = 40C = 440$ total support representations for $C = 11$. This expansion brings the support sample size close to half the joint feature dimension ($d/2 = 448$), which stabilizes the covariance condition number. Although augmented views are not strictly independent, regularized shrinkage prevents numerical degeneracy and guarantees positive-definiteness. For the controlled PlantVillage comparison we use the cached single-view features; Table~\ref{tab:aug_sensitivity} isolates the 8-view expansion. PlantDoc results use the 8-view features throughout.
 
 \subsubsection{Dual-Foundation Embedding Fusion}
 Each augmented view $\tilde{\mathbf{x}} \in \tilde{\mathcal{S}}_c$ is passed through the frozen backbones. DINOv2 ViT-S/14 (patch size 14, 384-D)~\cite{oquab2023dinov2} and BioCLIP ViT-B/16~\cite{stevens2024bioclip} extract $\ell_2$-normalized feature vectors:
@@ -96,22 +96,9 @@ Fisher-LDA computes a linear projection matrix $\mathbf{W} \in \mathbb{R}^{C \ti
 \end{equation}
 where $\hat{\mathbf{\Sigma}}$ is the regularized pooled within-class covariance matrix ($d = 896$) and class priors are uniform ($\pi_c = 1/C$).
 
-\subsubsection{Small-Sample Singularity \texorpdfstring{($N \ll d$)}{(N << d)}}
-Evaluating Eq.~\eqref{eq:fisher_weights} requires inverting the empirical pooled within-class scatter matrix over all $C = 11$ classes:
-\begin{equation}
-    \label{eq:within_class_scatter}
-    \mathbf{S}_W = \frac{1}{N-C}\sum_{c=1}^C \sum_{\mathbf{z} \in \tilde{\mathcal{S}}_c} (\mathbf{z}-\boldsymbol{\mu}_c)(\mathbf{z}-\boldsymbol{\mu}_c)^T \in \mathbb{R}^{d \times d}.
-\end{equation}
-With $N = 440$ support representations and $d = 896$ features, the support size is far below the feature dimension ($N \ll d$), and the same holds after estimating class means. Here $N - C = 440 - 11 = 429$ is the degrees of freedom left, so the rank of $\mathbf{S}_W$ is bounded:
-\begin{equation}
-    \label{eq:rank_bound}
-    \text{rank}(\mathbf{S}_W) \le \min(d, N-C) = 429 < 896.
-\end{equation}
-Hence, $\mathbf{S}_W$ has a nullity of at least $896 - 429 = 467$: at least 467 of its eigenvalues are zero ($\det(\mathbf{S}_W) = 0$), and it cannot be inverted directly.
-
 \subsubsection{Analytical Ledoit--Wolf Covariance Shrinkage}
 \label{sec:shrinkage}
-To restore invertibility without manual hyperparameter tuning (such as searching over a grid of ridge penalties $\mathbf{S}_W + \epsilon \mathbf{I}$), we apply analytical Ledoit--Wolf shrinkage~\cite{ledoit2004well}, which contracts $\mathbf{S}_W$ toward a spherical target $\nu \mathbf{I}_d$:
+As established in Section~\ref{sec:covariance_degeneracy}, evaluating Eq.~\eqref{eq:fisher_weights} cannot proceed via direct inversion because the empirical scatter matrix $\mathbf{S}_W$ (Eq.~\eqref{eq:empirical_scatter}) is strictly singular due to rank deficiency ($\text{rank}(\mathbf{S}_W) \le 429 < 896$). To restore invertibility without manual hyperparameter tuning (such as searching over an empirical grid of ridge penalties $\mathbf{S}_W + \epsilon \mathbf{I}$), we apply analytical Ledoit--Wolf shrinkage~\cite{ledoit2004well}, which contracts $\mathbf{S}_W$ toward a spherical target $\nu \mathbf{I}_d$:
 \begin{equation}
     \hat{\mathbf{\Sigma}} = (1 - \rho^*)\mathbf{S}_W + \rho^* \nu \mathbf{I}_d, \qquad \nu = \frac{1}{d}\text{Tr}(\mathbf{S}_W).
     \label{eq:lw_target}
@@ -163,7 +150,7 @@ When $\mathcal{C}(\mathbf{x}) < \tau_{\text{conf}}$, the query goes to Tier~2. B
     \label{eq:multimodal_blend}
     \mathbf{p}_{\text{blend}} = w_{\text{lda}} \, \mathbf{p}_{\text{fisher}} + (1 - w_{\text{lda}}) \, \mathbf{p}_{\text{text}},
 \end{equation}
-and the final diagnosis is $\hat{y} = \arg\max_c p_{\text{blend}, c}$.
+and the final diagnosis is $\hat{y} = \arg\max_c p_{\text{blend}, c}$. This weighting assigns primary decision confidence ($75\%$) to the sample-adapted visual Fisher geometry, which resolves localized foliar lesion symptoms, while preserving a stabilizing $25\%$ contribution from the botanical language prior to prevent taxonomically implausible misclassifications. Calibrated via grid sweep on validation episodes, $w_{\text{lda}} = 0.75$ achieves the optimal balance between empirical lesion separability and zero-shot semantic regularization.
 
 \subsubsection{Soft-Anchored Transductive Recalibration}
 \label{sec:transductive}
@@ -172,7 +159,7 @@ In 5-shot calibration, each centroid $\boldsymbol{\mu}_c$ is estimated from only
     \label{eq:transductive_set}
     \tilde{\mathcal{S}}_c^{\text{trans}} = \tilde{\mathcal{S}}_c^{(3\times)} \cup \mathcal{Q}_{\text{anchor}}^{(c)}.
 \end{equation}
-Once the buffer fills during scouting, centroids $\boldsymbol{\mu}_c^{\text{trans}}$ and pooled scatter matrix $\mathbf{S}_W^{\text{trans}}$ are re-estimated, the shrinkage parameter $\rho^*$ is recomputed, and updated projection parameters $(\mathbf{W}^{\text{trans}}, \mathbf{b}^{\text{trans}})$ are resolved via Cholesky substitution in about 0.53\,s. This runs asynchronously in the background, so Tier~1 keeps operating with static prototypes while later Tier-2 decisions use the updated ones.
+Once the buffer fills during scouting, centroids $\boldsymbol{\mu}_c^{\text{trans}}$ and pooled scatter matrix $\mathbf{S}_W^{\text{trans}}$ are re-estimated, the shrinkage parameter $\rho^*$ is recomputed, and updated projection parameters $(\mathbf{W}^{\text{trans}}, \mathbf{b}^{\text{trans}})$ are resolved via Cholesky substitution. Because query representations are already cached during inference, this update re-executes the identical closed-form algebraic solver as Phase~0 in approximately 0.53\,s, running asynchronously in a background thread so that Tier~1 maintains real-time streaming throughput while subsequent Tier-2 decisions benefit from updated prototypes.
 
 Three design choices keep this update stable and efficient. First, the 0.70 confidence threshold ensures high pseudo-label purity ($\approx$98\%) while avoiding the coverage starvation that collapses accuracy at higher thresholds ($\ge$0.80). Second, the support weight anchors class centroids against manifold drift: the original support leaves are repeated $w_{\mathrm{sup}}$ times so that in the re-estimated centroid
 $\boldsymbol{\mu}_c^{\text{trans}} = (w_{\mathrm{sup}}\sum_{\mathbf{x}\in\mathcal{S}_c}\mathbf{x} + \sum_{\mathbf{q}\in\mathcal{Q}_{\text{anchor}}^{(c)}}\mathbf{q}) / (w_{\mathrm{sup}}|\mathcal{S}_c| + |\mathcal{Q}_{\text{anchor}}^{(c)}|)$
@@ -180,14 +167,14 @@ the verified leaves outvote pseudo-labels, and $w_{\mathrm{sup}}$ is set per dep
 
 \subsection{Two-Tier Quantized Edge Model Packaging and Android Architecture}
 \label{sec:packaging}
-Agricultural edge devices operate under limited memory and power budgets, and field connectivity is often unreliable~\cite{sharif2026real,radocaj2025evolution}. BioDINO-Edge therefore never sends a diagnosis over the network: once installed, every query is processed on device without streaming, cloud offloading, or server calls. The framework is partitioned into two INT8-quantized Open Neural Network Exchange (ONNX) binaries (footprints reported in mebibytes (MiB), where $1\,\text{MiB} = 2^{20}$ bytes), separating a fast standalone engine from an on-demand deep companion.
+Agricultural edge devices operate under limited memory and power budgets, and field connectivity is often unreliable~\cite{sharif2026real,radocaj2025evolution}. BioDINO-Edge therefore never sends a diagnosis over the network: once installed, every query is processed on device without streaming, cloud offloading, or server calls. The framework is partitioned into two INT8-quantized Open Neural Network Exchange (ONNX) binaries, separating a fast standalone engine from an on-demand deep companion.
 
-\textbf{Tier 1 Standalone Engine} (\path{biodino_mobile_int8.onnx}): Packaged inside an APK (occupying $\approx$22.8\,MB on device, where the base model binary accounts for $\approx$22.0\,MiB on disk and $\approx$15.1\,MiB deflated). It integrates the DINOv2 Small INT8 backbone, calibrated Phase~0 prototypes, and the Shannon confidence gate executed via the ONNX Runtime C++ execution provider. Installing the APK enables immediate offline diagnosis.
+\textbf{Tier 1 Standalone Engine} (\path{biodino_mobile_int8.onnx}): Packaged inside an APK (occupying $\approx$22.0\,MB on disk). It integrates the DINOv2 Small INT8 backbone, calibrated Phase~0 prototypes, and the Shannon confidence gate executed via the ONNX Runtime C++ execution provider. Installing the APK enables immediate offline diagnosis.
 
-\textbf{Tier 2 Companion Module} (\path{biodino_companion_int8.onnx}): The companion engine occupies $\approx$85.3\,MiB on disk, containing the BioCLIP ViT-B INT8 backbone and the 896-dimensional Fisher projection matrix. It is fetched on-demand when high-precision multimodal escalation is requested, functioning completely offline once stored.
+\textbf{Tier 2 Companion Module} (\path{biodino_companion_int8.onnx}): The companion engine occupies $\approx$85.3\,MB on disk, containing the BioCLIP ViT-B INT8 backbone and the 896-dimensional Fisher projection matrix. It is fetched on-demand when high-precision multimodal escalation is requested, functioning completely offline once stored.
 
-Together, both binaries occupy $\approx$107.3\,MiB of flash storage on device.
+Together, both binaries occupy $\approx$107.3\,MB of flash storage on device.
 
-\textbf{On-Device Few-Shot Pathogen Enrollment.} To accommodate field scenarios where agronomists encounter novel or uncataloged foliar pathologies, the Android application integrates an interactive on-device enrollment interface. Users can register a new disease class directly in the field by capturing 1--5 exemplar photos of symptomatic foliage, along with an optional healthy leaf reference from the same host crop. Upon capture, the application extracts foundation embeddings, runs on-device multi-view augmentation, and resolves the regularized discriminant projection via EJML Cholesky factorization in sub-second time, enabling immediate subsequent detection entirely offline without network connectivity.
+\textbf{On-Device Few-Shot Pathogen Enrollment.} To accommodate field scenarios where agronomists encounter novel or uncataloged foliar pathologies, the Android application integrates an interactive on-device enrollment interface. Users can register a new disease class directly in the field by capturing 1--5 exemplar photos of symptomatic foliage, along with an optional healthy leaf reference from the same host crop. Upon capture, the application extracts foundation embeddings, runs on-device multi-view augmentation, and resolves the regularized discriminant projection via Efficient Java Matrix Library (EJML) Cholesky factorization in sub-second time, enabling immediate subsequent detection entirely offline without network connectivity.
 
 % =============================================================================

@@ -9,20 +9,20 @@
 \author[1]{Mohammad Reza Samadzadeh}
 \ead{samadzadeh@ut.ac.ir}
 
-\cortext[cor1]{Corresponding author}
+\cortext[cor1]{Corresponding author. ORCID: \href{https://orcid.org/0009-0000-0296-7467}{0009-0000-0296-7467}}
 
 \affiliation[1]{organization={Department of Computer Engineering, Dr. Shariaty Technical University},
                 city={Tehran},
                 country={Iran}}
 
 \begin{abstract}
-Deploying few-shot plant disease diagnosis at the edge is constrained by scarce labeled samples, cluttered field backgrounds, and edge processors that cannot support iterative backpropagation. We present \textbf{BioDINO-Edge}, a gradient-free diagnostic framework that adapts frozen vision foundation models directly on device without network connectivity. Instead of fine-tuning backbones, it combines DINOv2 lesion-contour features with BioCLIP taxonomic embeddings aligned to botanical text descriptions in an 896-dimensional space. To isolate subtle foliar lesions from shared vegetative backgrounds under limited reference samples, BioDINO-Edge derives regularized Fisher linear discriminant projections via analytical Ledoit--Wolf shrinkage. This closed-form formulation solves one-time parameter adaptation across novel pathologies in 0.53\,s on an edge processor without gradient computation. At inference, an uncertainty gate combining normalized Shannon entropy and top-2 margin routes routine foliage through a 59.78\,ms Tier-1 fast path ($\approx$16.7 frames per second), escalating ambiguous queries to a 164.52\,ms multimodal Tier-2 that transductively recalibrates projections using high-confidence predictions. Across 30 episodes on 11-class PlantVillage, BioDINO-Edge achieves 97.41\% $\pm$ 0.71\% accuracy (97.09\% macro F1) with a 0.79\% $\pm$ 0.36\% false-negative disease rate. On in-the-wild PlantDoc foliage, it reaches 84.94\% $\pm$ 11.15\% in 5-way 5-shot testing and 52.38\% in 27-way evaluation. The complete system is deployed as an Android application that classifies the diagnosis entirely on-device without cloud connectivity, enabling reliable in-field scouting.
+Deploying few-shot plant disease diagnosis at the edge is constrained by scarce labeled samples, cluttered field backgrounds, and edge processors that cannot support iterative backpropagation. We present \textbf{BioDINO-Edge}, a gradient-free diagnostic framework that adapts frozen vision foundation models directly on device without network connectivity. Instead of fine-tuning backbones, it combines DINOv2 lesion-contour features with BioCLIP taxonomic embeddings aligned to botanical text descriptions in an 896-dimensional space. To isolate subtle foliar lesions from shared vegetative backgrounds under limited reference samples, BioDINO-Edge derives regularized Fisher linear discriminant projections via analytical Ledoit--Wolf shrinkage. This closed-form formulation solves one-time algebraic parameter adaptation across novel pathologies in 0.53\,s on an edge processor without gradient computation. At inference, an uncertainty gate combining normalized Shannon entropy and top-2 margin routes routine foliage through a 59.78\,ms Tier-1 fast path ($\approx$16.7 frames per second), escalating ambiguous queries to a 164.52\,ms multimodal Tier-2 that transductively recalibrates projections using high-confidence predictions. Across 30 episodes on 11-class PlantVillage, BioDINO-Edge achieves 97.41\% $\pm$ 0.71\% accuracy (97.09\% macro F1) with a 0.79\% $\pm$ 0.36\% false-negative disease rate. On in-the-wild PlantDoc foliage, it reaches 84.94\% $\pm$ 11.15\% in 5-way 5-shot testing and 52.38\% in 27-way evaluation. The complete system is deployed as an Android application whose diagnostic classification operates entirely on-device without cloud connectivity, enabling reliable in-field scouting.
 \end{abstract}
 
 \begin{highlights}
 \item Fuses frozen DINOv2 and BioCLIP encoders for on-device plant disease diagnosis.
 \item Uncertainty gate pairs a $\sim$60\,ms fast visual path with a $\sim$165\,ms deep tier.
-\item Closed-form adaptation runs in 0.53\,s on mobile processors without backpropagation.
+\item Closed-form algebraic adaptation runs in 0.53\,s on mobile processors without backpropagation.
 \item Achieves 97.41\% accuracy and 0.79\% false-negative rate on PlantVillage.
 \item Reaches 84.94\% few-shot accuracy on PlantDoc field images.
 \end{highlights}
